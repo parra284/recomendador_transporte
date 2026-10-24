@@ -3,3 +3,5 @@ pydantic
 pyyaml
 pytest
 streamlit
+opencv-python
+numpy

@@ -1,0 +1,21 @@
+# Parámetros del login facial y la vigilancia de presencia.
+
+# Segundos sin detectar rostro antes de bloquear el dashboard.
+segundos_ausencia: 10
+
+# Similitud coseno mínima (SFace) para aceptar que dos rostros son la misma persona.
+# 0.363 es el umbral recomendado por OpenCV; subirlo reduce falsos aceptados.
+umbral_similitud: 0.363
+
+# Intentos fallidos de PIN permitidos por sesión antes de exigir rostro.
+max_intentos_pin: 5
+
+# Longitud permitida del PIN de respaldo (solo dígitos).
+pin_min_digitos: 4
+pin_max_digitos: 8
+
+# Rutas relativas a la raíz del proyecto (ambas excluidas de git).
+archivo_usuarios: seguridad/usuarios.json
+dir_modelos: modelos
+modelo_detector: face_detection_yunet_2023mar.onnx
+modelo_reconocedor: face_recognition_sface_2021dec.onnx

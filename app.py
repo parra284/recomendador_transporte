@@ -6,6 +6,7 @@ import altair as alt
 import pandas as pd
 import streamlit as st
 
+from src.pantalla_acceso import exigir_acceso
 from src.ranking import cargar_todo, formatear_precio, recomendar
 from src.solicitud import cargar_solicitudes
 
@@ -152,6 +153,9 @@ def tabla_general(solicitudes, datos):
 
 
 # --- Página ---
+
+if not exigir_acceso():
+    st.stop()
 
 st.title("Recomendador de transportistas terrestres")
 datos = datos_recomendador()

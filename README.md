@@ -16,6 +16,34 @@ python -m venv .venv
 pip install -r requirements.txt
 ```
 
+## Acceso (reconocimiento facial + PIN)
+
+1. Descargar los modelos faciales (una sola vez, ~40 MB):
+
+   ```powershell
+   python -m src.descargar_modelos
+   ```
+
+2. Registrar a cada operario autorizado (lo hace un administrador en el equipo de la app).
+   Antes, la persona debe autorizar el tratamiento de su dato biométrico (Ley 1581 de 2012).
+   Se abre la cámara: ESPACIO captura, ESC cancela. Luego se pide el PIN de respaldo.
+
+   ```powershell
+   python -m src.registrar_usuario --usuario jperez --nombre "Juana Pérez"
+   python -m src.registrar_usuario --eliminar jperez     # borra su huella
+   ```
+
+Al entrar, el usuario se toma una foto (o usa su PIN). Mientras usa el dashboard, la cámara
+aparece en la esquina inferior derecha; si no se detecta su rostro durante 10 segundos
+(configurable en `config/seguridad.yaml`), la pantalla se bloquea hasta que el mismo
+usuario se verifique de nuevo.
+
+Notas:
+- El navegador pide permiso de cámara. Solo funciona en `localhost` o con HTTPS.
+- La vigilancia descarga MediaPipe desde internet la primera vez.
+- Solo se guarda la huella numérica del rostro, nunca fotos, en `seguridad/usuarios.json`
+  (excluido de git, igual que `modelos/`).
+
 ## Pruebas
 
 ```powershell

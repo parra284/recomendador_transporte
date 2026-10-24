@@ -3,3 +3,7 @@ __pycache__/
 .venv/
 .pytest_cache/
 .streamlit/secrets.toml
+
+# Datos biométricos y modelos: nunca al repositorio.
+seguridad/
+modelos/
