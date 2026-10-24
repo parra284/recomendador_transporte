@@ -77,6 +77,16 @@ def verificar_pin(usuario, pin):
     return hmac.compare_digest(hash_pin(pin, usuario.sal), usuario.pin_hash)
 
 
+def usuarios_con_pin(usuarios, pin):
+    """Ids de los usuarios cuyo PIN coincide (permite ingresar solo con el PIN)."""
+    return [u.usuario for u in usuarios.values() if verificar_pin(u, pin)]
+
+
+def pin_en_uso(usuarios, pin, excepto=None):
+    """True si otro usuario ya tiene ese PIN: los PIN deben ser únicos para identificar a la persona."""
+    return any(u != excepto for u in usuarios_con_pin(usuarios, pin))
+
+
 def crear_usuario(usuario, nombre, huella, pin):
     sal = nueva_sal()
     return Usuario(usuario, nombre, tuple(float(x) for x in huella), hash_pin(pin, sal), sal)

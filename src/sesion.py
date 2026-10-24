@@ -6,7 +6,7 @@ Funciones puras: reciben el estado y devuelven (nuevo_estado, mensaje_de_error |
 from dataclasses import dataclass, replace
 
 from src.biometria import es_la_misma_persona, identificar
-from src.usuarios import verificar_pin
+from src.usuarios import usuarios_con_pin, verificar_pin
 
 
 @dataclass(frozen=True)
@@ -46,6 +46,28 @@ def iniciar_con_pin(estado, id_usuario, pin, usuarios, max_intentos):
                    else "Demasiados intentos con PIN. Ingrese con reconocimiento facial.")
         return replace(estado, intentos_pin=intentos), mensaje
     return _entrar(estado, id_usuario), None
+
+
+def iniciar_solo_con_pin(estado, pin, usuarios, max_intentos):
+    """Ingreso con PIN sin escribir el usuario: el PIN identifica a la persona.
+
+    Solo entra si el PIN corresponde a exactamente un usuario. Si no corresponde a nadie,
+    o a varios (no se puede saber quién es), cuenta como intento fallido.
+    """
+    if not pin_disponible(estado, max_intentos):
+        return estado, "Demasiados intentos con PIN. Ingrese con reconocimiento facial."
+    coincidencias = usuarios_con_pin(usuarios, pin)
+    if len(coincidencias) == 1:
+        return _entrar(estado, coincidencias[0]), None
+    intentos = estado.intentos_pin + 1
+    restantes = max_intentos - intentos
+    if restantes <= 0:
+        mensaje = "Demasiados intentos con PIN. Ingrese con reconocimiento facial."
+    elif coincidencias:
+        mensaje = "No se pudo identificar al usuario con ese PIN. Ingrese con reconocimiento facial."
+    else:
+        mensaje = f"PIN incorrecto. Le quedan {restantes} intento(s)."
+    return replace(estado, intentos_pin=intentos), mensaje
 
 
 def bloquear(estado):

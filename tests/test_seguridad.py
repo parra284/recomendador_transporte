@@ -21,6 +21,7 @@ from src.sesion import (
     desbloquear_con_rostro,
     iniciar_con_pin,
     iniciar_con_rostro,
+    iniciar_solo_con_pin,
     pin_disponible,
 )
 from src.usuarios import (
@@ -29,6 +30,8 @@ from src.usuarios import (
     crear_usuario,
     error_formato_pin,
     guardar_usuarios,
+    pin_en_uso,
+    usuarios_con_pin,
     verificar_pin,
 )
 
@@ -167,6 +170,35 @@ def test_pin_se_agota_tras_max_intentos(usuarios):
     assert not pin_disponible(estado, MAX_INTENTOS)
     estado, error = iniciar_con_pin(estado, "ana", "1234", usuarios, MAX_INTENTOS)  # PIN correcto
     assert not estado.autenticado and "reconocimiento facial" in error
+
+
+def test_ingreso_solo_con_pin_identifica_al_usuario(usuarios):
+    estado, error = iniciar_solo_con_pin(EstadoSesion(intentos_pin=1), "5678", usuarios, MAX_INTENTOS)
+    assert error is None and estado.usuario == "luis" and estado.intentos_pin == 0
+
+
+def test_ingreso_solo_con_pin_incorrecto_suma_intento(usuarios):
+    estado, error = iniciar_solo_con_pin(EstadoSesion(), "0000", usuarios, MAX_INTENTOS)
+    assert not estado.autenticado and estado.intentos_pin == 1 and "2 intento" in error
+
+
+def test_ingreso_solo_con_pin_repetido_no_adivina_el_usuario():
+    repetidos = {"a": crear_usuario("a", "A", HUELLA_ANA, "1111"), "b": crear_usuario("b", "B", HUELLA_LUIS, "1111")}
+    estado, error = iniciar_solo_con_pin(EstadoSesion(), "1111", repetidos, MAX_INTENTOS)
+    assert not estado.autenticado and estado.intentos_pin == 1 and "reconocimiento facial" in error
+
+
+def test_ingreso_solo_con_pin_respeta_el_limite_de_intentos(usuarios):
+    estado = EstadoSesion(intentos_pin=MAX_INTENTOS)
+    estado, error = iniciar_solo_con_pin(estado, "1234", usuarios, MAX_INTENTOS)  # PIN correcto
+    assert not estado.autenticado and "reconocimiento facial" in error
+
+
+def test_pin_en_uso_por_otro_usuario(usuarios):
+    assert pin_en_uso(usuarios, "1234")                      # es el de Ana
+    assert not pin_en_uso(usuarios, "1234", excepto="ana")   # Ana puede conservar su propio PIN
+    assert not pin_en_uso(usuarios, "9999")
+    assert usuarios_con_pin(usuarios, "5678") == ["luis"]
 
 
 def test_rostro_sigue_disponible_con_pin_agotado(usuarios):

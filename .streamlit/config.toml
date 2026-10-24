@@ -1,0 +1,14 @@
+# Tema visual BEEP & GO (solo apariencia).
+[theme]
+base = "light"
+primaryColor = "#2F5BEA"
+backgroundColor = "#F3F6FB"
+secondaryBackgroundColor = "#EEF2F8"
+textColor = "#14213D"
+
+[client]
+toolbarMode = "minimal"
+
+[server]
+# Sirve static/ en /app/static/ (fondo del puerto de la pantalla de ingreso).
+enableStaticServing = true
