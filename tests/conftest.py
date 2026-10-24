@@ -7,6 +7,13 @@ from src.motor import configuracion
 from src.solicitud import cargar_solicitudes, catalogos_desde_envios
 
 
+@pytest.fixture(autouse=True)
+def contrato_en_carpeta_temporal(tmp_path, monkeypatch):
+    """La app publica el contrato de la solicitud activa; en las pruebas va a una carpeta temporal."""
+    import src.contrato as contrato
+    monkeypatch.setattr(contrato, "RUTA_CONTRATO_ACTIVO", tmp_path / "contrato" / "solicitud_activa.json")
+
+
 @pytest.fixture(scope="session")
 def rec():
     """El mismo recomendador que usa el dashboard (se reentrena si no está al día con la base)."""

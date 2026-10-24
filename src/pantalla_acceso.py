@@ -3,14 +3,15 @@
 import streamlit as st
 
 from src.biometria import ReconocedorFacial, imagen_desde_bytes
+from src.ui import componentes as UI  # solo presentación
 from src.sesion import (
     EstadoSesion,
     bloquear,
     cerrar_sesion,
     desbloquear_con_pin,
     desbloquear_con_rostro,
-    iniciar_con_pin,
     iniciar_con_rostro,
+    iniciar_solo_con_pin,
     pin_disponible,
 )
 from src.usuarios import cargar_config_seguridad, cargar_usuarios
@@ -92,13 +93,22 @@ def _intento_con_rostro(config, etiqueta, clave, accion):
 
 
 def pantalla_ingreso(config, usuarios):
-    st.title("Ingreso")
+    formulario, informacion = st.columns([1.35, 1], gap="large")
+    with informacion:
+        UI.panel_ingreso_seguro()
+    with formulario:
+        _formulario_ingreso(config, usuarios)
+
+
+def _formulario_ingreso(config, usuarios):
+    UI.bienvenida()
     if not usuarios:
         st.error("No hay usuarios registrados. Un administrador debe ejecutar:\n\n"
                  "`python -m src.registrar_usuario --usuario <id> --nombre \"<Nombre>\"`")
         return
-    rostro, pin = st.tabs(["Reconocimiento facial", "PIN de respaldo"])
+    rostro, pin = st.tabs([":material/face: Reconocimiento facial", ":material/lock: PIN de respaldo"])
     with rostro:
+        UI.pista_camara()
         _intento_con_rostro(
             config, "Mire de frente a la cámara y tome la foto", "foto_ingreso",
             lambda huella: iniciar_con_rostro(_estado(), huella, usuarios, config.umbral_similitud))
@@ -107,11 +117,10 @@ def pantalla_ingreso(config, usuarios):
             st.warning("Se agotaron los intentos con PIN. Ingrese con reconocimiento facial.")
             return
         with st.form("ingreso_pin"):
-            id_usuario = st.text_input("Usuario")
-            clave = st.text_input("PIN", type="password")
+            clave = st.text_input("PIN de seguridad", type="password", placeholder="Escriba su PIN")
             enviar = st.form_submit_button("Ingresar")
         if enviar:
-            _aplicar(iniciar_con_pin(_estado(), id_usuario.strip(), clave, usuarios, config.max_intentos_pin))
+            _aplicar(iniciar_solo_con_pin(_estado(), clave, usuarios, config.max_intentos_pin))
 
 
 def pantalla_bloqueo(config, usuarios):

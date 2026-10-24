@@ -23,6 +23,7 @@ from src.usuarios import (
     crear_usuario,
     error_formato_pin,
     guardar_usuarios,
+    pin_en_uso,
 )
 
 
@@ -52,12 +53,16 @@ def capturar_desde_camara():
     return imagen
 
 
-def pedir_pin(config):
+def pedir_pin(config, usuarios, usuario):
     while True:
         pin = getpass.getpass("PIN de respaldo: ")
         error = error_formato_pin(pin, config.pin_min_digitos, config.pin_max_digitos)
         if error:
             print(error)
+            continue
+        if pin_en_uso(usuarios, pin, excepto=usuario):
+            # El ingreso es solo con PIN: dos personas con el mismo PIN no se podrían distinguir.
+            print("Ese PIN ya lo usa otra persona. Elija uno diferente.")
             continue
         if getpass.getpass("Repita el PIN: ") != pin:
             print("Los PIN no coinciden.")
@@ -83,8 +88,8 @@ def registrar(args, config):
     if resultado.error:
         print(resultado.error)
         return 1
-    pin = pedir_pin(config)
     usuarios = cargar_usuarios(config.archivo_usuarios)
+    pin = pedir_pin(config, usuarios, args.usuario)
     accion = "actualizado" if args.usuario in usuarios else "registrado"
     usuarios[args.usuario] = crear_usuario(args.usuario, args.nombre, resultado.huella, pin)
     guardar_usuarios(usuarios, config.archivo_usuarios)

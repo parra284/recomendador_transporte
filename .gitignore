@@ -7,3 +7,6 @@ __pycache__/
 # Datos biométricos y modelos: nunca al repositorio.
 seguridad/
 modelos/
+
+# Contrato de la solicitud activa (lo genera la app; no se versiona).
+static/contrato/

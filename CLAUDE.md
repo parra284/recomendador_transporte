@@ -1,4 +1,7 @@
-# CLAUDE.md
+﻿# CLAUDE.md
+
+> **Antes de trabajar, lee `docs/CONTEXTO_BEEP_AND_GO.md`**: resume todo lo hecho (rediseño BEEP & GO, ingreso con PIN,
+> onboarding de interfaz, contrato de datos compartido, mapa, mundo 3D en `Documents\argo-vr`) y los pendientes.
 
 ## Objetivo
 MVP en Python que recomienda qué proveedor de transporte terrestre debe atender cada
