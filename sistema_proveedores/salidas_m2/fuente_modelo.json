@@ -1,0 +1,16 @@
+{
+  "huella": "6df9301c16111432901476f0a913442f8413a09f84bb9c84734cddddad542cf0",
+  "base_datos": "data/base_simulada_mensajeria.xlsx",
+  "sha256_base": "898aca8b9e0e9f723444905294cbde9f744040cf0925886b4716c795496c425b",
+  "envios": 31386,
+  "periodo": [
+    "2024-10-01",
+    "2026-09-30"
+  ],
+  "librerias": {
+    "sklearn": "1.9.1",
+    "pandas": "3.1.0",
+    "numpy": "2.5.4"
+  },
+  "entrenado_en": "2026-10-24T06:43:21"
+}

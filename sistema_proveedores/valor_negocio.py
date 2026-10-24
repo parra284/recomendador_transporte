@@ -32,6 +32,7 @@ import numpy as np
 import pandas as pd
 
 from asignacion_lote import _resolver
+from configuracion import BASE_DATOS, DIR_VALIDACION, HOJA_ENVIOS
 from modelo2_recomendador import CONCENTRACION_MAX
 from validar_modelo2 import CORTE, RESULTADOS, entrenar_hasta_corte, puntuar_todos
 
@@ -45,8 +46,8 @@ def cupos_semanales(train: pd.DataFrame, catalogo) -> dict:
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--datos", default="base_simulada_mensajeria.xlsx")
-    ap.add_argument("--salida", default="salidas_validacion_m2")
+    ap.add_argument("--datos", default=str(BASE_DATOS))
+    ap.add_argument("--salida", default=str(DIR_VALIDACION))
     ap.add_argument("--envios-mes", type=float, default=1300)
     ap.add_argument("--min-manual", type=float, default=5.0)
     ap.add_argument("--min-sistema", type=float, default=1.0)
@@ -58,7 +59,7 @@ def main():
                     help="parte de la mejora estimada que se materializa en el escenario conservador")
     a = ap.parse_args()
 
-    env = pd.read_excel(a.datos, sheet_name="Envios")
+    env = pd.read_excel(a.datos, sheet_name=HOJA_ENVIOS)
     rec, train = entrenar_hasta_corte(env)
     test = env[pd.to_datetime(env.fecha_orden) > CORTE].copy()
     sol = test.drop(columns=RESULTADOS)
@@ -86,7 +87,7 @@ def main():
     idx = pts.set_index(["id_envio", "proveedor"])
 
     def comparar(recomendado: pd.Series, nombre: str) -> dict:
-        ids = [i for i, p in recomendado.items() if p is not None]
+        ids = [i for i, p in recomendado.items() if pd.notna(p)]  # sin asignar: None (o NaN en pandas 3)
         r_ = [(i, recomendado[i]) for i in ids]
         e_ = [(i, elegido[i]) for i in ids]
         precio_r, precio_e = idx.loc[r_, "precio_cop"].to_numpy(), idx.loc[e_, "precio_cop"].to_numpy()

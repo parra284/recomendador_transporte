@@ -1,6 +1,7 @@
-id_solicitud,origen,destino,fecha_cita,tipo_contenedor,peso_bruto_t,imo,clase_imo,refrigerada,temperatura_c,extradimensionada,valor_declarado_usd,modalidad_aduanera,prioridad,observaciones
-I001,BUN-SPRBUN,BOG,2026-11-04T06:00,40DV,42.0,false,,false,,false,60000,NACIONALIZADA,normal,INVALIDA: peso excesivo para 40DV
-I002,CTG-CONTECAR,MDE,2026-11-05T08:00,20DV,18.0,true,,false,,false,40000,DTA,normal,INVALIDA: IMO sin clase
-I003,BUN-TCBUEN,CLO,2026-11-06T07:00,40RF,22.0,false,,true,,false,90000,NACIONALIZADA,urgente,INVALIDA: refrigerada sin temperatura
-I004,SMR-SPRSM,BOG,2026-11-07T09:00,40HC,20.0,false,,false,,false,50000,NACIONALIZADA,normal,INVALIDA: origen desconocido
-I005,BAQ-SPRB,BGA,04/11/2026 6am,20DV,15.0,false,,false,,false,30000,,economica,INVALIDA: fecha mal escrita
+id_envio,fecha_orden,origen,destino,categoria_carga,peso_por_bulto_kg,bultos_unidades,valor_declarado_cop,fragil,seguro,nivel_velocidad,plazo_h,descripcion
+I-001,2026-10-26,Medellín,Barranquilla,Carga sobredimensionada,8000,1,90000000,0,1,std,,INVALIDA: peso mayor al máximo movido en Flat Rack
+I-002,2026-10-26,Buenaventura,Bogotá,Retail,20,3,2000000,0,1,std,,INVALIDA: ciudad que no está en la base
+I-003,2026-10-26,Bogotá,Cali,Explosivos,10,2,5000000,0,1,std,,INVALIDA: categoría de carga desconocida
+I-004,26/10/2026,Bogotá,Medellín,Retail,12,3,1800000,0,1,std,,INVALIDA: fecha mal escrita
+I-005,2026-10-26,Bogotá,Medellín,Retail,12,3,1800000,0,1,urgente,,INVALIDA: velocidad desconocida
+I-006,2026-10-26,Cali,Pereira,Alimentos,40,2,0,0,1,std,,INVALIDA: valor declarado en cero

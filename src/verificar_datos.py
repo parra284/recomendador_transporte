@@ -1,139 +1,161 @@
-"""Verifica que los CSV de data/ tengan las columnas esperadas y códigos del catálogo.
+"""Verifica que la base, la configuración, las solicitudes y el modelo sean coherentes entre sí.
 
 Uso: python -m src.verificar_datos
+
+Revisa:
+1. Base de datos: columnas que usan los modelos, sin vacíos, códigos únicos y reglas internas
+   (a_tiempo = tránsito real <= prometido; cada categoría de carga va en un solo contenedor).
+2. Hoja Panel_Proveedor_Mes: coincide con lo que se agrega de la hoja de envíos.
+3. config/perfiles.yaml: pesos válidos y un perfil por cada contenedor de la base.
+4. Archivos de solicitudes: columnas exactas y códigos que existen en la base.
+5. Modelo guardado: entrenado con la base actual, mismos proveedores y cupos coherentes.
 """
 
-import csv
 import sys
-from pathlib import Path
 
-import yaml
+import numpy as np
+import pandas as pd
 
-RAIZ = Path(__file__).resolve().parent.parent
-DIR_DATOS = RAIZ / "data"
-DIR_CONFIG = RAIZ / "config"
+from src.fuente_datos import archivos_solicitudes, leer_envios, leer_hoja
+from src.motor import configuracion
+from src.solicitud import COLUMNAS, catalogos_desde_envios, cargar_solicitudes
 
-COLUMNAS_SOLICITUD = [
-    "id_solicitud", "origen", "destino", "fecha_cita", "tipo_contenedor", "peso_bruto_t",
-    "imo", "clase_imo", "refrigerada", "temperatura_c", "extradimensionada",
-    "valor_declarado_usd", "modalidad_aduanera", "prioridad", "observaciones",
+COLUMNAS_BASE = [
+    "id_envio", "mes", "fecha_orden", "origen", "destino", "tipo_contenedor", "categoria_carga",
+    "distancia_km", "zona", "tipo_carga", "peso_por_bulto_kg", "bultos_unidades", "peso_total_kg",
+    "valor_declarado_cop", "fragil", "seguro", "nivel_velocidad", "proveedor", "precio_cop",
+    "transito_prometido_h", "temporada_alta", "transito_real_h", "a_tiempo", "danado", "satisfaccion_1a5",
 ]
-
-COLUMNAS_ESPERADAS = {
-    "solicitudes_ejemplo.csv": COLUMNAS_SOLICITUD,
-    "solicitudes_invalidas.csv": COLUMNAS_SOLICITUD,
-    "proveedores.csv": [
-        "id_proveedor", "nombre", "equipos", "peso_max_t", "permite_imo", "permite_refrigerada",
-        "permite_extradimensionada", "poliza_monto_usd", "poliza_vence", "habilitacion_vence",
-    ],
-    "rutas_proveedor.csv": ["id_proveedor", "origen", "destino"],
-    "tarifas.csv": ["id_proveedor", "origen", "destino", "tipo_contenedor", "precio_cop"],
-    "capacidad.csv": ["id_proveedor", "fecha", "tipo_contenedor", "estado", "camiones_libres"],
-    "historial_viajes.csv": [
-        "id_viaje", "id_proveedor", "origen", "destino", "tipo_contenedor", "cargue", "entrega",
-        "entrega_comprometida", "novedad",
-    ],
-    "etiquetas.csv": ["id_proveedor", "tipo", "etiqueta", "condicion"],
-    "tiempos_base.csv": ["origen", "destino", "horas_base"],
-}
-
+HOJA_PANEL = "Panel_Proveedor_Mes"
 # solicitudes_invalidas.csv solo se revisa por columnas: sus errores son intencionales.
 ARCHIVOS_SIN_REVISION_DE_CODIGOS = {"solicitudes_invalidas.csv"}
-
-ESTADOS_CAPACIDAD = {"confirmada", "sin_capacidad"}
-TIPOS_ETIQUETA = {"fortaleza", "debilidad"}
+TOLERANCIA = 1e-6
 
 
-def errores_de_columnas(nombre, columnas_reales, columnas_esperadas):
-    """Devuelve errores si las columnas no coinciden exactamente (nombre y orden)."""
-    if columnas_reales == columnas_esperadas:
-        return []
-    return [f"{nombre}: columnas {columnas_reales} != esperadas {columnas_esperadas}"]
+# --- Base de datos ---
 
-
-def errores_de_codigo(nombre, num_fila, campo, valor, validos):
-    """Devuelve un error si el valor no pertenece al conjunto de válidos."""
-    if valor in validos:
-        return []
-    return [f"{nombre} fila {num_fila}: {campo}='{valor}' no está en el catálogo"]
-
-
-def errores_de_condicion(nombre, num_fila, condicion):
-    """Valida que la condición tenga formato campo=valor con un campo de la solicitud."""
-    campo, separador, valor = condicion.partition("=")
-    if not separador or not valor:
-        return [f"{nombre} fila {num_fila}: condicion '{condicion}' no tiene formato campo=valor"]
-    if campo not in COLUMNAS_SOLICITUD:
-        return [f"{nombre} fila {num_fila}: condicion usa campo desconocido '{campo}'"]
-    if "*" in valor[:-1]:
-        return [f"{nombre} fila {num_fila}: '*' solo se admite al final en '{condicion}'"]
-    return []
-
-
-def errores_de_fila(nombre, num_fila, fila, catalogos, ids_proveedor):
-    """Revisa los códigos de una fila según las columnas que tenga."""
+def errores_de_base(envios):
+    faltan = [c for c in COLUMNAS_BASE if c not in envios.columns]
+    if faltan:
+        return [f"Base: faltan columnas {', '.join(faltan)}"]
     errores = []
-    reglas = {
-        "origen": set(catalogos["origenes"]),
-        "destino": set(catalogos["destinos"]),
-        "tipo_contenedor": set(catalogos["tipos_contenedor"]),
-        "prioridad": set(catalogos["prioridades"]),
-        "modalidad_aduanera": set(catalogos["modalidades_aduaneras"]) | {""},
-        "estado": ESTADOS_CAPACIDAD,
-        "tipo": TIPOS_ETIQUETA,
-        "id_proveedor": ids_proveedor,
-    }
-    for campo, validos in reglas.items():
-        if campo in fila and not (nombre == "proveedores.csv" and campo == "id_proveedor"):
-            errores += errores_de_codigo(nombre, num_fila, campo, fila[campo], validos)
-    if "equipos" in fila:
-        for equipo in fila["equipos"].split("|"):
-            errores += errores_de_codigo(nombre, num_fila, "equipos", equipo, reglas["tipo_contenedor"])
-    if "condicion" in fila:
-        errores += errores_de_condicion(nombre, num_fila, fila["condicion"])
+    vacios = envios[COLUMNAS_BASE].isna().sum()
+    errores += [f"Base: {n} vacíos en {c}" for c, n in vacios.items() if n]
+    repetidos = envios["id_envio"].duplicated().sum()
+    if repetidos:
+        errores.append(f"Base: {repetidos} códigos id_envio repetidos")
+    distinto = (envios["a_tiempo"] != (envios["transito_real_h"] <= envios["transito_prometido_h"]).astype(int)).sum()
+    if distinto:
+        errores.append(f"Base: {distinto} envíos con a_tiempo distinto de (tránsito real <= prometido)")
+    contenedores = envios.groupby("categoria_carga")["tipo_contenedor"].nunique()
+    for categoria in contenedores[contenedores > 1].index:
+        errores.append(f"Base: la categoría '{categoria}' aparece en más de un contenedor")
     return errores
 
 
-def errores_de_perfiles(perfiles):
-    """Verifica que los pesos de cada perfil sumen 1."""
+def errores_de_panel(envios, panel):
+    """La hoja resumen debe coincidir con lo que se agrega de los envíos."""
+    agregado = envios.groupby(["proveedor", "mes"]).agg(
+        pedidos=("id_envio", "size"), a_tiempo_pct=("a_tiempo", "mean"),
+        satisfaccion=("satisfaccion_1a5", "mean"), transito_h=("transito_real_h", "mean")).reset_index()
+    cruce = panel.merge(agregado, on=["proveedor", "mes"], how="outer", suffixes=("_panel", "_envios"),
+                        indicator=True)
     errores = []
-    for nombre, pesos in perfiles["perfiles"].items():
-        total = sum(pesos.values())
-        if abs(total - 1) > 1e-9:
-            errores.append(f"perfiles.yaml: el perfil '{nombre}' suma {total}, debe sumar 1")
+    sueltas = (cruce["_merge"] != "both").sum()
+    if sueltas:
+        errores.append(f"{HOJA_PANEL}: {sueltas} filas proveedor-mes no coinciden con los envíos")
+    ambos = cruce[cruce["_merge"] == "both"]
+    for c in ["pedidos", "a_tiempo_pct", "satisfaccion", "transito_h"]:
+        dif = np.abs(ambos[f"{c}_panel"] - ambos[f"{c}_envios"]).max()
+        if dif > TOLERANCIA:
+            errores.append(f"{HOJA_PANEL}: {c} difiere de los envíos hasta en {dif:g}")
     return errores
 
 
-def leer_csv(ruta):
-    with open(ruta, encoding="utf-8", newline="") as archivo:
-        lector = csv.DictReader(archivo)
-        return list(lector.fieldnames or []), list(lector)
+# --- Configuración ---
+
+def errores_de_perfiles(perfiles, envios):
+    errores = [f"perfiles.yaml: {e}" for e in configuracion.validar_perfiles(perfiles)]
+    en_base = set(envios["tipo_contenedor"])
+    en_config = set(perfiles["pesos_por_contenedor"])
+    if en_base - en_config:
+        errores.append(f"perfiles.yaml: sin pesos para {', '.join(sorted(en_base - en_config))}, que está en la base")
+    if en_config - en_base:
+        errores.append(f"perfiles.yaml: pesos para {', '.join(sorted(en_config - en_base))}, que no está en la base")
+    otras = set(envios["nivel_velocidad"]) - set(configuracion.VELOCIDADES)
+    if otras:
+        errores.append(f"Base: velocidades desconocidas para el modelo: {', '.join(sorted(otras))}")
+    return errores
 
 
-def leer_yaml(ruta):
-    with open(ruta, encoding="utf-8") as archivo:
-        return yaml.safe_load(archivo)
+# --- Solicitudes ---
+
+def errores_de_columnas(nombre, columnas):
+    if columnas == COLUMNAS:
+        return []
+    return [f"{nombre}: columnas {columnas} != esperadas {COLUMNAS}"]
 
 
-def verificar(dir_datos=DIR_DATOS, dir_config=DIR_CONFIG):
-    """Revisa todos los archivos y devuelve la lista de errores encontrados."""
-    catalogos = leer_yaml(dir_config / "catalogos.yaml")
-    errores = errores_de_perfiles(leer_yaml(dir_config / "perfiles.yaml"))
-    _, proveedores = leer_csv(dir_datos / "proveedores.csv")
-    ids_proveedor = {p["id_proveedor"] for p in proveedores}
+def errores_de_solicitudes(ruta, catalogos):
+    with open(ruta, encoding="utf-8-sig") as archivo:
+        columnas = archivo.readline().strip().split(",")
+    errores = errores_de_columnas(ruta.name, columnas)
+    if errores or ruta.name in ARCHIVOS_SIN_REVISION_DE_CODIGOS:
+        return errores
+    _, invalidas = cargar_solicitudes(ruta, catalogos)
+    return [f"{ruta.name} fila {e.fila} ({e.campo}): {e.mensaje}" for e in invalidas]
 
-    for nombre, esperadas in COLUMNAS_ESPERADAS.items():
-        ruta = dir_datos / nombre
-        if not ruta.exists():
-            errores.append(f"{nombre}: no existe")
-            continue
-        columnas, filas = leer_csv(ruta)
-        errores_cols = errores_de_columnas(nombre, columnas, esperadas)
-        errores += errores_cols
-        if errores_cols or nombre in ARCHIVOS_SIN_REVISION_DE_CODIGOS:
-            continue
-        for num_fila, fila in enumerate(filas, start=2):
-            errores += errores_de_fila(nombre, num_fila, fila, catalogos, ids_proveedor)
+
+# --- Modelo ---
+
+def errores_de_modelo(rec, envios, min_servicios):
+    errores = []
+    if not configuracion.modelo_al_dia():
+        errores.append("Modelo: no corresponde a la base, la configuración, el código o las librerías actuales "
+                       "(python -m src.entrenar_modelos)")
+    if rec is None:
+        return errores
+    if sorted(rec.m1.proveedores) != sorted(envios["proveedor"].unique()):
+        errores.append("Modelo: sus proveedores no son los de la base")
+    if len(rec.hist) != len(envios):
+        errores.append(f"Modelo: se entrenó con {len(rec.hist)} envíos y la base tiene {len(envios)}")
+    servicios = envios.groupby(["proveedor", "tipo_contenedor"]).size()
+    ofrecidos = set(servicios[servicios >= min_servicios].index)
+    con_cupos = set(zip(rec.cap["proveedor"], rec.cap["tipo_contenedor"]))
+    if con_cupos != ofrecidos:
+        errores.append("capacidad_semana.csv: los pares proveedor-contenedor no coinciden con el catálogo "
+                       f"(sobran {sorted(con_cupos - ofrecidos)}, faltan {sorted(ofrecidos - con_cupos)})")
+    if (rec.cap["disponibles"] != rec.cap["cupos_semana"] - rec.cap["comprometidos"]).any():
+        errores.append("capacidad_semana.csv: disponibles debe ser cupos_semana − comprometidos")
+    return errores
+
+
+# --- Todo junto ---
+
+def verificar(envios=None, panel=None, rec=None):
+    """Lista de errores de coherencia (vacía si todo cuadra)."""
+    if not configuracion.BASE_DATOS.exists():
+        return [f"No existe la base de datos {configuracion.BASE_DATOS}"]
+    envios = leer_envios() if envios is None else envios
+    errores = errores_de_base(envios)
+    if errores:
+        return errores
+    min_servicios = configuracion.PERFILES["entrenamiento"]["min_servicios"]
+    if panel is None:
+        try:
+            panel = leer_hoja(HOJA_PANEL)
+        except ValueError:
+            panel = None
+    if panel is not None:
+        errores += errores_de_panel(envios, panel)
+    errores += errores_de_perfiles(configuracion.PERFILES, envios)
+    catalogos = catalogos_desde_envios(envios, min_servicios)
+    for ruta in archivos_solicitudes():
+        errores += errores_de_solicitudes(ruta, catalogos)
+    if rec is None and configuracion.modelo_al_dia():
+        from src.motor import Recomendador
+        rec = Recomendador.cargar(configuracion.DIR_M2 / configuracion.ARCHIVO_MODELO)
+    errores += errores_de_modelo(rec, envios, min_servicios)
     return errores
 
 
@@ -141,7 +163,8 @@ def main():
     errores = verificar()
     for error in errores:
         print(error)
-    print("OK: datos verificados sin errores." if not errores else f"{len(errores)} errores.")
+    print("OK: base, configuración, solicitudes y modelo son coherentes." if not errores
+          else f"{len(errores)} errores.")
     return 1 if errores else 0
 
 

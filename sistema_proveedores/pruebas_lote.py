@@ -16,11 +16,12 @@ Pruebas de la asignación por lotes (asignacion_lote.py).
 import pandas as pd
 
 from asignacion_lote import asignar_lote, imprimir_lote, leer_cupos
+from configuracion import DIR_M2, SOLICITUDES_PRUEBA
 from modelo2_recomendador import Recomendador
 
-rec = Recomendador.cargar("salidas_m2/modelo2.pkl")
-rec.pruebas = pd.read_csv("solicitudes_prueba.csv")
-CUPOS = leer_cupos("salidas_m2/capacidad_semana.csv", rec)
+rec = Recomendador.cargar(DIR_M2 / "modelo2.pkl")
+rec.pruebas = pd.read_csv(SOLICITUDES_PRUEBA)
+CUPOS = leer_cupos(DIR_M2 / "capacidad_semana.csv", rec)
 LOTE_SEMANA = ("S-030106,S-030110,S-030114,S-030162,S-030179,S-030182,S-030229,S-030231,S-030255,S-030350,"
                "S-030413,S-030463,S-030511,S-030512,S-030538,S-030548,S-030569,S-030585,S-030619,S-030635,"
                "S-030702,S-030721,S-030769,S-030812,S-030817,S-030853,S-030882,S-030891,S-030903,S-030937,"

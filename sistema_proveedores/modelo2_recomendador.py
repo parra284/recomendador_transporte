@@ -81,37 +81,35 @@ from sklearn.metrics import mean_absolute_error, r2_score
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
 
+import configuracion
+from configuracion import (BASE_DATOS, DIR_M2, HOJA_ENVIOS, PERFILES, SOLICITUDES_PRUEBA, escribir_huella,
+                           modelo_al_dia)
 from modelo1_fiabilidad import ModeloFiabilidad
 
 warnings.filterwarnings("ignore")
 
 # --------------------------------------------------------------------------
-# Configuración
+# Configuración: los valores vienen de config/perfiles.yaml (ver configuracion.py)
 # --------------------------------------------------------------------------
 
 # Pesos por tipo de contenedor (los del equipo; a_tiempo + sin_daño + satisfacción = fiabilidad)
-PESOS_PERFIL = {
-    "Dry":       {"precio": 0.45, "tiempo": 0.20, "fiabilidad": 0.35},
-    "Reefer":    {"precio": 0.10, "tiempo": 0.40, "fiabilidad": 0.50},
-    "Open Top":  {"precio": 0.35, "tiempo": 0.10, "fiabilidad": 0.55},
-    "Flat Rack": {"precio": 0.25, "tiempo": 0.05, "fiabilidad": 0.70},
-}
+PESOS_PERFIL = {c: dict(p) for c, p in PERFILES["pesos_por_contenedor"].items()}
 # Cuánto peso gana el tiempo según la velocidad pedida (luego se renormaliza a 100 %)
-EXTRA_TIEMPO_VELOCIDAD = {"std": 0.0, "prio": 0.10, "exp": 0.20, "same": 0.25}
-# Plazo ajustado: si plazo / tiempo de mercado < 1,25, el tiempo gana 15 puntos de peso
-HOLGURA_AJUSTADA = 1.25
-EXTRA_TIEMPO_HOLGURA = 0.15
+EXTRA_TIEMPO_VELOCIDAD = dict(PERFILES["extra_tiempo_por_velocidad"])
+# Plazo ajustado: si plazo / tiempo de mercado < HOLGURA_AJUSTADA, el tiempo gana EXTRA_TIEMPO_HOLGURA de peso
+HOLGURA_AJUSTADA = PERFILES["plazo"]["holgura_ajustada"]
+EXTRA_TIEMPO_HOLGURA = PERFILES["plazo"]["extra_tiempo"]
 
-FACTORES = ["precio", "tiempo", "fiabilidad"]
+FACTORES = list(configuracion.FACTORES)
 NOMBRE_FACTOR = {"precio": "Precio", "tiempo": "Tiempo", "fiabilidad": "Fiabilidad"}
-VELOCIDADES = ["same", "exp", "prio", "std"]  # de más rápida a más lenta
+VELOCIDADES = list(configuracion.VELOCIDADES)  # de más rápida a más lenta
 NOMBRE_VELOCIDAD = {"same": "mismo día", "exp": "exprés", "prio": "prioritaria", "std": "estándar"}
 
-MIN_SERVICIOS = 5         # servicios mínimos para decir que un proveedor "ofrece" un contenedor o velocidad
-EMPATE_PUNTOS = 2.0       # diferencias menores se reportan como empate técnico
-CONCENTRACION_MAX = 0.35  # aviso si un proveedor tiene más del 35 % de los envíos recientes
-PROB_PLAZO_MIN = 0.70    # aviso si un proveedor del top llega dentro del plazo pedido menos del 70 % de las veces
-SEMILLA_CAPACIDAD = 2026
+MIN_SERVICIOS = PERFILES["entrenamiento"]["min_servicios"]      # para decir que un proveedor "ofrece" algo
+EMPATE_PUNTOS = PERFILES["avisos"]["empate_puntos"]             # diferencias menores = empate técnico
+CONCENTRACION_MAX = PERFILES["avisos"]["concentracion_max"]     # cuota máxima de envíos recientes / del lote
+PROB_PLAZO_MIN = PERFILES["avisos"]["prob_plazo_min"]           # aviso si llega en plazo menos que esto
+SEMILLA_CAPACIDAD = PERFILES["entrenamiento"]["semilla_capacidad"]
 
 VARS_CAT = ["zona", "tipo_contenedor", "tipo_carga", "nivel_velocidad", "temporada"]
 VARS_CAT_PROV = ["proveedor", "prov_zona", "prov_cont", "prov_vel"]
@@ -623,7 +621,9 @@ class Recomendador:
 
     # ----- persistencia -----
 
-    def guardar(self, carpeta="salidas_m2"):
+    def guardar(self, carpeta=DIR_M2, base=None):
+        """Guarda el modelo y sus tablas. Con `base` (la base con la que se entrenó) escribe
+        también la huella (fuente_modelo.json) que permite saber si el modelo está al día."""
         carpeta = Path(carpeta)
         carpeta.mkdir(exist_ok=True)
         self.cat.tabla().to_csv(carpeta / "catalogo_proveedores.csv", index=False, encoding="utf-8-sig")
@@ -635,20 +635,28 @@ class Recomendador:
             pickle.dump(self, f)
         if datos_m1 is not None:
             self.m1.datos = datos_m1
+        if base is not None:
+            escribir_huella(carpeta, base, self.hist)
 
     @staticmethod
-    def cargar(ruta="salidas_m2/modelo2.pkl") -> "Recomendador":
+    def cargar(ruta=DIR_M2 / "modelo2.pkl") -> "Recomendador":
         with open(ruta, "rb") as f:
-            return pickle.load(f)
+            rec = pickle.load(f)
+        # Los cupos se editan en capacidad_semana.csv (el lote ya los lee de ahí): la
+        # recomendación individual usa los mismos, no la copia guardada al entrenar.
+        cupos = Path(ruta).parent / "capacidad_semana.csv"
+        if cupos.exists():
+            rec.cap = pd.read_csv(cupos, encoding="utf-8-sig")
+        return rec
 
 
 if __name__ == "__main__":
     from modelo2_recomendador import Recomendador as R  # para que el .pkl se pueda cargar desde otros scripts
 
     ap = argparse.ArgumentParser(description="Modelo 2: recomendación de proveedor")
-    ap.add_argument("--datos", default="base_simulada_mensajeria.xlsx")
-    ap.add_argument("--pruebas", default="solicitudes_prueba.csv")
-    ap.add_argument("--salida", default="salidas_m2")
+    ap.add_argument("--datos", default=str(BASE_DATOS))
+    ap.add_argument("--pruebas", default=str(SOLICITUDES_PRUEBA))
+    ap.add_argument("--salida", default=str(DIR_M2))
     ap.add_argument("--entrenar", action="store_true", help="entrena y guarda el modelo")
     ap.add_argument("--codigo", help="código de la solicitud a recomendar")
     ap.add_argument("--demo", action="store_true", help="recomienda todas las solicitudes de prueba")
@@ -661,10 +669,14 @@ if __name__ == "__main__":
 
     pruebas = pd.read_csv(args.pruebas) if Path(args.pruebas).exists() else None
     pkl = Path(args.salida) / "modelo2.pkl"
-    if args.entrenar or not pkl.exists():
-        env = pd.read_excel(args.datos, sheet_name="Envios")
+    al_dia = modelo_al_dia(Path(args.salida), Path(args.datos))
+    if not args.entrenar and pkl.exists() and not al_dia:
+        print("El modelo guardado no corresponde a la base, la configuración, el código o las librerías actuales: "
+              "se reentrena.")
+    if args.entrenar or not al_dia:
+        env = pd.read_excel(args.datos, sheet_name=HOJA_ENVIOS)
         rec = R.entrenar(env, pruebas)
-        rec.guardar(args.salida)
+        rec.guardar(args.salida, base=args.datos)
         print("\nComparación de modelos para precio y tiempo (datos de prueba, abr-sep 2026):")
         print(rec.cot.comparacion.round(4).to_string(index=False))
         print("\nCatálogo de capacidades (derivado del historial; conteo de envíos entre paréntesis):")

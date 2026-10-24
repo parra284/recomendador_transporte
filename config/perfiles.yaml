@@ -1,28 +1,50 @@
-# Pesos de puntuación por perfil de solicitud. Cada perfil debe sumar 1.
-perfiles:
-  normal:
-    precio: 0.35
-    tiempo: 0.15
-    confiabilidad: 0.35
-    etiquetas: 0.15
-  urgente:
-    precio: 0.15
-    tiempo: 0.35
-    confiabilidad: 0.35
-    etiquetas: 0.15
-  economica:
-    precio: 0.55
-    tiempo: 0.10
-    confiabilidad: 0.25
-    etiquetas: 0.10
-  alto_valor:
-    precio: 0.20
-    tiempo: 0.15
-    confiabilidad: 0.35
-    etiquetas: 0.30
+# Pesos y umbrales de la recomendación (Modelo 2).
+# Se aplican al recomendar: cambiarlos NO exige reentrenar.
 
-parametros:
-  piso_confiabilidad: 0.80   # % mínimo de entregas a tiempo para ser elegible
-  min_viajes: 20             # viajes mínimos en el corredor para confiar en el historial
-  etiqueta_base: 0.5         # puntaje de etiquetas sin coincidencias
-  ajuste_por_etiqueta: 0.25  # +/- por cada fortaleza/debilidad que coincide
+# Peso base de cada factor según el tipo de contenedor. Cada perfil debe sumar 1.
+pesos_por_contenedor:
+  Dry:
+    precio: 0.45
+    tiempo: 0.20
+    fiabilidad: 0.35
+  Reefer:
+    precio: 0.10
+    tiempo: 0.40
+    fiabilidad: 0.50
+  Open Top:
+    precio: 0.35
+    tiempo: 0.10
+    fiabilidad: 0.55
+  Flat Rack:
+    precio: 0.25
+    tiempo: 0.05
+    fiabilidad: 0.70
+
+# Peso extra del tiempo según la velocidad pedida (después se renormaliza a 100 %).
+extra_tiempo_por_velocidad:
+  std: 0.0
+  prio: 0.10
+  exp: 0.20
+  same: 0.25
+
+# Plazo ajustado: si plazo / tiempo de mercado < holgura_ajustada, el tiempo gana extra_tiempo.
+plazo:
+  holgura_ajustada: 1.25
+  extra_tiempo: 0.15
+
+avisos:
+  empate_puntos: 2.0        # diferencia menor entre 1.º y 2.º = empate técnico
+  concentracion_max: 0.35   # aviso (y tope del lote) si un proveedor supera esta cuota
+  prob_plazo_min: 0.70      # aviso si un proveedor del top llega en plazo menos que esto
+
+# Parámetros de ENTRENAMIENTO: cambiarlos exige reentrenar (python -m src.entrenar_modelos).
+# El dashboard lo detecta con la huella del modelo y reentrena solo.
+entrenamiento:
+  min_servicios: 5          # envíos mínimos para decir que un proveedor "ofrece" contenedor o velocidad
+  semilla_capacidad: 2026   # semilla de los cupos semanales simulados
+  # Modelo 1: cómo se combinan los componentes de la fiabilidad. Deben sumar 1.
+  pesos_fiabilidad:
+    puntualidad: 0.40
+    magnitud_retraso: 0.20
+    integridad: 0.25
+    satisfaccion: 0.15

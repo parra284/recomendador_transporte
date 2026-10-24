@@ -13,7 +13,7 @@ Validación del Modelo 1 — tres pruebas para mostrar al jurado que el método 
    inventa otras.
 
 Uso:
-    python validar_modelo1.py --datos base_simulada_mensajeria.xlsx --salida salidas
+    python validar_modelo1.py            # base y carpeta según config/fuente_datos.yaml
 """
 
 import argparse
@@ -24,6 +24,7 @@ import numpy as np
 import pandas as pd
 from sklearn.metrics import brier_score_loss, log_loss, roc_auc_score
 
+from configuracion import BASE_DATOS, DIR_M1, HOJA_ENVIOS
 from modelo1_fiabilidad import ModeloFiabilidad, Parametros, preparar
 
 CORTE = pd.Timestamp("2026-03-31")
@@ -169,13 +170,13 @@ def prueba_sembradas(envios):
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--datos", default="base_simulada_mensajeria.xlsx")
-    ap.add_argument("--salida", default="salidas")
+    ap.add_argument("--datos", default=str(BASE_DATOS))
+    ap.add_argument("--salida", default=str(DIR_M1))
     args = ap.parse_args()
     Path(args.salida).mkdir(parents=True, exist_ok=True)
     pd.set_option("display.width", 200)
 
-    envios = pd.read_excel(args.datos, sheet_name="Envios")
+    envios = pd.read_excel(args.datos, sheet_name=HOJA_ENVIOS)
     sup = pd.read_excel(args.datos, sheet_name="Supuestos", index_col=0)
     verdad = sup.loc["Efecto proveedor en puntualidad (log-horas)"].astype(float)
 

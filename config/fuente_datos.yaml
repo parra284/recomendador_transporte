@@ -1,0 +1,17 @@
+# De dónde leen los datos el dashboard y los modelos. Rutas relativas a la raíz del proyecto.
+
+# Base de envíos: única fuente de verdad. Los Modelos 1 y 2 se entrenan con su hoja de envíos.
+base_datos: data/base_simulada_mensajeria.xlsx
+hoja_envios: Envios
+
+# Solicitudes: el dashboard ofrece todos los archivos solicitudes*.csv de esta carpeta.
+dir_solicitudes: data
+solicitudes_prueba: data/solicitudes_prueba.csv
+
+# Modelo entrenado (modelo2.pkl), su huella (fuente_modelo.json), catálogo y cupos semanales.
+dir_modelo: sistema_proveedores/salidas_m2
+
+# Se muestra en el dashboard junto a los resultados.
+aviso_datos: >-
+  Base simulada (Monte Carlo) a partir de anclas reales. Sirve para probar el método;
+  no permite sacar conclusiones sobre las empresas reales.

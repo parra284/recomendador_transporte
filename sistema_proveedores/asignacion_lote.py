@@ -42,6 +42,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from configuracion import DIR_M2
 from modelo2_recomendador import CONCENTRACION_MAX
 
 PENALIZACION_SIN_ASIGNAR = 1000.0
@@ -162,9 +163,9 @@ def leer_cupos(cupos_csv: str | Path | None, rec) -> dict:
     return {(r.proveedor, r.tipo_contenedor): int(r.disponibles) for r in cap.itertuples()}
 
 
-def asignar_lote(codigos: list[str], rec=None, cupos: dict | None = None, cupos_csv="salidas_m2/capacidad_semana.csv",
+def asignar_lote(codigos: list[str], rec=None, cupos: dict | None = None, cupos_csv=DIR_M2 / "capacidad_semana.csv",
                  max_cuota: float = CONCENTRACION_MAX, metodo: str = "auto",
-                 modelo="salidas_m2/modelo2.pkl") -> dict:
+                 modelo=DIR_M2 / "modelo2.pkl") -> dict:
     """Reparte las solicitudes entre proveedores maximizando la suma de puntajes del Modelo 2.
 
     Restricciones: cupos disponibles por proveedor y contenedor, y como máximo
@@ -319,7 +320,7 @@ def asignar_lote(codigos: list[str], rec=None, cupos: dict | None = None, cupos_
 # Salida en texto
 # --------------------------------------------------------------------------
 
-def imprimir_lote(res: dict, archivo_csv: str | Path | None = "salidas_m2/asignacion_lote.csv") -> None:
+def imprimir_lote(res: dict, archivo_csv: str | Path | None = DIR_M2 / "asignacion_lote.csv") -> None:
     n, tope, d = res["n"], res["tope"], res["detalle"]
     print("=" * 110)
     print(f"ASIGNACIÓN POR LOTE: {n} solicitudes · método: {res['metodo']}")

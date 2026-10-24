@@ -26,6 +26,7 @@ from pathlib import Path
 
 import pandas as pd
 
+from configuracion import BASE_DATOS, DIR_M2, HOJA_ENVIOS
 from modelo2_recomendador import MIN_SERVICIOS, VELOCIDADES, Recomendador
 
 
@@ -116,10 +117,10 @@ def verificar(env: pd.DataFrame, rec: Recomendador, csv: pd.DataFrame) -> list[t
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser()
-    ap.add_argument("--datos", default="base_simulada_mensajeria.xlsx")
-    ap.add_argument("--salida", default="salidas_m2")
+    ap.add_argument("--datos", default=str(BASE_DATOS))
+    ap.add_argument("--salida", default=str(DIR_M2))
     a = ap.parse_args()
-    env = pd.read_excel(a.datos, sheet_name="Envios")
+    env = pd.read_excel(a.datos, sheet_name=HOJA_ENVIOS)
     rec = Recomendador.cargar(Path(a.salida) / "modelo2.pkl")
     csv = pd.read_csv(Path(a.salida) / "catalogo_proveedores.csv", encoding="utf-8-sig")
     resultados = verificar(env, rec, csv)

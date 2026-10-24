@@ -10,22 +10,22 @@ B. % a tiempo histórico del proveedor 0.2121    0.6139 0.6037
 
    Sensibilidad a parámetros — 5 mejores combinaciones (log-loss):
 vida_media_meses  m_proveedor  m_contexto  brier  log_loss    auc
-              12            5         300 0.2034    0.5934 0.6586
-              12           50         300 0.2034    0.5934 0.6587
+              12            5         300 0.2034    0.5934 0.6587
+              12           50         300 0.2034    0.5934 0.6588
                6            5         300 0.2034    0.5935 0.6587
- sin decaimiento           50         300 0.2035    0.5935 0.6582
+ sin decaimiento           50         300 0.2035    0.5935 0.6581
  sin decaimiento            5         300 0.2035    0.5935 0.6581
    Parámetros por defecto (6 meses, m_proveedor=50, m_contexto=50): log-loss 0.5945, puesto 25 de 48
 
 2) RECUPERACIÓN DE LOS PARÁMETROS VERDADEROS (efecto real en puntualidad)
 
                   efecto_verdadero  efecto_estimado_pts  a_tiempo_bruto_pct
-Coordinadora                  0.12                10.22               74.97
-Grupo TCC                     0.10                 8.25               74.83
-Inter Rapidísimo             -0.03                -2.99               61.38
+Coordinadora                  0.12                10.23               74.97
+Grupo TCC                     0.10                 8.26               74.83
+Inter Rapidísimo             -0.03                -2.98               61.38
 Servientrega                 -0.08                -8.45               54.45
-Envía                        -0.12                -9.31               55.51
-4-72                         -0.22               -16.59               48.44
+Envía                        -0.12                -9.33               55.51
+4-72                         -0.22               -16.60               48.44
 
    Correlación de orden (Spearman) con la verdad — modelo: 1.00 · tasa bruta: 0.94
 
@@ -49,3 +49,5 @@ Inter Rapidísimo      Zona especial    1239                3.07  3.90 Fortaleza
 
    Detectadas 2 de 2 sembradas. Otros hallazgos: 1 (pueden ser diferencias propias de la base
    o efectos secundarios de lo sembrado: revisarlos antes de presentarlos)
+
+Resultados guardados en C:\Users\aparr\Documents\recomendador-transporte\sistema_proveedores\salidas_m1

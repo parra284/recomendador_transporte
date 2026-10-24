@@ -42,6 +42,7 @@ import numpy as np
 import pandas as pd
 
 import modelo2_recomendador as m2
+from configuracion import BASE_DATOS, DIR_M2, DIR_VALIDACION, HOJA_ENVIOS, SOLICITUDES_PRUEBA
 from modelo1_fiabilidad import ModeloFiabilidad
 from modelo2_recomendador import (FACTORES, MIN_SERVICIOS, Catalogo, Cotizador, Recomendador, escala)
 
@@ -271,10 +272,10 @@ def casos_prueba(modelo: str, pruebas: str) -> pd.DataFrame:
 
 def main():
     ap = argparse.ArgumentParser(description="Validación del Modelo 2")
-    ap.add_argument("--datos", default="base_simulada_mensajeria.xlsx")
-    ap.add_argument("--modelo", default="salidas_m2/modelo2.pkl", help="modelo de producción (prueba 6)")
-    ap.add_argument("--pruebas", default="solicitudes_prueba.csv")
-    ap.add_argument("--salida", default="salidas_validacion_m2")
+    ap.add_argument("--datos", default=str(BASE_DATOS))
+    ap.add_argument("--modelo", default=str(DIR_M2 / "modelo2.pkl"), help="modelo de producción (prueba 6)")
+    ap.add_argument("--pruebas", default=str(SOLICITUDES_PRUEBA))
+    ap.add_argument("--salida", default=str(DIR_VALIDACION))
     ap.add_argument("--muestra-igualdad", type=int, default=60)
     a = ap.parse_args()
     out = Path(a.salida)
@@ -286,7 +287,7 @@ def main():
         print(txt)
         log.append(str(txt))
 
-    env = pd.read_excel(a.datos, sheet_name="Envios")
+    env = pd.read_excel(a.datos, sheet_name=HOJA_ENVIOS)
     rec, train = entrenar_hasta_corte(env)
     test = env[pd.to_datetime(env.fecha_orden) > CORTE].copy()
     sol = test.drop(columns=RESULTADOS)                     # lo que se sabe al pedir el envío

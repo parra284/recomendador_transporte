@@ -16,8 +16,8 @@ import numpy as np, pandas as pd
 from validar_modelo2 import entrenar_hasta_corte, puntuar_todos, RESULTADOS, CORTE
 from modelo1_fiabilidad import preparar
 from modelo2_recomendador import FACTORES
-D = "base_simulada_mensajeria.xlsx"
-env = pd.read_excel(D, sheet_name="Envios")
+from configuracion import BASE_DATOS, DIR_VALIDACION, HOJA_ENVIOS
+env = pd.read_excel(BASE_DATOS, sheet_name=HOJA_ENVIOS)
 rec, train = entrenar_hasta_corte(env)
 test = env[pd.to_datetime(env.fecha_orden) > CORTE].copy()
 pts = puntuar_todos(rec, test.drop(columns=RESULTADOS))
@@ -70,5 +70,5 @@ print(f"Al azar: {100*r.azar.mean():.1f} %")
 print(r.groupby("cont").agg(envios=("id","size"), acierto=("acierto","mean"), top3=("en_top3","mean"), hist=("hist_acierto","mean")).mul([1,100,100,100]).round(1))
 print("Mejor real (reparto %):", (100*r.mejor_real.value_counts(normalize=True)).round(1).to_dict())
 print("Errores del modelo: recomendó / la mejor era:", r[~r.acierto].groupby(["rec","mejor_real"]).size().sort_values(ascending=False).head(6).to_dict())
-r.to_csv("salidas_validacion_m2/exito_recomendacion.csv", index=False, encoding="utf-8-sig")
+r.to_csv(DIR_VALIDACION / "exito_recomendacion.csv", index=False, encoding="utf-8-sig")
 print(f"Regla 'siempre Coordinadora': {100*(r.mejor_real == 'Coordinadora').mean():.1f} % · casos donde la mejor no era Coordinadora: {(r.mejor_real != 'Coordinadora').sum()}, el modelo acierta {100*r[r.mejor_real != 'Coordinadora'].acierto.mean():.1f} %")

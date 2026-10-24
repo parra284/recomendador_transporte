@@ -17,10 +17,11 @@ from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.linear_model import LogisticRegression, Ridge
 from sklearn.ensemble import RandomForestClassifier, HistGradientBoostingClassifier, HistGradientBoostingRegressor
 from sklearn.metrics import roc_auc_score, log_loss, brier_score_loss, r2_score, mean_absolute_error
+from configuracion import BASE_DATOS, HOJA_ENVIOS
 from modelo1_fiabilidad import ModeloFiabilidad
 from modelo2_recomendador import Cotizador, variables_cotizador, VARS_NUM
 
-env = pd.read_excel("base_simulada_mensajeria.xlsx", sheet_name="Envios")
+env = pd.read_excel(BASE_DATOS, sheet_name=HOJA_ENVIOS)
 env["fecha_orden"] = pd.to_datetime(env.fecha_orden)
 env["t"] = (env.fecha_orden.dt.year - 2024) * 12 + env.fecha_orden.dt.month - 10
 env["log_peso"] = np.log(env.peso_total_kg); env["log_valor"] = np.log(env.valor_declarado_cop); env["log_ref"] = np.log(env.tarifa_referencia_cop)

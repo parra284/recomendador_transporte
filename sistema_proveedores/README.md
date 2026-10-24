@@ -2,14 +2,16 @@
 
 El operario escribe el código de una solicitud y el sistema devuelve un top 3 de proveedores, con el puntaje explicado factor por factor. La decisión final sigue siendo de la persona de operaciones.
 
-Funciona con la base **con contenedores** (`base_simulada_mensajeria.xlsx`, con la columna `tipo_contenedor`), que debe estar en esta misma carpeta.
+Funciona con la base **con contenedores** (`data/base_simulada_mensajeria.xlsx` en la raíz del proyecto, con la columna `tipo_contenedor`). Las rutas (base, solicitudes y carpeta del modelo) están en `config/fuente_datos.yaml` y los pesos y umbrales en `config/perfiles.yaml`; los dos los lee `configuracion.py`, igual que el dashboard (`app.py`), así que todos usan los mismos datos. Los scripts se pueden correr desde esta carpeta o desde la raíz.
+
+`salidas_m2/fuente_modelo.json` guarda la huella del modelo entrenado (base, parámetros de entrenamiento, código de los modelos y versiones de scikit-learn, pandas y numpy). Si algo de eso cambia, `modelo2_recomendador.py` y el dashboard reentrenan solos.
 
 ## Cómo correrlo
 
 ```bash
-pip install -r requirements.txt   # pandas numpy scikit-learn openpyxl pulp highspy
-python modelo1_fiabilidad.py --salida salidas_m1     # Modelo 1: ranking y fiabilidad
-python validar_modelo1.py   --salida salidas_m1     # las cuatro pruebas del Modelo 1
+pip install -r requirements.txt   # pandas numpy scikit-learn openpyxl pyyaml pulp highspy
+python modelo1_fiabilidad.py                        # Modelo 1: ranking y fiabilidad (escribe salidas_m1/)
+python validar_modelo1.py                           # las cuatro pruebas del Modelo 1
 python modelo2_recomendador.py --entrenar           # entrena el Modelo 2 (incluye el Modelo 1)
 python verificar_catalogo.py                        # comprueba que el catálogo no contradiga el historial
 python modelo2_recomendador.py --codigo T-002       # recomienda una solicitud
@@ -22,7 +24,7 @@ python comparar_modelos.py                          # logística, árboles y Mod
 python exito_recomendacion.py                       # % de veces que la #1 es la mejor opción real (95,5 %)
 ```
 
-El código puede ser una solicitud de prueba (`T-001` a `T-009`, en `solicitudes_prueba.csv`) o un envío histórico (`S-000001` en adelante); en ese caso también muestra qué proveedor se eligió en su momento y cómo le fue.
+El código puede ser una solicitud de prueba (`T-001` a `T-009`, en `data/solicitudes_prueba.csv`) o un envío histórico (`S-000001` en adelante); en ese caso también muestra qué proveedor se eligió en su momento y cómo le fue.
 
 ## Cómo decide el Modelo 2
 
@@ -77,7 +79,8 @@ python modelo2_recomendador.py --lote S-030106,S-030110,S-030114,S-030162,S-0301
 | `modelo_datos.png` / `.svg` | Diagrama entidad-relación |
 | `asignacion_lote.py` | Asignación por lotes: programación entera (PuLP) o heurística voraz |
 | `pruebas_lote.py` | Pruebas del lote: mejor proveedor sin cupos, competencia por un cupo, lote de 50 y heurística |
-| `solicitudes_prueba.csv` | 9 solicitudes de prueba con requisitos distintos |
+| `configuracion.py` | Rutas y pesos (de `config/`) y huella del modelo entrenado |
+| `../data/solicitudes_prueba.csv` | 9 solicitudes de prueba con requisitos distintos |
 | `salidas_m1/` | Ranking, contextos, serie mensual y validación del Modelo 1 |
 | `salidas_m2/catalogo_proveedores.csv` | Qué puede atender cada proveedor por contenedor, con conteos (derivado del historial) |
 | `salidas_m2/verificacion_catalogo.txt` | Resultado de `verificar_catalogo.py` |

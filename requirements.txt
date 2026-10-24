@@ -1,7 +1,13 @@
 pandas
+numpy
 pydantic
 pyyaml
 pytest
 streamlit
 opencv-python
-numpy
+# Modelos 1 y 2 (sistema_proveedores/) y lectura de la base .xlsx
+scikit-learn
+openpyxl
+# Reparto del lote por programación entera (sin ellos se usa una heurística voraz)
+pulp
+highspy

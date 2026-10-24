@@ -1,10 +1,14 @@
 # Recomendador de transportistas terrestres
 
-MVP que recomienda qué proveedor de transporte terrestre de contenedores debe atender
-cada solicitud, para el equipo de operaciones de la naviera.
+MVP que recomienda qué proveedor de transporte terrestre debe atender cada solicitud, para el
+equipo de operaciones de la naviera.
 
-Flujo: cargar solicitud → descartar proveedores que no cumplen restricciones →
-puntuar a los elegibles con pesos por perfil → top 3 y dashboard.
+Flujo: **base de datos** (`data/base_simulada_mensajeria.xlsx`) → **Modelos 1 y 2**
+(`sistema_proveedores/`: filtros del catálogo, precio y tiempo frente al mercado, fiabilidad
+y pesos por contenedor) → **dashboard** con el top 3, su desglose y el reparto de un lote.
+
+> La base es simulada (Monte Carlo a partir de anclas reales). Sirve para probar el método;
+> no permite sacar conclusiones sobre las empresas reales.
 
 ## Instalación
 
@@ -15,6 +19,39 @@ python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
 ```
+
+## Datos y modelos
+
+| Qué | Dónde | Notas |
+|---|---|---|
+| Base de envíos | `data/base_simulada_mensajeria.xlsx` (hoja `Envios`) | Única fuente de verdad; ruta en `config/fuente_datos.yaml` |
+| Solicitudes | `data/solicitudes*.csv` | Mismas columnas que la base (ver abajo) |
+| Pesos y umbrales | `config/perfiles.yaml` | Se aplican sin reentrenar, salvo la sección `entrenamiento` |
+| Modelo entrenado | `sistema_proveedores/salidas_m2/modelo2.pkl` | `fuente_modelo.json` guarda de qué base salió |
+| Cupos de la semana | `sistema_proveedores/salidas_m2/capacidad_semana.csv` | Simulados; si se editan, la app los usa |
+
+El modelo guardado solo se usa si corresponde a la base, los parámetros de entrenamiento, el
+código de los modelos y las versiones de scikit-learn, pandas y numpy actuales. Si algo cambió, el dashboard
+reentrena solo (unos 20 a 40 segundos) o se puede hacer a mano:
+
+```powershell
+python -m src.entrenar_modelos            # solo si hace falta
+python -m src.entrenar_modelos --forzar   # siempre
+```
+
+### Columnas de un archivo de solicitudes
+
+`id_envio, fecha_orden, origen, destino, categoria_carga, peso_por_bulto_kg, bultos_unidades,
+valor_declarado_cop, fragil, seguro, nivel_velocidad, plazo_h, descripcion`
+
+- `origen`, `destino` y `categoria_carga` deben existir en la base; la categoría define el
+  contenedor (Dry, Reefer, Open Top o Flat Rack).
+- `fecha_orden` en formato `AAAA-MM-DD`; `fragil` y `seguro` en 1/0; `nivel_velocidad` en
+  `std`, `prio`, `exp` o `same`; `plazo_h` opcional (horas).
+- El peso total no puede superar lo máximo que algún proveedor ha movido en ese contenedor.
+
+Las filas con errores no detienen la carga: el dashboard las muestra con su motivo
+(`data/solicitudes_invalidas.csv` trae un ejemplo de cada error).
 
 ## Acceso (reconocimiento facial + PIN)
 
@@ -44,16 +81,18 @@ Notas:
 - Solo se guarda la huella numérica del rostro, nunca fotos, en `seguridad/usuarios.json`
   (excluido de git, igual que `modelos/`).
 
-## Pruebas
+## Pruebas y verificación
 
 ```powershell
-python -m pytest
+python -m pytest                 # todas las pruebas (incluye el dashboard con AppTest)
+python -m src.verificar_datos    # coherencia base ↔ configuración ↔ solicitudes ↔ modelo
 ```
 
-Para revisar que los CSV de `data/` tienen las columnas y códigos correctos:
+Validaciones propias de los modelos (ver `sistema_proveedores/README.md`):
 
 ```powershell
-python -m src.verificar_datos
+python sistema_proveedores/verificar_catalogo.py   # el catálogo no contradice el historial
+python sistema_proveedores/validar_modelo2.py      # prueba retrospectiva (~1 min)
 ```
 
 ## Abrir la app
@@ -62,25 +101,32 @@ python -m src.verificar_datos
 python -m streamlit run app.py
 ```
 
-Se abre en el navegador (por defecto http://localhost:8501). En la barra lateral se elige
-el archivo de solicitudes (`data/solicitudes_*.csv`) y arriba la solicitud a revisar.
-La app muestra el perfil aplicado, el top 3 con su explicación, el aporte de cada variable,
-los proveedores descartados con sus motivos y una tabla con todas las solicitudes.
+Se abre en el navegador (por defecto http://localhost:8501). En la barra lateral se ve la base
+con la que se entrenaron los modelos y se elige el archivo de solicitudes. Pestañas:
+
+- **Recomendación**: una solicitud del archivo o un envío histórico de la base. Muestra los
+  pesos aplicados, el top 3 (precio y tiempo frente al mercado, fiabilidad, % a tiempo y, si hay
+  plazo, % en plazo), la explicación, el aporte de cada factor, los avisos, los excluidos con su
+  motivo y, si nadie cumple, las alternativas. En un envío histórico, además, quién lo hizo y
+  cómo le fue.
+- **Todas las solicitudes**: el proveedor recomendado para cada una.
+- **Reparto del lote**: asigna todas las solicitudes sin superar cupos ni el 35 % por proveedor.
+- **Proveedores**: fiabilidad del Modelo 1, qué atiende cada proveedor y cupos de la semana.
 
 ## Estructura
 
 | Ruta | Contenido |
 |---|---|
-| `config/catalogos.yaml` | Valores válidos (orígenes, destinos, contenedores, pesos máximos…) |
-| `config/perfiles.yaml` | Pesos por perfil y parámetros de puntuación |
-| `data/` | CSV ficticios de solicitudes, proveedores, rutas, tarifas, capacidad, historial y etiquetas |
-| `src/solicitud.py` | Modelo y validación de solicitudes |
-| `src/restricciones.py` | Reglas que descartan proveedores |
-| `src/scoring.py` | Puntuación de elegibles |
-| `src/ranking.py` | Top 3, desempates y explicaciones |
+| `config/fuente_datos.yaml` | Rutas de la base, las solicitudes y el modelo |
+| `config/perfiles.yaml` | Pesos por contenedor, ajustes por velocidad y plazo, umbrales de avisos y de entrenamiento |
+| `data/` | Base de datos y solicitudes |
+| `sistema_proveedores/` | Modelos 1 y 2, validaciones y salidas |
+| `src/motor.py` | Puente con el motor |
+| `src/fuente_datos.py` | Lectura de la base, el modelo y los archivos |
+| `src/solicitud.py` | Modelo y validación de solicitudes (catálogos derivados de la base) |
+| `src/recomendacion.py` | Resultado del Modelo 2 en tablas para el dashboard |
+| `src/verificar_datos.py` | Verificación de coherencia |
+| `src/entrenar_modelos.py` | Reentrenamiento |
 | `app.py` | Dashboard Streamlit |
-
-Para cambiar la importancia de precio, tiempo, confiabilidad o etiquetas basta con editar
-`config/perfiles.yaml` (los pesos de cada perfil deben sumar 1).
 
 Ver [CLAUDE.md](CLAUDE.md) para las convenciones del proyecto.

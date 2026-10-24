@@ -52,12 +52,12 @@ SOLICITUD T-003: Bogotá → Bucaramanga (nacional, 360 km) · Acero · Open Top
   #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo   Confianza
   1  Coordinadora         67.6   $  1,306,299      +0%      40 h     -12%    80.1      66%   Alta
   2  Inter Rapidísimo     63.5   $  1,228,669      -6%      48 h      +5%    71.9      54%   Alta
-  3  Grupo TCC            63.3   $  1,434,372     +10%      45 h      -2%    80.2      68%   Alta
+  3  Grupo TCC            63.2   $  1,434,372     +10%      45 h      -2%    80.1      68%   Alta
 
   Desglose (puntos × peso = aporte):
    Coordinadora      precio 50 × 35% = 17.4 + tiempo 62 × 10% = 6.2 + fiabilidad 80 × 55% = 44.1 → 67.6
    Inter Rapidísimo  precio 56 × 35% = 19.4 + tiempo 45 × 10% = 4.5 + fiabilidad 72 × 55% = 39.5 → 63.5
-   Grupo TCC         precio 40 × 35% = 13.9 + tiempo 52 × 10% = 5.2 + fiabilidad 80 × 55% = 44.1 → 63.3
+   Grupo TCC         precio 40 × 35% = 13.9 + tiempo 52 × 10% = 5.2 + fiabilidad 80 × 55% = 44.1 → 63.2
   Coordinadora queda primero con 67.6 puntos. Frente a Inter Rapidísimo (63.5): es 6% más caro (-2.1 pts); llega 8 h antes (+1.7 pts); es más fiable (80 frente a 72) (+4.5 pts).
 
   Excluidos:
@@ -94,8 +94,8 @@ SOLICITUD T-005: Cali → Quibdó (especial, 312 km) · Mariscos · Reefer · 10
   ALTERNATIVAS:
    - Inter Rapidísimo: Con velocidad prioritaria en lugar de exprés · 59.5 pts · $771,981 · 69 h · fiabilidad 71
        desglose: precio 49 pts × 9% = 4.4 + tiempo 50 pts × 45% = 22.6 + fiabilidad 71 pts × 45% = 32.4 → 59.5
-   - Servientrega: Con velocidad prioritaria en lugar de exprés · 49.8 pts · $843,968 · 78 h · fiabilidad 65
-       desglose: precio 40 pts × 9% = 3.6 + tiempo 37 pts × 45% = 16.6 + fiabilidad 65 pts × 45% = 29.5 → 49.8
+   - Servientrega: Con velocidad prioritaria en lugar de exprés · 49.7 pts · $843,968 · 78 h · fiabilidad 65
+       desglose: precio 40 pts × 9% = 3.6 + tiempo 37 pts × 45% = 16.6 + fiabilidad 65 pts × 45% = 29.5 → 49.7
 
   Avisos:
    - Ningún proveedor cumple todos los requisitos: revisar las alternativas.
@@ -136,16 +136,16 @@ SOLICITUD T-007: Medellín → Medellín (local, 0 km) · Hi-tech · Dry · 2 ×
   Referencia de mercado: $71,745 · 6 h
 
   #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo En plazo   Confianza
-  1  Coordinadora         65.0   $     73,197      +2%       5 h     -17%    83.5      75%      83%   Alta
-  2  Grupo TCC            62.1   $     72,559      +1%       5 h     -10%    83.3      76%      76%   Alta
-  3  Inter Rapidísimo     59.3   $     71,189      -1%       5 h      -6%    76.5      63%      72%   Alta
+  1  Coordinadora         65.0   $     73,197      +2%       5 h     -17%    83.4      74%      83%   Alta
+  2  Grupo TCC            62.0   $     72,559      +1%       5 h     -10%    83.1      76%      76%   Alta
+  3  Inter Rapidísimo     59.3   $     71,189      -1%       5 h      -6%    76.4      63%      72%   Alta
   ('A tiempo' = cumple lo que promete el proveedor; 'En plazo' = llega antes de 6 h)
 
   Desglose (puntos × peso = aporte):
-   Coordinadora      precio 48 × 32% = 15.4 + tiempo 67 × 43% = 28.7 + fiabilidad 84 × 25% = 20.9 → 65.0
-   Grupo TCC         precio 49 × 32% = 15.7 + tiempo 60 × 43% = 25.6 + fiabilidad 83 × 25% = 20.8 → 62.1
+   Coordinadora      precio 48 × 32% = 15.4 + tiempo 67 × 43% = 28.7 + fiabilidad 83 × 25% = 20.9 → 65.0
+   Grupo TCC         precio 49 × 32% = 15.7 + tiempo 60 × 43% = 25.6 + fiabilidad 83 × 25% = 20.8 → 62.0
    Inter Rapidísimo  precio 51 × 32% = 16.3 + tiempo 56 × 43% = 23.8 + fiabilidad 76 × 25% = 19.1 → 59.3
-  Coordinadora queda primero con 65.0 puntos. Frente a Grupo TCC (62.1): llega 0.4 h antes (+3.2 pts).
+  Coordinadora queda primero con 65.0 puntos. Frente a Grupo TCC (62.0): llega 0.4 h antes (+3.2 pts).
 
   Avisos:
    - Promete más tiempo que el plazo de 6 h: Grupo TCC (6.1 h). Su '% a tiempo' se mide contra su propia promesa; para el plazo pedido, ver la columna 'En plazo'.

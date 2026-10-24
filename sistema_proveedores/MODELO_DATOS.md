@@ -10,7 +10,7 @@ python modelo2_recomendador.py --demo       # 9 solicitudes de prueba (T-001 a T
 
 ---
 
-## 1. Revisión de la base (`base_simulada_mensajeria.xlsx`, hoja `Envios`)
+## 1. Revisión de la base (`data/base_simulada_mensajeria.xlsx`, hoja `Envios`)
 
 **Sí trae `tipo_contenedor` y `categoria_carga`.** Cada una de las 23 categorías corresponde a un único contenedor (relación 1 a 1, sin excepciones).
 
@@ -254,7 +254,7 @@ Imagen del diagrama: `modelo_datos.png` (para presentaciones) y `modelo_datos.sv
 | PROVEEDORES | Nombres en `Envios` | Maestro de proveedores de COSCO |
 | CAPACIDADES, _VELOCIDAD, _COBERTURA | Derivadas del historial (`catalogo_proveedores.csv`) | Declaradas por el proveedor y comparadas con el historial |
 | CAPACIDAD_SEMANAL | Simulada (`capacidad_semana.csv`) | Ver sección 3 |
-| SOLICITUDES | `solicitudes_prueba.csv` | Formulario del operario o TMS |
+| SOLICITUDES | `data/solicitudes_prueba.csv` | Formulario del operario o TMS |
 | ENVIOS_HISTORICOS | Hoja `Envios` | TMS, facturas y encuestas de satisfacción |
 | DESEMPENO_MENSUAL | Hoja `Panel_Proveedor_Mes` y `salidas_m1/fiabilidad_mensual.csv` | Se recalcula cada mes desde ENVIOS_HISTORICOS |
 | DESEMPENO_CONTEXTO | `salidas_m1/fiabilidad_contextos.csv` | Igual, recalculado por el Modelo 1 |

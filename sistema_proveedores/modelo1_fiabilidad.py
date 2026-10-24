@@ -45,7 +45,7 @@ Resultado para un envío concreto (lo que usa el Modelo 2):
                + ajustes por contexto (zona, contenido, ruta, ...)
 
 Uso:
-    python modelo1_fiabilidad.py --datos base_simulada_mensajeria.xlsx --salida salidas
+    python modelo1_fiabilidad.py            # base y carpeta de salida según config/fuente_datos.yaml
 """
 
 from __future__ import annotations
@@ -63,17 +63,15 @@ from sklearn.linear_model import LogisticRegression, Ridge
 from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import OneHotEncoder
 
+from configuracion import BASE_DATOS, COMPONENTES_FIABILIDAD, DIR_M1, HOJA_ENVIOS, PERFILES
+
 # --------------------------------------------------------------------------
-# Configuración (todo lo que se puede ajustar está aquí)
+# Configuración. Los pesos de los componentes están en config/perfiles.yaml
+# (entrenamiento.pesos_fiabilidad); el resto de parámetros, aquí.
 # --------------------------------------------------------------------------
 
-PESOS = {
-    "puntualidad": 0.40,
-    "magnitud_retraso": 0.20,
-    "integridad": 0.25,
-    "satisfaccion": 0.15,
-}
-COMPONENTES = list(PESOS)
+PESOS = dict(PERFILES["entrenamiento"]["pesos_fiabilidad"])
+COMPONENTES = list(COMPONENTES_FIABILIDAD)
 BINARIOS = {"puntualidad", "integridad"}
 NOMBRE_COMPONENTE = {
     "puntualidad": "Puntualidad",
@@ -575,9 +573,9 @@ def imprimir_explicacion(resultados: list[dict], top: int = 3) -> None:
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Modelo 1: fiabilidad de proveedores")
-    ap.add_argument("--datos", default="base_simulada_mensajeria.xlsx")
-    ap.add_argument("--hoja", default="Envios")
-    ap.add_argument("--salida", default="salidas")
+    ap.add_argument("--datos", default=str(BASE_DATOS))
+    ap.add_argument("--hoja", default=HOJA_ENVIOS)
+    ap.add_argument("--salida", default=str(DIR_M1))
     args = ap.parse_args()
 
     # Importar la clase desde el módulo (y no desde __main__) para que modelo1.pkl
