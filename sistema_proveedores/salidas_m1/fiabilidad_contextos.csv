@@ -1,0 +1,1585 @@
+﻿proveedor,dimension,valor,envios,envios_equivalentes,fiabilidad_en_contexto,prob_a_tiempo_en_contexto,vs_su_promedio_pts,diferencia_observada_pts,z,p_valor,vs_competencia_pts,posicion_en_contexto,q_valor,etiqueta
+4-72,Zona,especial,86,29.5,59.0,30.6,0.75,-1.35,-0.41,0.67845,-7.62,6,0.7892,Normal
+Coordinadora,Zona,especial,427,141.2,74.9,58.1,1.15,1.66,1.14,0.25566,8.28,1,0.6322,Normal
+Envía,Zona,especial,103,38.6,63.0,37.3,0.31,0.24,0.08,0.93557,-3.62,5,0.9356,Normal
+Grupo TCC,Zona,especial,0,0.0,72.3,54.2,0.0,,,,5.68,2,,Sin historial
+Inter Rapidísimo,Zona,especial,1239,412.5,67.4,46.1,2.1,2.27,2.64,0.00823,0.78,3,0.1894,Normal
+Servientrega,Zona,especial,631,196.7,63.1,39.2,1.21,1.28,1.06,0.29064,-3.52,4,0.6322,Normal
+4-72,Zona,local,135,44.9,75.9,61.2,3.04,3.79,1.44,0.14867,-4.85,5,0.6322,Normal
+Coordinadora,Zona,local,1579,532.0,87.7,80.6,-0.64,-0.63,-0.83,0.40449,6.95,1,0.7156,Normal
+Envía,Zona,local,432,146.0,77.7,63.4,0.39,0.26,0.18,0.85576,-3.05,4,0.8947,Normal
+Grupo TCC,Zona,local,654,213.5,87.1,80.6,0.21,0.56,0.47,0.63654,6.35,2,0.7892,Normal
+Inter Rapidísimo,Zona,local,1737,580.6,80.4,69.7,0.49,0.5,0.7,0.48591,-0.35,3,0.7892,Normal
+Servientrega,Zona,local,886,275.8,75.7,62.1,-0.73,-1.06,-1.03,0.30236,-5.05,6,0.6322,Normal
+4-72,Zona,nacional,555,186.8,68.5,46.8,-0.83,-2.63,-2.06,0.03907,-8.0,6,0.4493,Normal
+Coordinadora,Zona,nacional,6665,2216.8,84.8,75.4,0.03,0.1,0.28,0.77956,8.3,1,0.8538,Normal
+Envía,Zona,nacional,1716,573.7,73.7,55.6,-0.07,-0.29,-0.4,0.68625,-2.8,4,0.7892,Normal
+Grupo TCC,Zona,nacional,2614,857.3,83.3,73.3,-0.01,0.25,0.42,0.67241,6.8,2,0.7892,Normal
+Inter Rapidísimo,Zona,nacional,7562,2571.9,75.9,61.3,-0.49,-0.58,-1.69,0.09156,-0.6,3,0.6322,Normal
+Servientrega,Zona,nacional,3484,1098.7,72.8,56.6,-0.07,-0.27,-0.54,0.59065,-3.7,5,0.7892,Normal
+4-72,Zona,regional,25,10.2,70.2,50.7,-0.36,-9.51,-1.6,0.11039,-7.78,6,0.6322,Normal
+Coordinadora,Zona,regional,256,84.0,87.3,80.2,1.35,2.27,1.19,0.23295,9.32,1,0.6322,Normal
+Envía,Zona,regional,62,22.0,73.6,55.0,-1.39,-5.2,-1.37,0.17131,-4.38,5,0.6322,Normal
+Grupo TCC,Zona,regional,85,25.3,83.1,73.3,-1.45,-3.57,-1.12,0.2614,5.12,2,0.6322,Normal
+Inter Rapidísimo,Zona,regional,295,98.1,78.8,66.5,1.17,1.66,0.94,0.34802,0.82,3,0.667,Normal
+Servientrega,Zona,regional,158,55.7,74.9,59.6,0.8,1.16,0.49,0.62431,-3.08,4,0.7892,Normal
+4-72,Tipo de carga,Paletizada,0,0.0,65.0,41.6,0.0,,,,-7.25,6,,Sin historial
+Coordinadora,Tipo de carga,Paletizada,2302,757.8,80.5,68.3,0.01,0.12,0.19,0.84802,8.25,1,0.8594,Normal
+Envía,Tipo de carga,Paletizada,254,84.3,69.4,48.1,-0.09,-0.57,-0.3,0.76289,-2.85,4,0.8594,Normal
+Grupo TCC,Tipo de carga,Paletizada,900,301.6,78.3,65.1,-0.73,-0.61,-0.6,0.54733,6.05,2,0.8594,Normal
+Inter Rapidísimo,Tipo de carga,Paletizada,2168,736.3,71.4,54.2,-0.73,-0.81,-1.25,0.2129,-0.85,3,0.8594,Normal
+Servientrega,Tipo de carga,Paletizada,1382,433.1,68.9,50.1,0.3,0.14,0.18,0.85942,-3.35,5,0.8594,Normal
+4-72,Tipo de carga,Paquete,801,271.4,70.2,50.1,0.0,-1.68,-1.59,0.11291,-7.52,6,0.8594,Normal
+Coordinadora,Tipo de carga,Paquete,6625,2216.1,85.7,76.9,-0.0,0.1,0.27,0.78474,7.98,1,0.8594,Normal
+Envía,Tipo de carga,Paquete,2059,696.1,74.7,57.5,0.01,-0.27,-0.41,0.68256,-3.02,4,0.8594,Normal
+Grupo TCC,Tipo de carga,Paquete,2453,794.4,84.5,75.4,0.28,0.54,0.88,0.37923,6.78,2,0.8594,Normal
+Inter Rapidísimo,Tipo de carga,Paquete,8665,2926.9,77.5,63.9,0.18,0.17,0.52,0.60284,-0.22,3,0.8594,Normal
+Servientrega,Tipo de carga,Paquete,3777,1193.8,73.7,58.1,-0.11,-0.28,-0.58,0.56382,-4.02,5,0.8594,Normal
+4-72,Contenido,Acero,0,0.0,63.6,37.8,0.0,,,,-7.37,6,,Sin historial
+Coordinadora,Contenido,Acero,263,84.5,78.6,63.4,-0.4,-0.44,-0.24,0.81239,7.63,2,0.9654,Normal
+Envía,Contenido,Acero,0,0.0,68.0,45.0,0.0,,,,-2.97,4,,Sin historial
+Grupo TCC,Contenido,Acero,98,31.4,78.8,65.5,1.25,3.58,1.17,0.24391,7.83,1,0.9654,Normal
+Inter Rapidísimo,Contenido,Acero,310,104.3,70.3,50.8,-0.34,-0.39,-0.22,0.82297,-0.67,3,0.9654,Normal
+Servientrega,Contenido,Acero,137,42.9,66.5,43.9,-0.64,-1.58,-0.61,0.54293,-4.47,5,0.9654,Normal
+4-72,Contenido,Agricultura,55,20.9,69.4,49.2,-1.23,-5.99,-1.5,0.13453,-8.73,6,0.9654,Normal
+Coordinadora,Contenido,Agricultura,448,148.3,86.9,79.7,0.83,1.21,0.85,0.39681,8.77,1,0.9654,Normal
+Envía,Contenido,Agricultura,162,55.9,75.2,58.8,0.17,-0.16,-0.07,0.94408,-2.93,4,0.9739,Normal
+Grupo TCC,Contenido,Agricultura,178,55.3,85.7,78.3,1.1,2.31,1.02,0.30795,7.57,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Agricultura,616,202.9,76.6,63.1,-1.06,-1.32,-1.1,0.27214,-1.53,3,0.9654,Normal
+Servientrega,Contenido,Agricultura,258,78.3,75.0,59.9,0.8,1.12,0.59,0.55236,-3.13,5,0.9654,Normal
+4-72,Contenido,Alimentos,92,29.8,69.5,49.9,-0.99,-4.07,-1.29,0.19608,-8.77,6,0.9654,Normal
+Coordinadora,Contenido,Alimentos,737,244.7,85.7,76.7,-0.29,-0.25,-0.23,0.8195,7.43,2,0.9654,Normal
+Envía,Contenido,Alimentos,294,103.3,75.2,57.2,0.24,-0.02,-0.01,0.99078,-3.07,4,0.9908,Normal
+Grupo TCC,Contenido,Alimentos,245,81.8,86.1,77.8,1.57,2.71,1.4,0.16148,7.83,1,0.9654,Normal
+Inter Rapidísimo,Contenido,Alimentos,909,307.8,78.4,65.6,0.82,0.95,0.96,0.33733,0.13,3,0.9654,Normal
+Servientrega,Contenido,Alimentos,400,128.3,74.7,58.7,0.56,0.61,0.4,0.68729,-3.57,5,0.9654,Normal
+4-72,Contenido,Automotriz,52,16.3,69.6,48.8,-0.45,-4.0,-0.96,0.3391,-7.82,6,0.9654,Normal
+Coordinadora,Contenido,Automotriz,380,133.4,82.8,71.4,-2.68,-3.58,-2.33,0.01962,5.38,2,0.9654,Normal
+Envía,Contenido,Automotriz,179,62.4,76.5,60.8,2.01,3.16,1.38,0.16847,-0.92,4,0.9654,Normal
+Grupo TCC,Contenido,Automotriz,160,51.6,83.9,73.6,-0.19,-0.14,-0.06,0.95376,6.48,1,0.9739,Normal
+Inter Rapidísimo,Contenido,Automotriz,535,174.5,77.1,63.0,-0.06,-0.06,-0.05,0.96039,-0.32,3,0.9739,Normal
+Servientrega,Contenido,Automotriz,205,61.5,74.6,59.8,0.98,1.56,0.74,0.45927,-2.82,5,0.9654,Normal
+4-72,Contenido,Bebidas,0,0.0,71.2,52.9,0.0,,,,-7.55,6,,Sin historial
+Coordinadora,Contenido,Bebidas,277,85.7,86.2,79.9,-0.38,-0.45,-0.25,0.80625,7.45,1,0.9654,Normal
+Envía,Contenido,Bebidas,0,0.0,75.6,60.1,0.0,,,,-3.15,4,,Sin historial
+Grupo TCC,Contenido,Bebidas,115,36.9,84.8,77.5,-0.35,-0.52,-0.18,0.85623,6.05,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Bebidas,409,138.6,79.7,69.1,1.47,2.09,1.39,0.16551,0.95,3,0.9654,Normal
+Servientrega,Contenido,Bebidas,186,63.4,75.0,60.3,0.22,0.25,0.12,0.90803,-3.75,5,0.9739,Normal
+4-72,Contenido,Carga sobredimensionada,0,0.0,60.8,34.1,0.0,,,,-6.85,6,,Sin historial
+Coordinadora,Contenido,Carga sobredimensionada,750,249.3,75.9,60.2,-0.33,-0.25,-0.23,0.81773,8.25,1,0.9654,Normal
+Envía,Contenido,Carga sobredimensionada,0,0.0,65.2,41.4,0.0,,,,-2.45,4,,Sin historial
+Grupo TCC,Contenido,Carga sobredimensionada,291,95.5,73.5,56.5,-1.36,-1.82,-1.03,0.30129,5.85,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Carga sobredimensionada,0,0.0,67.9,47.7,0.0,,,,0.25,3,,Sin historial
+Servientrega,Contenido,Carga sobredimensionada,492,151.3,62.6,39.5,-1.85,-2.5,-1.84,0.06582,-5.05,5,0.9654,Normal
+4-72,Contenido,Carne,0,0.0,71.3,52.9,0.0,,,,-7.4,6,,Sin historial
+Coordinadora,Contenido,Carne,345,117.6,86.9,79.6,0.15,0.36,0.22,0.82445,8.2,1,0.9654,Normal
+Envía,Contenido,Carne,0,0.0,75.7,60.2,0.0,,,,-3.0,4,,Sin historial
+Grupo TCC,Contenido,Carne,131,39.9,84.9,77.5,-0.48,-0.78,-0.3,0.76597,6.2,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Carne,441,152.7,77.8,65.4,-0.59,-0.69,-0.49,0.62367,-0.9,3,0.9654,Normal
+Servientrega,Contenido,Carne,199,59.8,75.6,63.4,0.74,1.2,0.55,0.58453,-3.1,5,0.9654,Normal
+4-72,Contenido,Caucho y plásticos,49,18.4,71.3,51.7,1.55,3.78,0.9,0.36965,-6.32,6,0.9654,Normal
+Coordinadora,Contenido,Caucho y plásticos,337,111.3,86.2,78.1,1.04,1.62,0.99,0.32322,8.58,1,0.9654,Normal
+Envía,Contenido,Caucho y plásticos,130,42.5,75.0,58.6,0.82,1.24,0.47,0.63567,-2.62,4,0.9654,Normal
+Grupo TCC,Contenido,Caucho y plásticos,115,38.2,82.7,71.3,-1.05,-2.15,-0.77,0.4411,5.08,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Caucho y plásticos,442,145.7,77.5,64.0,0.67,0.91,0.63,0.52601,-0.12,3,0.9654,Normal
+Servientrega,Contenido,Caucho y plásticos,181,58.5,73.0,56.5,-0.37,-0.91,-0.4,0.68808,-4.62,5,0.9654,Normal
+4-72,Contenido,Electrodomésticos,71,25.6,72.6,54.5,2.03,4.42,1.27,0.20381,-5.63,6,0.9654,Normal
+Coordinadora,Contenido,Electrodomésticos,454,163.3,86.8,79.1,0.83,1.18,0.85,0.39532,8.57,1,0.9654,Normal
+Envía,Contenido,Electrodomésticos,185,60.9,74.1,56.2,-0.85,-2.0,-0.92,0.35789,-4.13,4,0.9654,Normal
+Grupo TCC,Contenido,Electrodomésticos,159,48.3,83.5,73.6,-0.99,-1.77,-0.73,0.46604,5.27,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Electrodomésticos,580,198.6,78.6,66.6,0.97,1.22,0.99,0.32438,0.37,3,0.9654,Normal
+Servientrega,Contenido,Electrodomésticos,253,86.1,73.8,58.0,-0.35,-0.75,-0.41,0.68243,-4.43,5,0.9654,Normal
+4-72,Contenido,Frutas y verduras,0,0.0,70.4,51.7,0.0,,,,-7.37,6,,Sin historial
+Coordinadora,Contenido,Frutas y verduras,541,183.5,85.6,77.6,-0.29,-0.23,-0.18,0.85619,7.83,1,0.9654,Normal
+Envía,Contenido,Frutas y verduras,0,0.0,74.8,58.9,0.0,,,,-2.97,4,,Sin historial
+Grupo TCC,Contenido,Frutas y verduras,201,72.2,85.1,77.3,0.67,1.35,0.65,0.51618,7.33,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Frutas y verduras,664,238.5,77.1,64.5,-0.38,-0.37,-0.32,0.74857,-0.67,3,0.9654,Normal
+Servientrega,Contenido,Frutas y verduras,289,95.9,73.6,58.8,-0.37,-0.68,-0.39,0.69993,-4.17,5,0.9654,Normal
+4-72,Contenido,Hi-tech,60,19.2,69.3,47.6,-0.25,-2.82,-0.77,0.43999,-7.9,6,0.9654,Normal
+Coordinadora,Contenido,Hi-tech,410,137.8,85.9,77.4,0.91,1.35,0.9,0.36707,8.7,1,0.9654,Normal
+Envía,Contenido,Hi-tech,156,48.7,75.0,58.0,1.03,1.59,0.65,0.51584,-2.2,4,0.9654,Normal
+Grupo TCC,Contenido,Hi-tech,147,49.1,83.7,76.0,0.18,0.6,0.25,0.80578,6.5,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Hi-tech,535,180.5,76.3,61.7,-0.35,-0.44,-0.34,0.73757,-0.9,3,0.9654,Normal
+Servientrega,Contenido,Hi-tech,229,77.9,73.0,58.2,-0.16,-0.46,-0.23,0.81622,-4.2,5,0.9654,Normal
+4-72,Contenido,Industria,71,24.1,68.8,46.7,-1.21,-5.36,-1.52,0.12878,-8.5,6,0.9654,Normal
+Coordinadora,Contenido,Industria,528,177.9,85.7,77.1,0.22,0.38,0.29,0.77394,8.4,1,0.9654,Normal
+Envía,Contenido,Industria,224,75.5,73.8,55.3,-0.68,-1.54,-0.77,0.43933,-3.5,5,0.9654,Normal
+Grupo TCC,Contenido,Industria,164,57.7,85.0,76.6,0.93,1.96,0.82,0.41114,7.7,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Industria,637,194.8,76.6,62.1,-0.48,-0.59,-0.49,0.62522,-0.7,3,0.9654,Normal
+Servientrega,Contenido,Industria,310,102.7,73.9,57.9,0.22,0.14,0.08,0.93386,-3.4,4,0.9739,Normal
+4-72,Contenido,Madera,0,0.0,64.8,39.8,0.0,,,,-7.38,6,,Sin historial
+Coordinadora,Contenido,Madera,201,65.6,81.9,69.5,1.57,2.97,1.39,0.16458,9.72,1,0.9654,Normal
+Envía,Contenido,Madera,0,0.0,69.3,47.1,0.0,,,,-2.88,4,,Sin historial
+Grupo TCC,Contenido,Madera,81,31.4,79.3,65.1,0.47,1.55,0.47,0.63843,7.12,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Madera,274,96.7,70.0,50.1,-1.93,-2.8,-1.54,0.12436,-2.18,3,0.9654,Normal
+Servientrega,Contenido,Madera,102,27.2,67.8,47.6,-0.61,-1.99,-0.65,0.51655,-4.38,5,0.9654,Normal
+4-72,Contenido,Maderas,32,10.8,71.0,51.8,1.06,2.99,0.56,0.57482,-6.38,6,0.9654,Normal
+Coordinadora,Contenido,Maderas,200,66.6,86.6,78.8,1.18,2.21,1.06,0.28926,9.22,1,0.9654,Normal
+Envía,Contenido,Maderas,95,32.0,74.9,57.5,0.52,0.7,0.23,0.82022,-2.48,4,0.9654,Normal
+Grupo TCC,Contenido,Maderas,95,30.1,82.7,72.6,-1.26,-3.04,-0.97,0.33173,5.32,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Maderas,316,112.5,75.9,60.8,-1.07,-1.53,-0.92,0.35614,-1.48,3,0.9654,Normal
+Servientrega,Contenido,Maderas,125,38.3,73.2,58.3,-0.3,-0.96,-0.35,0.72461,-4.18,5,0.9654,Normal
+4-72,Contenido,Manufactura,78,23.7,71.2,52.3,0.59,0.17,0.05,0.96148,-7.05,6,0.9739,Normal
+Coordinadora,Contenido,Manufactura,538,177.9,85.2,75.1,-0.86,-1.0,-0.77,0.44117,6.95,1,0.9654,Normal
+Envía,Contenido,Manufactura,233,81.7,75.8,60.0,0.81,0.91,0.46,0.64709,-2.45,4,0.9654,Normal
+Grupo TCC,Contenido,Manufactura,219,67.5,84.8,75.7,0.19,0.53,0.26,0.79366,6.55,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Manufactura,708,244.5,79.1,66.3,1.43,1.73,1.53,0.12489,0.85,3,0.9654,Normal
+Servientrega,Contenido,Manufactura,295,90.8,73.4,56.7,-0.84,-1.49,-0.84,0.39954,-4.85,5,0.9654,Normal
+4-72,Contenido,Maquinaria y equipo,0,0.0,64.1,39.0,0.0,,,,-7.32,6,,Sin historial
+Coordinadora,Contenido,Maquinaria y equipo,312,105.4,79.2,65.4,-0.34,-0.32,-0.19,0.85053,7.78,1,0.9654,Normal
+Envía,Contenido,Maquinaria y equipo,0,0.0,68.5,46.3,0.0,,,,-2.92,4,,Sin historial
+Grupo TCC,Contenido,Maquinaria y equipo,123,42.7,77.7,61.8,-0.44,-0.67,-0.25,0.80542,6.28,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Maquinaria y equipo,448,151.3,70.5,51.7,-0.63,-0.72,-0.51,0.61033,-0.92,3,0.9654,Normal
+Servientrega,Contenido,Maquinaria y equipo,159,53.2,68.5,48.2,0.82,1.41,0.58,0.56328,-2.92,4,0.9654,Normal
+4-72,Contenido,Mariscos,0,0.0,72.6,56.6,0.0,,,,-7.23,6,,Sin historial
+Coordinadora,Contenido,Mariscos,135,43.9,87.8,83.1,-0.25,-0.33,-0.13,0.89658,7.97,1,0.9739,Normal
+Envía,Contenido,Mariscos,0,0.0,77.0,63.9,0.0,,,,-2.83,4,,Sin historial
+Grupo TCC,Contenido,Mariscos,58,18.5,86.4,80.9,-0.22,-0.32,-0.08,0.93557,6.57,2,0.9739,Normal
+Inter Rapidísimo,Contenido,Mariscos,198,68.9,78.9,68.5,-0.8,-1.28,-0.59,0.55208,-0.93,3,0.9654,Normal
+Servientrega,Contenido,Mariscos,81,25.5,76.3,64.9,0.14,0.15,0.04,0.9654,-3.53,5,0.9739,Normal
+4-72,Contenido,Medicinas,0,0.0,70.9,52.2,0.0,,,,-7.03,6,,Sin historial
+Coordinadora,Contenido,Medicinas,243,74.1,86.7,78.9,0.34,0.74,0.38,0.70199,8.77,1,0.9654,Normal
+Envía,Contenido,Medicinas,0,0.0,75.3,59.4,0.0,,,,-2.63,4,,Sin historial
+Grupo TCC,Contenido,Medicinas,72,20.7,85.4,78.2,0.46,2.02,0.51,0.60859,7.47,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Medicinas,262,92.2,76.2,62.8,-1.72,-2.55,-1.41,0.15979,-1.73,3,0.9654,Normal
+Servientrega,Contenido,Medicinas,122,38.6,73.1,58.7,-1.43,-3.48,-1.32,0.18734,-4.83,5,0.9654,Normal
+4-72,Contenido,Minerales,24,6.4,70.5,51.4,0.57,0.36,0.05,0.95627,-6.9,6,0.9739,Normal
+Coordinadora,Contenido,Minerales,205,68.0,84.7,75.5,-0.67,-1.03,-0.48,0.62815,7.3,2,0.9654,Normal
+Envía,Contenido,Minerales,84,25.3,73.3,55.3,-1.02,-3.79,-1.13,0.25997,-4.1,5,0.9654,Normal
+Grupo TCC,Contenido,Minerales,69,21.3,84.8,76.2,0.88,3.36,0.9,0.36889,7.4,1,0.9654,Normal
+Inter Rapidísimo,Contenido,Minerales,291,88.1,75.8,60.8,-1.14,-1.78,-1.0,0.31661,-1.6,3,0.9654,Normal
+Servientrega,Contenido,Minerales,135,40.2,75.3,60.8,1.83,3.86,1.47,0.14153,-2.1,4,0.9654,Normal
+4-72,Contenido,Placas,0,0.0,64.1,39.7,0.0,,,,-6.98,6,,Sin historial
+Coordinadora,Contenido,Placas,153,53.3,78.7,65.3,-0.91,-1.55,-0.65,0.51768,7.62,1,0.9654,Normal
+Envía,Contenido,Placas,0,0.0,68.6,47.0,0.0,,,,-2.48,4,,Sin historial
+Grupo TCC,Contenido,Placas,56,17.2,77.2,63.9,-0.92,-3.1,-0.74,0.46125,6.12,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Placas,187,65.9,70.1,50.7,-1.13,-1.85,-0.84,0.40049,-0.98,3,0.9654,Normal
+Servientrega,Contenido,Placas,113,28.9,67.8,48.3,0.03,-0.19,-0.06,0.94966,-3.28,5,0.9739,Normal
+4-72,Contenido,Químicos,41,13.6,67.7,46.5,-1.7,-10.47,-2.19,0.02869,-8.65,6,0.9654,Normal
+Coordinadora,Contenido,Químicos,276,90.9,84.6,75.5,-0.24,-0.26,-0.14,0.88682,8.25,1,0.9739,Normal
+Envía,Contenido,Químicos,100,34.8,74.4,57.6,0.5,0.62,0.21,0.83549,-1.95,4,0.9654,Normal
+Grupo TCC,Contenido,Químicos,97,32.6,84.0,75.7,0.54,1.69,0.55,0.58243,7.65,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Químicos,367,132.8,75.6,60.7,-0.92,-1.26,-0.81,0.42062,-0.75,3,0.9654,Normal
+Servientrega,Contenido,Químicos,148,45.0,71.8,55.3,-1.25,-2.89,-1.15,0.2497,-4.55,5,0.9654,Normal
+4-72,Contenido,Retail,176,62.6,69.7,48.1,0.16,-0.67,-0.29,0.76913,-7.33,6,0.9654,Normal
+Coordinadora,Contenido,Retail,1073,351.6,85.6,76.6,0.64,0.82,0.89,0.37422,8.57,1,0.9654,Normal
+Envía,Contenido,Retail,471,157.3,72.5,53.3,-1.37,-2.14,-1.54,0.12254,-4.53,5,0.9654,Normal
+Grupo TCC,Contenido,Retail,435,145.5,83.1,72.0,-0.42,-0.4,-0.28,0.77679,6.07,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Retail,1500,500.9,77.2,63.3,0.59,0.66,0.85,0.39544,0.17,3,0.9654,Normal
+Servientrega,Contenido,Retail,653,207.4,74.1,58.4,0.98,1.06,0.89,0.37164,-2.93,4,0.9654,Normal
+4-72,Contenido,Vidrio,0,0.0,63.2,38.2,0.0,,,,-7.47,6,,Sin historial
+Coordinadora,Contenido,Vidrio,121,39.2,77.5,62.4,-1.15,-2.36,-0.87,0.38567,6.83,1,0.9654,Normal
+Envía,Contenido,Vidrio,0,0.0,67.6,45.5,0.0,,,,-3.07,5,,Sin historial
+Grupo TCC,Contenido,Vidrio,44,10.8,75.9,60.6,-1.36,-6.93,-1.42,0.15621,5.23,2,0.9654,Normal
+Inter Rapidísimo,Contenido,Vidrio,204,70.5,72.0,55.0,1.7,3.03,1.45,0.1463,1.33,3,0.9654,Normal
+Servientrega,Contenido,Vidrio,87,25.2,67.8,48.0,0.96,2.59,0.8,0.42443,-2.87,4,0.9654,Normal
+4-72,Velocidad,exp,52,18.9,68.2,45.6,2.63,5.4,1.3,0.19314,-4.75,5,0.8884,Normal
+Coordinadora,Velocidad,exp,760,241.1,81.5,69.8,0.42,0.63,0.57,0.56559,8.55,1,0.8969,Normal
+Envía,Velocidad,exp,136,49.5,67.6,44.5,-2.45,-5.34,-2.13,0.03349,-5.35,6,0.2567,Normal
+Grupo TCC,Velocidad,exp,266,82.6,78.9,64.4,-0.77,-0.89,-0.47,0.6392,5.95,2,0.8969,Normal
+Inter Rapidísimo,Velocidad,exp,849,293.3,72.9,55.3,0.26,0.28,0.27,0.78805,-0.05,3,0.9063,Normal
+Servientrega,Velocidad,exp,392,124.2,68.6,49.2,-0.65,-1.05,-0.69,0.48715,-4.35,4,0.8969,Normal
+4-72,Velocidad,prio,95,30.0,66.3,42.7,-2.07,-8.58,-2.86,0.00426,-9.48,6,0.0981,Debilidad
+Coordinadora,Velocidad,prio,1540,513.2,83.3,72.9,-0.51,-0.45,-0.59,0.55186,7.52,1,0.8969,Normal
+Envía,Velocidad,prio,314,99.9,75.5,59.0,2.65,3.67,2.15,0.03124,-0.28,4,0.2567,Normal
+Grupo TCC,Velocidad,prio,562,185.9,82.5,72.4,0.1,0.4,0.32,0.751,6.72,2,0.9063,Normal
+Inter Rapidísimo,Velocidad,prio,1984,679.9,75.7,61.4,0.27,0.27,0.4,0.68869,-0.08,3,0.8969,Normal
+Servientrega,Velocidad,prio,880,281.6,71.4,54.2,-0.63,-0.87,-0.85,0.39283,-4.38,5,0.8969,Normal
+4-72,Velocidad,same,1,0.2,66.6,43.7,1.05,-23.52,-0.98,0.32515,-6.42,6,,Pocos datos
+Coordinadora,Velocidad,same,43,14.6,81.3,69.7,0.31,1.78,0.38,0.7019,8.28,1,0.8969,Normal
+Envía,Velocidad,same,14,4.4,69.3,47.3,-0.66,-10.73,-1.32,0.18605,-3.72,4,0.8884,Normal
+Grupo TCC,Velocidad,same,11,3.9,79.4,66.2,-0.12,1.3,0.15,0.88413,6.38,2,0.9243,Normal
+Inter Rapidísimo,Velocidad,same,45,16.3,72.7,55.3,0.09,0.3,0.07,0.94772,-0.32,3,0.9477,Normal
+Servientrega,Velocidad,same,20,5.5,68.8,50.1,-0.3,-4.16,-0.57,0.56939,-4.22,5,0.8969,Normal
+4-72,Velocidad,std,653,222.3,69.7,49.4,0.06,-1.33,-1.13,0.25871,-7.35,6,0.8969,Normal
+Coordinadora,Velocidad,std,6584,2205.1,85.1,76.1,0.07,0.17,0.45,0.65146,8.05,1,0.8969,Normal
+Envía,Velocidad,std,1849,626.6,73.8,56.1,-0.22,-0.47,-0.66,0.50626,-3.25,4,0.8969,Normal
+Grupo TCC,Velocidad,std,2514,823.7,83.7,74.1,0.06,0.29,0.48,0.63394,6.65,2,0.8969,Normal
+Inter Rapidísimo,Velocidad,std,7955,2673.7,76.6,62.6,-0.1,-0.14,-0.41,0.67827,-0.45,3,0.8969,Normal
+Servientrega,Velocidad,std,3867,1215.6,73.4,57.6,0.21,0.1,0.21,0.83756,-3.65,5,0.9173,Normal
+4-72,Ruta,Barranquilla → Barranquilla,10,4.8,73.1,56.1,0.66,6.75,0.74,0.45913,-7.23,6,0.9289,Normal
+Coordinadora,Ruta,Barranquilla → Barranquilla,47,16.6,88.0,81.4,0.11,0.99,0.23,0.81721,7.67,1,0.9832,Normal
+Envía,Ruta,Barranquilla → Barranquilla,10,3.7,76.6,61.3,-0.3,-4.12,-0.46,0.64255,-3.73,4,0.9431,Normal
+Grupo TCC,Ruta,Barranquilla → Barranquilla,39,15.8,87.5,81.2,1.04,4.73,1.0,0.31558,7.17,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Barranquilla → Barranquilla,64,21.3,80.5,70.1,0.93,2.77,0.75,0.45065,0.17,3,0.9289,Normal
+Servientrega,Ruta,Barranquilla → Barranquilla,35,12.6,76.3,62.8,0.24,0.12,0.02,0.98124,-4.03,5,0.9901,Normal
+4-72,Ruta,Barranquilla → Bogotá,21,8.6,69.9,48.7,-0.09,-1.07,-0.16,0.87001,-7.47,6,0.9832,Normal
+Coordinadora,Ruta,Barranquilla → Bogotá,255,89.7,86.1,77.6,0.59,1.12,0.59,0.55479,8.73,1,0.9412,Normal
+Envía,Ruta,Barranquilla → Bogotá,64,23.0,75.0,57.6,0.59,1.92,0.52,0.60554,-2.37,4,0.9427,Normal
+Grupo TCC,Ruta,Barranquilla → Bogotá,98,31.1,84.2,75.0,0.16,0.65,0.21,0.83569,6.83,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Barranquilla → Bogotá,260,94.6,77.4,63.7,0.35,0.37,0.21,0.83683,0.03,3,0.9832,Normal
+Servientrega,Ruta,Barranquilla → Bogotá,117,33.9,71.6,53.7,-2.01,-5.52,-1.98,0.04759,-5.77,5,0.7223,Normal
+4-72,Ruta,Barranquilla → Bucaramanga,4,2.4,70.5,51.2,-0.16,-4.96,-0.39,0.69493,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Bucaramanga,28,7.6,84.0,74.2,-2.15,-15.24,-2.68,0.00745,6.0,2,0.5916,Normal
+Envía,Ruta,Barranquilla → Bucaramanga,8,3.5,76.3,60.4,1.14,17.66,1.65,0.09884,-1.7,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Bucaramanga,16,5.5,85.1,77.4,0.38,4.8,0.61,0.54225,7.1,1,0.9412,Normal
+Inter Rapidísimo,Ruta,Barranquilla → Bucaramanga,45,16.2,78.7,66.2,0.92,3.33,0.73,0.46736,0.7,3,0.9289,Normal
+Servientrega,Ruta,Barranquilla → Bucaramanga,21,5.5,73.4,56.9,-0.94,-11.68,-1.78,0.07444,-4.6,5,0.8112,Normal
+4-72,Ruta,Barranquilla → Cali,10,2.4,69.3,47.7,0.2,2.85,0.26,0.79105,-7.43,6,0.9832,Normal
+Coordinadora,Ruta,Barranquilla → Cali,76,24.7,85.6,76.8,1.13,3.8,1.06,0.29032,8.87,1,0.9286,Normal
+Envía,Ruta,Barranquilla → Cali,23,6.3,73.7,55.2,0.2,1.89,0.27,0.7853,-3.03,4,0.9832,Normal
+Grupo TCC,Ruta,Barranquilla → Cali,44,13.7,82.2,71.5,-0.84,-3.47,-0.8,0.42278,5.47,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Barranquilla → Cali,100,31.7,76.6,61.9,0.47,0.93,0.32,0.75141,-0.13,3,0.9832,Normal
+Servientrega,Ruta,Barranquilla → Cali,45,12.7,73.0,56.1,0.32,0.48,0.11,0.91621,-3.73,5,0.9832,Normal
+4-72,Ruta,Barranquilla → Cartagena,5,1.4,69.6,49.0,0.13,2.05,0.15,0.87778,-7.38,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Cartagena,25,10.1,85.5,76.7,0.53,3.93,0.68,0.4975,8.52,1,0.9289,Normal
+Envía,Ruta,Barranquilla → Cartagena,7,1.5,74.2,56.8,0.26,9.22,0.78,0.43763,-2.78,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Cartagena,9,3.1,83.5,73.6,-0.07,0.3,0.03,0.97401,6.52,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Cartagena,36,11.9,75.6,60.8,-1.02,-5.88,-1.12,0.26191,-1.38,3,0.9286,Normal
+Servientrega,Ruta,Barranquilla → Cartagena,13,7.3,73.5,57.1,0.41,1.49,0.2,0.84467,-3.48,5,0.9832,Normal
+4-72,Ruta,Barranquilla → Cúcuta,4,1.8,68.7,47.2,-0.42,-14.49,-1.08,0.27918,-7.95,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Cúcuta,26,8.4,84.2,73.8,-0.44,-2.17,-0.33,0.74237,7.55,1,0.9832,Normal
+Envía,Ruta,Barranquilla → Cúcuta,5,2.9,74.5,57.2,0.97,17.9,1.56,0.11903,-2.15,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Cúcuta,8,1.9,83.0,72.7,-0.14,-1.28,-0.11,0.90932,6.35,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Cúcuta,27,9.4,76.2,61.3,-0.05,-0.98,-0.17,0.8672,-0.45,3,0.9832,Normal
+Servientrega,Ruta,Barranquilla → Cúcuta,10,2.5,73.3,57.1,0.51,6.01,0.6,0.54574,-3.35,5,0.9412,Normal
+4-72,Ruta,Barranquilla → Ibagué,2,1.0,72.0,52.2,0.58,26.19,1.48,0.13772,-6.87,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Ibagué,18,7.4,86.8,78.1,-0.02,0.86,0.12,0.90164,7.93,1,0.9832,Normal
+Envía,Ruta,Barranquilla → Ibagué,6,1.0,75.8,58.5,0.04,2.54,0.24,0.80983,-3.07,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Ibagué,4,1.1,84.8,75.0,-0.55,-20.93,-1.57,0.11546,5.93,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Ibagué,16,4.6,79.4,66.6,0.96,10.04,1.32,0.18572,0.53,3,0.9286,Normal
+Servientrega,Ruta,Barranquilla → Ibagué,6,1.8,74.4,58.1,-0.56,-22.36,-2.03,0.0424,-4.47,5,,Pocos datos
+4-72,Ruta,Barranquilla → Manizales,1,0.1,69.5,48.7,0.04,-16.46,-0.69,0.49325,-7.23,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Manizales,14,2.8,85.1,75.6,0.23,6.92,0.92,0.35809,8.37,1,0.9286,Normal
+Envía,Ruta,Barranquilla → Manizales,4,1.1,73.8,55.9,-0.01,0.09,0.01,0.99447,-2.93,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Manizales,9,2.3,83.3,73.1,-0.11,-0.39,-0.04,0.96934,6.57,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Manizales,26,9.3,76.3,61.8,-0.2,-1.92,-0.32,0.74885,-0.43,3,0.9832,Normal
+Servientrega,Ruta,Barranquilla → Manizales,8,3.3,72.4,56.1,-0.61,-13.37,-1.38,0.16793,-4.33,5,,Pocos datos
+4-72,Ruta,Barranquilla → Medellín,8,2.5,69.3,48.2,0.22,3.12,0.3,0.76651,-7.17,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Medellín,123,39.9,85.5,76.1,0.98,2.51,0.94,0.34849,9.03,1,0.9286,Normal
+Envía,Ruta,Barranquilla → Medellín,37,14.6,72.4,52.6,-1.15,-5.05,-1.06,0.29079,-4.07,4,0.9286,Normal
+Grupo TCC,Ruta,Barranquilla → Medellín,49,19.8,84.2,74.3,1.11,4.25,0.99,0.32237,7.73,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Barranquilla → Medellín,130,44.5,76.2,62.2,0.05,-0.12,-0.05,0.96233,-0.27,3,0.9866,Normal
+Servientrega,Ruta,Barranquilla → Medellín,60,20.5,71.2,52.6,-1.52,-5.97,-1.5,0.13345,-5.27,5,0.8771,Normal
+4-72,Ruta,Barranquilla → Neiva,1,0.2,69.8,49.5,0.17,27.75,1.16,0.24798,-7.2,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Neiva,16,5.8,84.2,74.4,-0.78,-6.22,-0.88,0.38146,7.2,1,0.9289,Normal
+Envía,Ruta,Barranquilla → Neiva,5,0.8,74.3,56.9,0.26,18.16,1.51,0.13081,-2.7,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Neiva,8,2.4,83.4,74.4,-0.15,-1.19,-0.1,0.91872,6.4,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Neiva,19,5.2,78.2,65.7,1.5,14.85,1.98,0.04796,1.2,3,0.7223,Normal
+Servientrega,Ruta,Barranquilla → Neiva,10,4.8,72.1,55.0,-1.08,-14.82,-1.64,0.10012,-4.9,5,0.8713,Normal
+4-72,Ruta,Barranquilla → Pasto,1,0.1,59.9,31.0,0.03,-28.65,-1.19,0.23313,-7.12,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Pasto,18,7.9,75.9,58.7,0.61,5.44,0.77,0.44079,8.88,1,0.9289,Normal
+Envía,Ruta,Barranquilla → Pasto,5,2.3,64.3,38.6,0.08,2.05,0.16,0.87442,-2.72,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Pasto,0,0.0,73.9,55.7,0.0,,,,6.88,2,,Sin historial
+Inter Rapidísimo,Ruta,Barranquilla → Pasto,20,6.0,65.0,40.9,-1.88,-18.6,-2.65,0.00799,-2.02,3,0.5916,Normal
+Servientrega,Ruta,Barranquilla → Pasto,12,4.6,63.1,38.4,-0.36,-6.82,-0.85,0.39793,-3.92,5,0.9289,Normal
+4-72,Ruta,Barranquilla → Pereira,2,0.5,69.6,48.3,-0.23,-32.94,-1.88,0.06021,-7.58,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Pereira,27,8.9,84.3,73.2,-0.94,-5.34,-0.93,0.35168,7.12,1,0.9286,Normal
+Envía,Ruta,Barranquilla → Pereira,2,0.1,74.3,56.0,0.07,27.44,1.61,0.10694,-2.88,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Pereira,9,2.4,84.2,74.2,0.35,9.53,0.83,0.40792,7.02,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Pereira,28,10.8,78.1,64.2,1.19,6.13,1.1,0.27205,0.92,3,0.9286,Normal
+Servientrega,Ruta,Barranquilla → Pereira,13,3.9,72.6,54.9,-0.86,-14.91,-1.7,0.08985,-4.58,5,0.8588,Normal
+4-72,Ruta,Barranquilla → Quibdó,2,0.3,56.8,26.9,-0.0,-14.83,-0.8,0.42137,-7.63,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Quibdó,0,0.0,72.2,53.7,0.0,,,,7.77,1,,Sin historial
+Envía,Ruta,Barranquilla → Quibdó,0,0.0,61.2,34.1,0.0,,,,-3.23,4,,Sin historial
+Grupo TCC,Ruta,Barranquilla → Quibdó,0,0.0,70.8,51.7,0.0,,,,6.37,2,,Sin historial
+Inter Rapidísimo,Ruta,Barranquilla → Quibdó,26,8.4,64.9,43.4,1.09,6.88,1.17,0.24097,0.47,3,0.9286,Normal
+Servientrega,Ruta,Barranquilla → Quibdó,19,6.3,60.7,34.9,0.33,1.01,0.15,0.87991,-3.73,5,0.9832,Normal
+4-72,Ruta,Barranquilla → Santa Marta,3,0.5,70.0,50.1,-0.15,-21.22,-1.28,0.20031,-7.3,6,,Pocos datos
+Coordinadora,Ruta,Barranquilla → Santa Marta,12,5.1,86.4,78.8,0.75,9.61,1.1,0.26939,9.1,1,0.9286,Normal
+Envía,Ruta,Barranquilla → Santa Marta,7,2.7,73.3,54.9,-1.28,-24.35,-2.2,0.02794,-4.0,5,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Santa Marta,4,1.4,84.0,74.8,-0.16,-2.46,-0.19,0.84576,6.7,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Santa Marta,15,4.8,76.5,62.5,-0.72,-9.44,-1.18,0.23743,-0.8,3,0.9286,Normal
+Servientrega,Ruta,Barranquilla → Santa Marta,2,0.5,73.6,58.2,-0.12,-31.52,-1.67,0.09497,-3.7,4,,Pocos datos
+4-72,Ruta,Barranquilla → Villavicencio,0,0.0,69.2,47.3,0.0,,,,-7.63,6,,Sin historial
+Coordinadora,Ruta,Barranquilla → Villavicencio,14,5.3,85.2,75.2,0.55,7.07,0.88,0.37999,8.37,1,0.9289,Normal
+Envía,Ruta,Barranquilla → Villavicencio,2,1.1,74.1,55.5,0.42,19.49,1.1,0.27089,-2.73,4,,Pocos datos
+Grupo TCC,Ruta,Barranquilla → Villavicencio,9,4.6,83.3,72.4,0.01,1.23,0.13,0.89397,6.47,2,,Pocos datos
+Inter Rapidísimo,Ruta,Barranquilla → Villavicencio,16,7.0,76.6,61.0,0.27,1.29,0.18,0.86105,-0.23,3,0.9832,Normal
+Servientrega,Ruta,Barranquilla → Villavicencio,11,4.9,72.6,55.2,-0.18,-4.51,-0.5,0.61569,-4.23,5,0.9427,Normal
+4-72,Ruta,Bogotá → Barranquilla,21,5.9,69.1,48.4,-0.56,-5.94,-0.89,0.3726,-8.45,6,0.9286,Normal
+Coordinadora,Ruta,Bogotá → Barranquilla,243,77.3,84.9,74.7,-0.18,-0.09,-0.04,0.96475,7.35,1,0.9866,Normal
+Envía,Ruta,Bogotá → Barranquilla,76,25.8,75.2,58.8,1.15,3.4,1.01,0.31288,-2.35,4,0.9286,Normal
+Grupo TCC,Ruta,Bogotá → Barranquilla,96,35.9,84.3,75.1,0.63,1.73,0.55,0.57941,6.75,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Bogotá → Barranquilla,312,99.1,78.0,65.6,1.24,1.71,1.0,0.31609,0.45,3,0.9286,Normal
+Servientrega,Ruta,Bogotá → Barranquilla,127,37.4,73.8,59.2,0.58,0.84,0.31,0.75805,-3.75,5,0.9832,Normal
+4-72,Ruta,Bogotá → Bogotá,93,30.1,74.1,57.3,0.93,2.28,0.72,0.46992,-6.1,6,0.9289,Normal
+Coordinadora,Ruta,Bogotá → Bogotá,1081,362.4,89.1,83.4,0.49,0.71,0.76,0.44694,8.9,1,0.9289,Normal
+Envía,Ruta,Bogotá → Bogotá,267,91.5,77.0,62.3,-0.57,-0.86,-0.47,0.6359,-3.2,4,0.9427,Normal
+Grupo TCC,Ruta,Bogotá → Bogotá,422,137.9,87.4,81.2,0.29,0.52,0.35,0.72266,7.2,2,0.9771,Normal
+Inter Rapidísimo,Ruta,Bogotá → Bogotá,1156,386.7,78.9,67.3,-1.28,-1.57,-1.76,0.07899,-1.3,3,0.8112,Normal
+Servientrega,Ruta,Bogotá → Bogotá,594,176.8,74.7,59.8,-2.04,-2.9,-2.29,0.02224,-5.5,5,0.6141,Normal
+4-72,Ruta,Bogotá → Bucaramanga,8,1.3,71.0,51.9,0.07,0.07,0.01,0.99464,-7.67,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Bucaramanga,141,47.7,85.9,77.5,-0.4,-0.56,-0.22,0.82753,7.23,1,0.9832,Normal
+Envía,Ruta,Bogotá → Bucaramanga,30,11.4,76.4,60.7,1.14,6.18,1.14,0.25394,-2.27,4,0.9286,Normal
+Grupo TCC,Ruta,Bogotá → Bucaramanga,55,19.7,85.5,78.4,0.58,2.37,0.61,0.54321,6.83,2,0.9412,Normal
+Inter Rapidísimo,Ruta,Bogotá → Bucaramanga,172,55.2,79.3,67.1,1.29,2.25,0.98,0.32794,0.63,3,0.9286,Normal
+Servientrega,Ruta,Bogotá → Bucaramanga,74,23.6,73.9,58.4,-0.62,-2.62,-0.73,0.4658,-4.77,5,0.9289,Normal
+4-72,Ruta,Bogotá → Cali,27,10.3,69.8,48.9,0.94,5.1,0.89,0.37226,-6.75,6,0.9286,Normal
+Coordinadora,Ruta,Bogotá → Cali,367,127.2,84.3,74.6,-0.02,0.16,0.1,0.91744,7.75,1,0.9832,Normal
+Envía,Ruta,Bogotá → Cali,99,31.5,73.5,55.3,0.22,0.61,0.2,0.8446,-3.05,4,0.9832,Normal
+Grupo TCC,Ruta,Bogotá → Cali,128,39.1,81.8,69.6,-1.04,-2.16,-0.82,0.41053,5.25,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Bogotá → Cali,419,138.9,76.5,62.9,0.53,0.58,0.39,0.69789,-0.05,3,0.9716,Normal
+Servientrega,Ruta,Bogotá → Cali,213,65.2,73.4,58.4,0.91,1.23,0.6,0.54884,-3.15,5,0.9412,Normal
+4-72,Ruta,Bogotá → Cartagena,9,3.0,69.7,49.4,0.7,11.21,1.1,0.27152,-6.8,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Cartagena,160,45.1,84.1,74.6,-0.38,-0.52,-0.21,0.83223,7.6,1,0.9832,Normal
+Envía,Ruta,Bogotá → Cartagena,26,9.4,74.2,57.1,0.72,4.63,0.76,0.44476,-2.3,4,0.9289,Normal
+Grupo TCC,Ruta,Bogotá → Cartagena,42,13.1,83.4,73.9,0.37,2.24,0.49,0.62643,6.9,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Bogotá → Cartagena,150,49.5,76.8,62.4,0.67,1.13,0.47,0.64122,0.3,3,0.9431,Normal
+Servientrega,Ruta,Bogotá → Cartagena,75,23.4,70.8,53.0,-1.81,-6.36,-1.82,0.06898,-5.7,5,0.8065,Normal
+4-72,Ruta,Bogotá → Cúcuta,7,4.2,67.8,45.5,-0.87,-12.22,-1.15,0.24843,-8.3,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Cúcuta,92,33.7,86.6,78.5,2.48,6.5,2.16,0.03109,10.5,1,0.6188,Normal
+Envía,Ruta,Bogotá → Cúcuta,25,7.3,72.3,53.4,-0.75,-5.81,-0.94,0.34483,-3.8,5,0.9286,Normal
+Grupo TCC,Ruta,Bogotá → Cúcuta,35,15.1,82.2,70.9,-0.53,-1.89,-0.4,0.69138,6.1,2,0.9691,Normal
+Inter Rapidísimo,Ruta,Bogotá → Cúcuta,106,36.8,75.1,60.2,-0.7,-1.9,-0.64,0.51992,-1.0,3,0.9387,Normal
+Servientrega,Ruta,Bogotá → Cúcuta,49,14.0,72.6,56.8,0.33,0.49,0.12,0.90645,-3.5,4,0.9832,Normal
+4-72,Ruta,Bogotá → Ibagué,7,2.6,70.6,50.5,-0.11,-3.6,-0.31,0.75354,-7.67,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Ibagué,60,21.0,87.0,79.2,0.88,3.42,0.89,0.37341,8.73,1,0.9286,Normal
+Envía,Ruta,Bogotá → Ibagué,16,5.4,73.5,54.4,-1.63,-16.51,-2.2,0.02804,-4.77,5,0.6188,Normal
+Grupo TCC,Ruta,Bogotá → Ibagué,13,3.7,83.2,72.9,-1.49,-20.42,-2.42,0.01547,4.93,2,0.5916,Normal
+Inter Rapidísimo,Ruta,Bogotá → Ibagué,72,26.3,80.1,67.7,2.35,6.52,1.89,0.05933,1.83,3,0.7759,Normal
+Servientrega,Ruta,Bogotá → Ibagué,40,13.1,75.2,60.2,0.93,3.44,0.67,0.49977,-3.07,4,0.9289,Normal
+4-72,Ruta,Bogotá → Manizales,2,0.2,68.5,47.5,0.2,27.95,1.64,0.10052,-6.9,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Manizales,56,18.7,82.9,73.4,-0.84,-2.58,-0.63,0.52883,7.5,1,0.9387,Normal
+Envía,Ruta,Bogotá → Manizales,21,6.6,71.7,52.7,-1.05,-8.87,-1.33,0.18269,-3.7,5,0.9286,Normal
+Grupo TCC,Ruta,Bogotá → Manizales,20,5.6,81.7,70.4,-0.62,-5.23,-0.69,0.48722,6.3,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Bogotá → Manizales,65,21.0,75.6,60.8,0.22,0.39,0.1,0.91993,0.2,3,0.9832,Normal
+Servientrega,Ruta,Bogotá → Manizales,35,10.6,72.0,55.4,0.13,-0.5,-0.1,0.91749,-3.4,4,0.9832,Normal
+4-72,Ruta,Bogotá → Medellín,51,15.3,68.6,47.4,-0.58,-2.78,-0.65,0.51796,-7.15,6,0.9387,Normal
+Coordinadora,Ruta,Bogotá → Medellín,514,179.8,84.8,75.3,0.19,0.41,0.31,0.75638,9.05,1,0.9832,Normal
+Envía,Ruta,Bogotá → Medellín,128,44.8,72.7,53.8,-0.94,-1.97,-0.76,0.45023,-3.05,4,0.9289,Normal
+Grupo TCC,Ruta,Bogotá → Medellín,206,61.9,81.5,69.6,-1.72,-2.93,-1.35,0.17647,5.75,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Bogotá → Medellín,578,188.4,74.8,59.3,-1.49,-2.01,-1.62,0.10519,-0.95,3,0.8713,Normal
+Servientrega,Ruta,Bogotá → Medellín,302,91.8,72.1,55.4,-0.69,-1.4,-0.81,0.41697,-3.65,5,0.9289,Normal
+4-72,Ruta,Bogotá → Neiva,4,1.2,69.0,49.0,0.05,-0.99,-0.07,0.94058,-7.85,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Neiva,59,19.1,82.9,71.6,-1.48,-4.85,-1.26,0.20817,6.05,2,0.9286,Normal
+Envía,Ruta,Bogotá → Neiva,14,4.4,74.4,58.3,1.0,12.52,1.57,0.11712,-2.45,5,0.8761,Normal
+Grupo TCC,Ruta,Bogotá → Neiva,28,10.8,83.2,73.7,0.2,1.64,0.3,0.76593,6.35,1,0.9832,Normal
+Inter Rapidísimo,Ruta,Bogotá → Neiva,64,19.3,76.9,63.2,0.85,2.67,0.7,0.48218,0.05,3,0.9289,Normal
+Servientrega,Ruta,Bogotá → Neiva,37,10.4,74.7,60.6,2.18,11.47,2.1,0.03613,-2.15,4,0.6556,Normal
+4-72,Ruta,Bogotá → Pasto,10,4.1,59.2,31.1,-1.22,-16.85,-1.71,0.08735,-8.3,6,0.8512,Normal
+Coordinadora,Ruta,Bogotá → Pasto,87,28.3,77.0,61.2,1.09,3.37,1.03,0.30208,9.5,1,0.9286,Normal
+Envía,Ruta,Bogotá → Pasto,24,7.7,65.2,40.4,0.29,2.27,0.35,0.72442,-2.3,4,0.9771,Normal
+Grupo TCC,Ruta,Bogotá → Pasto,0,0.0,74.5,57.6,0.0,,,,7.0,2,,Sin historial
+Inter Rapidísimo,Ruta,Bogotá → Pasto,70,26.9,65.7,43.9,-1.8,-5.46,-1.56,0.11986,-1.8,3,0.8761,Normal
+Servientrega,Ruta,Bogotá → Pasto,34,10.6,63.4,39.5,-0.67,-5.12,-1.01,0.3147,-4.1,5,0.9286,Normal
+4-72,Ruta,Bogotá → Pereira,6,1.9,70.7,51.1,0.6,14.63,1.15,0.25028,-7.53,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Pereira,107,35.3,87.0,79.0,1.44,3.8,1.34,0.18154,8.77,1,0.9286,Normal
+Envía,Ruta,Bogotá → Pereira,32,12.4,75.2,58.5,0.62,3.16,0.59,0.55383,-3.03,5,0.9412,Normal
+Grupo TCC,Ruta,Bogotá → Pereira,34,10.2,83.9,74.1,-0.24,-0.88,-0.18,0.85823,5.67,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Bogotá → Pereira,92,32.7,75.9,60.6,-1.27,-3.49,-1.13,0.25967,-2.33,4,0.9286,Normal
+Servientrega,Ruta,Bogotá → Pereira,51,19.5,76.7,63.2,3.02,9.97,2.38,0.01731,-1.53,3,0.6083,Normal
+4-72,Ruta,Bogotá → Quibdó,9,4.0,56.7,27.8,-0.4,-6.35,-0.7,0.48537,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Quibdó,0,0.0,72.6,55.0,0.0,,,,8.4,1,,Sin historial
+Envía,Ruta,Bogotá → Quibdó,0,0.0,61.6,35.4,0.0,,,,-2.6,4,,Sin historial
+Grupo TCC,Ruta,Bogotá → Quibdó,0,0.0,71.1,53.0,0.0,,,,6.9,2,,Sin historial
+Inter Rapidísimo,Ruta,Bogotá → Quibdó,126,37.2,63.4,39.7,-0.81,-2.16,-0.79,0.43063,-0.8,3,0.9289,Normal
+Servientrega,Ruta,Bogotá → Quibdó,56,21.1,59.8,34.6,-0.97,-4.02,-1.03,0.30518,-4.4,5,0.9286,Normal
+4-72,Ruta,Bogotá → Santa Marta,9,2.9,68.3,46.9,-0.37,-8.15,-0.88,0.38105,-7.88,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Santa Marta,64,16.8,84.9,76.1,0.7,3.31,0.85,0.39468,8.72,1,0.9289,Normal
+Envía,Ruta,Bogotá → Santa Marta,9,3.1,73.2,55.4,0.11,2.17,0.21,0.8298,-2.98,4,,Pocos datos
+Grupo TCC,Ruta,Bogotá → Santa Marta,27,8.1,82.7,72.6,-0.01,0.61,0.1,0.91648,6.52,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Bogotá → Santa Marta,83,29.1,75.1,60.1,-0.65,-2.07,-0.63,0.5283,-1.08,3,0.9387,Normal
+Servientrega,Ruta,Bogotá → Santa Marta,34,10.1,72.9,56.4,0.59,2.22,0.46,0.64328,-3.28,5,0.9431,Normal
+4-72,Ruta,Bogotá → Villavicencio,7,2.5,70.0,50.5,-0.12,-3.92,-0.36,0.71586,-7.58,6,,Pocos datos
+Coordinadora,Ruta,Bogotá → Villavicencio,75,24.1,84.7,74.5,-0.92,-2.41,-0.69,0.49122,7.12,1,0.9289,Normal
+Envía,Ruta,Bogotá → Villavicencio,12,4.8,74.1,55.8,-0.41,-4.53,-0.52,0.60103,-3.48,5,0.9427,Normal
+Grupo TCC,Ruta,Bogotá → Villavicencio,18,5.2,84.0,74.9,-0.17,-0.85,-0.12,0.90753,6.42,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Bogotá → Villavicencio,72,24.2,77.6,63.8,0.36,0.79,0.22,0.82756,0.02,3,0.9832,Normal
+Servientrega,Ruta,Bogotá → Villavicencio,40,13.2,75.1,59.8,1.32,5.27,1.11,0.26498,-2.48,4,0.9286,Normal
+4-72,Ruta,Bucaramanga → Barranquilla,7,2.9,69.9,49.6,0.5,7.76,0.7,0.48662,-6.93,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Barranquilla,39,11.3,83.3,72.6,-1.63,-8.12,-1.63,0.10241,6.47,2,0.8713,Normal
+Envía,Ruta,Bucaramanga → Barranquilla,13,3.5,73.4,55.3,-0.44,-6.55,-0.73,0.46719,-3.43,5,0.9289,Normal
+Grupo TCC,Ruta,Bucaramanga → Barranquilla,19,6.2,84.0,74.7,0.51,5.42,0.76,0.44663,7.17,1,0.9289,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Barranquilla,37,12.8,75.4,59.6,-1.07,-5.78,-1.15,0.25106,-1.43,3,0.9286,Normal
+Servientrega,Ruta,Bucaramanga → Barranquilla,17,5.7,75.0,60.0,1.92,16.67,2.29,0.02182,-1.83,4,0.6141,Normal
+4-72,Ruta,Bucaramanga → Bogotá,20,6.6,69.4,48.3,-0.2,-2.35,-0.35,0.72553,-7.48,6,0.9771,Normal
+Coordinadora,Ruta,Bucaramanga → Bogotá,151,54.7,83.3,73.3,-1.71,-3.02,-1.23,0.21901,6.42,1,0.9286,Normal
+Envía,Ruta,Bucaramanga → Bogotá,35,12.5,75.0,57.8,1.01,5.12,0.99,0.3231,-1.88,4,0.9286,Normal
+Grupo TCC,Ruta,Bucaramanga → Bogotá,55,16.5,82.5,71.4,-1.12,-4.14,-0.97,0.33198,5.62,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Bogotá,191,69.4,77.4,62.7,0.72,1.06,0.5,0.61819,0.52,3,0.9427,Normal
+Servientrega,Ruta,Bucaramanga → Bogotá,78,23.1,73.7,57.2,0.53,0.99,0.27,0.78458,-3.18,5,0.9832,Normal
+4-72,Ruta,Bucaramanga → Bucaramanga,1,0.4,73.3,55.9,-0.16,-31.17,-1.3,0.19446,-7.25,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Bucaramanga,18,5.2,88.8,83.2,-0.04,0.97,0.13,0.90036,8.25,1,0.9832,Normal
+Envía,Ruta,Bucaramanga → Bucaramanga,4,0.6,77.8,63.4,-0.02,-0.69,-0.05,0.96107,-2.75,4,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Bucaramanga,10,3.2,87.4,81.2,-0.05,0.71,0.07,0.94228,6.85,2,0.9839,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Bucaramanga,28,9.5,79.8,68.1,-0.71,-5.11,-0.9,0.36828,-0.75,3,0.9286,Normal
+Servientrega,Ruta,Bucaramanga → Bucaramanga,12,3.1,76.2,63.7,-0.79,-17.38,-2.09,0.03693,-4.35,5,0.6556,Normal
+4-72,Ruta,Bucaramanga → Cali,4,1.7,69.4,48.3,-0.11,-5.68,-0.39,0.69744,-7.18,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Cali,68,19.5,83.6,72.5,-1.32,-4.24,-1.15,0.24856,7.02,2,0.9286,Normal
+Envía,Ruta,Bucaramanga → Cali,11,5.0,73.7,55.4,-0.14,-1.44,-0.16,0.87089,-2.88,4,0.9832,Normal
+Grupo TCC,Ruta,Bucaramanga → Cali,26,9.0,84.0,73.7,0.51,3.96,0.66,0.50898,7.42,1,0.9369,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Cali,64,26.4,75.7,59.4,-0.88,-2.86,-0.79,0.42953,-0.88,3,0.9289,Normal
+Servientrega,Ruta,Bucaramanga → Cali,19,5.5,73.1,56.7,0.06,-1.59,-0.22,0.82802,-3.48,5,0.9832,Normal
+4-72,Ruta,Bucaramanga → Cartagena,1,0.1,68.8,47.9,0.14,24.56,1.02,0.30667,-7.27,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Cartagena,13,3.5,83.6,73.2,-0.57,-6.6,-0.83,0.40865,7.53,1,0.9289,Normal
+Envía,Ruta,Bucaramanga → Cartagena,5,2.1,72.4,54.5,-0.7,-16.74,-1.24,0.21574,-3.67,5,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Cartagena,13,3.5,82.8,73.2,0.13,3.43,0.42,0.67494,6.73,2,0.9653,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Cartagena,28,10.9,76.1,61.1,0.36,1.43,0.25,0.80348,0.03,3,0.9832,Normal
+Servientrega,Ruta,Bucaramanga → Cartagena,8,1.2,72.7,56.5,0.43,8.96,0.91,0.36436,-3.37,4,,Pocos datos
+4-72,Ruta,Bucaramanga → Cúcuta,1,0.5,69.4,48.9,-0.27,-33.41,-1.39,0.16435,-7.48,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Cúcuta,11,2.9,84.7,75.5,-0.45,-5.74,-0.64,0.52409,7.82,1,0.9387,Normal
+Envía,Ruta,Bucaramanga → Cúcuta,1,0.8,74.5,57.1,0.37,25.45,1.06,0.2894,-2.38,4,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Cúcuta,9,1.9,83.6,74.1,-0.1,-0.34,-0.04,0.97135,6.72,2,,Pocos datos
+Inter Rapidísimo,Ruta,Bucaramanga → Cúcuta,22,10.9,75.8,60.9,-1.02,-6.33,-1.05,0.29293,-1.08,3,0.9286,Normal
+Servientrega,Ruta,Bucaramanga → Cúcuta,10,4.2,73.3,57.5,0.03,-2.43,-0.26,0.79115,-3.58,5,0.9832,Normal
+4-72,Ruta,Bucaramanga → Ibagué,0,0.0,69.6,48.1,0.0,,,,-7.62,6,,Sin historial
+Coordinadora,Ruta,Bucaramanga → Ibagué,10,3.8,85.1,74.9,0.08,2.99,0.34,0.73337,7.88,1,0.9824,Normal
+Envía,Ruta,Bucaramanga → Ibagué,2,0.4,73.8,55.0,-0.18,-21.5,-1.05,0.29321,-3.42,5,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Ibagué,8,3.0,83.1,72.6,-0.48,-6.84,-0.66,0.50746,5.88,2,,Pocos datos
+Inter Rapidísimo,Ruta,Bucaramanga → Ibagué,9,3.3,77.7,63.5,1.0,14.61,1.48,0.13786,0.48,3,,Pocos datos
+Servientrega,Ruta,Bucaramanga → Ibagué,3,1.3,74.0,57.7,0.8,23.74,1.48,0.1389,-3.22,4,,Pocos datos
+4-72,Ruta,Bucaramanga → Manizales,1,0.1,67.2,44.5,0.02,-21.91,-0.91,0.36176,-7.47,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Manizales,10,3.6,82.2,70.7,-0.46,-4.77,-0.53,0.59497,7.53,1,0.9427,Normal
+Envía,Ruta,Bucaramanga → Manizales,0,0.0,71.6,51.7,0.0,,,,-3.07,4,,Sin historial
+Grupo TCC,Ruta,Bucaramanga → Manizales,4,1.6,81.6,70.1,0.38,15.74,1.13,0.25665,6.93,2,,Pocos datos
+Inter Rapidísimo,Ruta,Bucaramanga → Manizales,7,3.0,74.9,58.9,0.62,8.94,0.83,0.40731,0.23,3,,Pocos datos
+Servientrega,Ruta,Bucaramanga → Manizales,4,1.3,70.5,51.6,-0.29,-19.74,-1.45,0.14597,-4.17,5,,Pocos datos
+4-72,Ruta,Bucaramanga → Medellín,7,1.8,68.3,46.5,-0.88,-28.06,-2.74,0.0061,-8.4,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Medellín,88,27.0,85.3,76.2,0.64,2.21,0.69,0.49024,8.6,1,0.9289,Normal
+Envía,Ruta,Bucaramanga → Medellín,18,5.7,73.9,55.4,0.31,3.13,0.43,0.66987,-2.8,4,0.9653,Normal
+Grupo TCC,Ruta,Bucaramanga → Medellín,32,11.6,81.4,69.4,-1.82,-9.19,-1.74,0.08161,4.7,2,0.8112,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Medellín,80,29.3,78.0,65.3,1.72,4.36,1.29,0.19844,1.3,3,0.9286,Normal
+Servientrega,Ruta,Bucaramanga → Medellín,43,14.6,73.3,57.2,0.48,1.15,0.26,0.79174,-3.4,5,0.9832,Normal
+4-72,Ruta,Bucaramanga → Neiva,0,0.0,69.6,49.2,0.0,,,,-7.52,6,,Sin historial
+Coordinadora,Ruta,Bucaramanga → Neiva,11,3.5,84.8,75.1,-0.29,-2.42,-0.29,0.77077,7.68,1,0.9832,Normal
+Envía,Ruta,Bucaramanga → Neiva,2,0.2,74.0,56.4,0.01,6.87,0.39,0.69303,-3.12,4,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Neiva,4,2.0,83.6,74.1,-0.02,1.87,0.13,0.89461,6.48,2,,Pocos datos
+Inter Rapidísimo,Ruta,Bucaramanga → Neiva,9,2.7,77.0,63.2,0.34,4.38,0.4,0.68676,-0.12,3,,Pocos datos
+Servientrega,Ruta,Bucaramanga → Neiva,6,2.3,73.7,58.1,0.47,5.89,0.51,0.61031,-3.42,5,,Pocos datos
+4-72,Ruta,Bucaramanga → Pasto,1,0.4,61.6,34.3,0.34,33.58,1.4,0.16213,-7.37,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Pasto,6,2.0,76.5,60.0,-0.16,-0.71,-0.06,0.95291,7.53,1,,Pocos datos
+Envía,Ruta,Bucaramanga → Pasto,8,2.3,65.4,40.2,-0.27,-5.97,-0.59,0.55196,-3.57,4,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Pasto,0,0.0,75.3,58.4,0.0,,,,6.33,2,,Sin historial
+Inter Rapidísimo,Ruta,Bucaramanga → Pasto,17,5.5,69.9,49.8,1.56,14.69,2.0,0.04567,0.93,3,0.7223,Normal
+Servientrega,Ruta,Bucaramanga → Pasto,4,2.7,65.1,41.7,0.25,0.6,0.05,0.96132,-3.87,5,,Pocos datos
+4-72,Ruta,Bucaramanga → Pereira,0,0.0,69.3,47.8,0.0,,,,-7.57,6,,Sin historial
+Coordinadora,Ruta,Bucaramanga → Pereira,16,5.5,84.2,73.7,-0.53,-4.08,-0.53,0.59866,7.33,1,0.9427,Normal
+Envía,Ruta,Bucaramanga → Pereira,2,1.0,74.1,55.9,0.38,19.52,1.15,0.2505,-2.77,4,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Pereira,10,2.8,83.0,72.0,-0.3,-3.81,-0.36,0.71658,6.13,2,0.9771,Normal
+Inter Rapidísimo,Ruta,Bucaramanga → Pereira,16,4.9,76.6,61.9,0.23,1.36,0.17,0.86486,-0.27,3,0.9832,Normal
+Servientrega,Ruta,Bucaramanga → Pereira,10,2.6,74.0,57.7,1.02,16.33,1.56,0.11793,-2.87,5,0.8761,Normal
+4-72,Ruta,Bucaramanga → Quibdó,1,0.2,56.9,27.6,0.22,33.41,1.39,0.16438,-7.8,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Quibdó,0,0.0,72.1,54.0,0.0,,,,7.4,1,,Sin historial
+Envía,Ruta,Bucaramanga → Quibdó,0,0.0,61.1,34.4,0.0,,,,-3.6,5,,Sin historial
+Grupo TCC,Ruta,Bucaramanga → Quibdó,0,0.0,70.7,52.0,0.0,,,,6.0,2,,Sin historial
+Inter Rapidísimo,Ruta,Bucaramanga → Quibdó,19,5.2,64.9,42.2,1.18,11.34,1.65,0.09864,0.2,3,0.8713,Normal
+Servientrega,Ruta,Bucaramanga → Quibdó,17,4.8,62.5,39.2,2.22,22.86,2.73,0.00632,-2.2,4,0.5916,Normal
+4-72,Ruta,Bucaramanga → Santa Marta,0,0.0,68.3,47.0,0.0,,,,-7.23,6,,Sin historial
+Coordinadora,Ruta,Bucaramanga → Santa Marta,7,1.9,83.4,72.9,-0.38,-6.76,-0.53,0.59384,7.87,1,,Pocos datos
+Envía,Ruta,Bucaramanga → Santa Marta,2,1.1,72.1,53.1,-0.67,-31.02,-1.67,0.09415,-3.43,5,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Santa Marta,1,0.1,82.3,71.8,-0.07,12.09,0.5,0.6149,6.77,2,,Pocos datos
+Inter Rapidísimo,Ruta,Bucaramanga → Santa Marta,17,5.0,74.1,58.6,-1.34,-15.83,-2.1,0.03538,-1.43,3,0.6556,Normal
+Servientrega,Ruta,Bucaramanga → Santa Marta,4,1.9,73.0,57.0,1.04,22.05,1.71,0.08667,-2.53,4,,Pocos datos
+4-72,Ruta,Bucaramanga → Villavicencio,2,0.4,68.4,46.2,-0.0,-9.69,-0.55,0.58542,-7.23,6,,Pocos datos
+Coordinadora,Ruta,Bucaramanga → Villavicencio,11,4.0,82.5,70.6,-1.39,-16.9,-1.9,0.05764,6.87,1,0.7759,Normal
+Envía,Ruta,Bucaramanga → Villavicencio,3,1.6,72.0,51.7,-0.85,-26.92,-1.72,0.08629,-3.63,5,,Pocos datos
+Grupo TCC,Ruta,Bucaramanga → Villavicencio,2,0.7,82.0,70.3,-0.39,-20.42,-1.11,0.26692,6.37,2,,Pocos datos
+Inter Rapidísimo,Ruta,Bucaramanga → Villavicencio,18,5.8,76.7,62.1,1.25,10.97,1.53,0.12619,1.07,3,0.8771,Normal
+Servientrega,Ruta,Bucaramanga → Villavicencio,5,1.2,72.2,54.5,0.22,0.03,0.0,0.99773,-3.43,4,,Pocos datos
+4-72,Ruta,Cali → Barranquilla,6,3.0,69.9,49.3,0.24,3.04,0.28,0.78256,-7.12,6,,Pocos datos
+Coordinadora,Ruta,Cali → Barranquilla,94,27.8,85.0,75.2,-0.05,0.23,0.08,0.93976,7.98,1,0.9839,Normal
+Envía,Ruta,Cali → Barranquilla,25,6.8,72.6,53.2,-1.45,-12.03,-2.29,0.02202,-4.42,5,0.6141,Normal
+Grupo TCC,Ruta,Cali → Barranquilla,35,11.1,83.9,75.1,0.33,2.32,0.44,0.66141,6.88,2,0.9595,Normal
+Inter Rapidísimo,Ruta,Cali → Barranquilla,103,34.2,76.8,62.5,0.08,-0.07,-0.03,0.97984,-0.22,3,0.9901,Normal
+Servientrega,Ruta,Cali → Barranquilla,42,11.0,73.9,58.7,0.7,2.65,0.57,0.57155,-3.12,4,0.9427,Normal
+4-72,Ruta,Cali → Bogotá,35,13.1,67.7,46.0,-1.95,-9.75,-1.86,0.06306,-9.08,6,0.786,Normal
+Coordinadora,Ruta,Cali → Bogotá,388,124.8,85.4,76.9,0.4,0.75,0.49,0.62564,8.62,1,0.9427,Normal
+Envía,Ruta,Cali → Bogotá,98,33.5,73.9,56.5,-0.11,-0.23,-0.08,0.93939,-2.88,5,0.9839,Normal
+Grupo TCC,Ruta,Cali → Bogotá,149,45.7,84.1,74.8,0.51,1.26,0.51,0.6082,7.32,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Cali → Bogotá,444,134.4,75.4,60.1,-1.27,-1.89,-1.31,0.1903,-1.38,3,0.9286,Normal
+Servientrega,Ruta,Cali → Bogotá,185,53.0,74.2,59.5,0.98,1.48,0.67,0.50107,-2.58,4,0.9289,Normal
+4-72,Ruta,Cali → Bucaramanga,2,1.1,71.1,52.1,0.52,21.78,1.28,0.20062,-7.02,6,,Pocos datos
+Coordinadora,Ruta,Cali → Bucaramanga,52,16.9,86.9,79.0,0.91,4.11,1.01,0.31224,8.78,1,0.9286,Normal
+Envía,Ruta,Cali → Bucaramanga,11,2.7,75.2,58.6,0.24,4.95,0.57,0.56824,-2.92,4,0.9427,Normal
+Grupo TCC,Ruta,Cali → Bucaramanga,28,9.8,84.5,76.2,-0.08,0.04,0.01,0.99353,6.38,2,0.9935,Normal
+Inter Rapidísimo,Ruta,Cali → Bucaramanga,68,22.4,76.4,62.2,-1.24,-4.36,-1.21,0.2261,-1.72,3,0.9286,Normal
+Servientrega,Ruta,Cali → Bucaramanga,34,12.3,74.6,60.3,0.42,1.03,0.2,0.83802,-3.52,5,0.9832,Normal
+4-72,Ruta,Cali → Cali,12,3.8,71.1,52.1,-1.18,-17.79,-2.06,0.03986,-8.38,6,0.6832,Normal
+Coordinadora,Ruta,Cali → Cali,128,44.3,86.4,77.8,-1.33,-2.56,-0.95,0.34412,6.92,1,0.9286,Normal
+Envía,Ruta,Cali → Cali,43,14.7,75.6,58.7,-1.13,-4.89,-1.09,0.27734,-3.88,5,0.9286,Normal
+Grupo TCC,Ruta,Cali → Cali,49,14.8,86.1,78.8,-0.14,-0.21,-0.05,0.96011,6.62,2,0.9866,Normal
+Inter Rapidísimo,Ruta,Cali → Cali,128,43.2,81.0,69.8,1.63,3.29,1.24,0.21399,1.52,3,0.9286,Normal
+Servientrega,Ruta,Cali → Cali,66,25.6,76.7,63.8,0.82,1.77,0.49,0.62485,-2.78,4,0.9427,Normal
+4-72,Ruta,Cali → Cartagena,3,0.9,68.5,47.3,0.05,-1.27,-0.08,0.93482,-7.67,6,,Pocos datos
+Coordinadora,Ruta,Cali → Cartagena,32,10.0,83.6,73.2,-0.28,-0.88,-0.15,0.8781,7.43,1,0.9832,Normal
+Envía,Ruta,Cali → Cartagena,13,4.3,73.1,54.7,0.27,3.49,0.42,0.67259,-3.07,5,0.9653,Normal
+Grupo TCC,Ruta,Cali → Cartagena,20,7.2,82.8,73.9,0.33,3.34,0.49,0.62127,6.63,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Cali → Cartagena,47,19.8,75.3,60.1,-0.23,-1.2,-0.29,0.7719,-0.87,3,0.9832,Normal
+Servientrega,Ruta,Cali → Cartagena,28,10.0,73.7,58.5,1.67,8.72,1.54,0.12313,-2.47,4,0.8771,Normal
+4-72,Ruta,Cali → Cúcuta,6,1.5,67.9,46.4,-0.23,-9.89,-0.84,0.39929,-8.22,6,,Pocos datos
+Coordinadora,Ruta,Cali → Cúcuta,37,13.8,84.8,76.3,1.23,6.31,1.3,0.19294,8.68,1,0.9286,Normal
+Envía,Ruta,Cali → Cúcuta,8,2.3,72.6,53.7,0.12,3.03,0.28,0.777,-3.52,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Cúcuta,12,3.9,83.2,73.5,1.1,16.49,1.96,0.05024,7.08,2,0.7344,Normal
+Inter Rapidísimo,Ruta,Cali → Cúcuta,34,10.8,75.8,61.4,0.58,2.67,0.52,0.60559,-0.32,3,0.9427,Normal
+Servientrega,Ruta,Cali → Cúcuta,13,4.4,72.4,55.4,0.69,5.82,0.76,0.44641,-3.72,5,0.9289,Normal
+4-72,Ruta,Cali → Ibagué,2,1.4,69.5,48.3,0.04,-1.22,-0.07,0.94279,-7.72,6,,Pocos datos
+Coordinadora,Ruta,Cali → Ibagué,16,4.6,84.7,74.6,-0.25,-1.43,-0.2,0.84003,7.48,1,0.9832,Normal
+Envía,Ruta,Cali → Ibagué,7,1.8,73.9,55.5,0.07,2.3,0.2,0.83951,-3.32,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Ibagué,11,3.1,83.5,72.9,-0.01,1.44,0.14,0.88477,6.28,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Cali → Ibagué,29,8.9,77.9,64.8,1.36,8.27,1.39,0.1642,0.68,3,0.9286,Normal
+Servientrega,Ruta,Cali → Ibagué,8,2.4,73.8,57.7,0.73,11.08,0.96,0.33869,-3.42,5,,Pocos datos
+4-72,Ruta,Cali → Manizales,3,0.6,69.3,48.7,0.17,8.17,0.55,0.58189,-7.1,6,,Pocos datos
+Coordinadora,Ruta,Cali → Manizales,22,8.6,84.3,74.5,-0.2,-0.46,-0.07,0.94206,7.9,1,0.9839,Normal
+Envía,Ruta,Cali → Manizales,4,1.2,73.5,55.8,0.01,0.83,0.06,0.95573,-2.9,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Manizales,9,2.4,83.2,73.5,0.1,4.29,0.48,0.62987,6.8,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cali → Manizales,27,8.9,75.2,60.4,-0.97,-7.09,-1.27,0.20541,-1.2,3,0.9286,Normal
+Servientrega,Ruta,Cali → Manizales,17,5.9,72.9,56.9,0.24,0.16,0.02,0.98208,-3.5,5,0.9901,Normal
+4-72,Ruta,Cali → Medellín,18,3.7,69.4,48.7,0.54,6.8,0.98,0.32653,-7.33,6,0.9286,Normal
+Coordinadora,Ruta,Cali → Medellín,188,63.7,84.1,75.4,-0.26,-0.23,-0.1,0.91821,7.37,1,0.9832,Normal
+Envía,Ruta,Cali → Medellín,49,14.4,73.3,56.0,-0.03,-0.1,-0.02,0.98163,-3.43,4,0.9901,Normal
+Grupo TCC,Ruta,Cali → Medellín,78,23.3,82.8,71.9,-0.16,-0.2,-0.06,0.95226,6.07,2,0.9866,Normal
+Inter Rapidísimo,Ruta,Cali → Medellín,243,81.3,78.8,66.5,2.8,4.35,2.21,0.02728,2.07,3,0.6188,Normal
+Servientrega,Ruta,Cali → Medellín,111,35.9,72.0,54.5,-0.46,-1.62,-0.55,0.5818,-4.73,5,0.9427,Normal
+4-72,Ruta,Cali → Neiva,3,1.5,68.9,48.7,0.09,0.78,0.06,0.95582,-7.55,6,,Pocos datos
+Coordinadora,Ruta,Cali → Neiva,30,9.2,85.2,76.5,0.98,7.16,1.3,0.1946,8.75,1,0.9286,Normal
+Envía,Ruta,Cali → Neiva,8,3.8,74.0,57.0,0.86,12.37,1.17,0.24372,-2.45,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Neiva,11,2.3,82.9,73.3,0.14,5.23,0.56,0.57688,6.45,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Cali → Neiva,29,7.3,75.4,61.1,-0.45,-4.35,-0.76,0.44524,-1.05,3,0.9289,Normal
+Servientrega,Ruta,Cali → Neiva,9,3.0,72.3,56.2,-0.09,-5.4,-0.51,0.60871,-4.15,5,,Pocos datos
+4-72,Ruta,Cali → Pasto,1,0.2,60.4,32.9,-0.03,-20.51,-0.85,0.39318,-7.25,6,,Pocos datos
+Coordinadora,Ruta,Cali → Pasto,18,6.7,74.5,57.8,-1.36,-10.46,-1.5,0.13408,6.85,1,0.8771,Normal
+Envía,Ruta,Cali → Pasto,8,4.9,65.1,41.2,0.21,2.47,0.28,0.78235,-2.55,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Pasto,0,0.0,74.4,57.7,0.0,,,,6.75,2,,Sin historial
+Inter Rapidísimo,Ruta,Cali → Pasto,22,7.0,68.1,48.0,0.57,3.78,0.58,0.56148,0.45,3,0.9427,Normal
+Servientrega,Ruta,Cali → Pasto,17,5.0,63.4,39.3,-0.62,-9.16,-1.17,0.24338,-4.25,5,0.9286,Normal
+4-72,Ruta,Cali → Pereira,1,0.3,70.0,49.4,-0.07,-22.57,-0.94,0.34742,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Cali → Pereira,37,13.0,86.0,77.3,0.54,3.26,0.66,0.51094,8.5,1,0.937,Normal
+Envía,Ruta,Cali → Pereira,4,1.0,74.0,55.9,-0.5,-25.43,-1.63,0.10386,-3.5,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Pereira,18,4.4,84.3,74.5,0.27,4.49,0.6,0.54669,6.8,2,0.9412,Normal
+Inter Rapidísimo,Ruta,Cali → Pereira,36,11.5,76.7,62.0,-0.45,-2.98,-0.54,0.59207,-0.8,3,0.9427,Normal
+Servientrega,Ruta,Cali → Pereira,12,3.5,74.0,58.0,0.35,1.97,0.23,0.81892,-3.5,4,0.9832,Normal
+4-72,Ruta,Cali → Quibdó,2,1.1,57.9,29.6,0.68,28.41,1.33,0.18357,-7.25,6,,Pocos datos
+Coordinadora,Ruta,Cali → Quibdó,0,0.0,72.6,55.1,0.0,,,,7.45,1,,Sin historial
+Envía,Ruta,Cali → Quibdó,0,0.0,61.6,35.6,0.0,,,,-3.55,4,,Sin historial
+Grupo TCC,Ruta,Cali → Quibdó,0,0.0,71.2,53.1,0.0,,,,6.05,2,,Sin historial
+Inter Rapidísimo,Ruta,Cali → Quibdó,40,14.4,66.2,45.1,1.97,8.33,1.78,0.07542,1.05,3,0.8112,Normal
+Servientrega,Ruta,Cali → Quibdó,34,11.4,61.4,38.0,0.63,2.23,0.42,0.67635,-3.75,5,0.9653,Normal
+4-72,Ruta,Cali → Santa Marta,0,0.0,68.1,46.7,0.0,,,,-7.75,6,,Sin historial
+Coordinadora,Ruta,Cali → Santa Marta,24,6.4,83.4,73.1,-0.11,0.19,0.03,0.97676,7.55,1,0.9901,Normal
+Envía,Ruta,Cali → Santa Marta,4,1.1,72.7,54.3,0.22,10.37,0.77,0.4407,-3.15,4,,Pocos datos
+Grupo TCC,Ruta,Cali → Santa Marta,14,3.6,82.8,73.1,0.71,11.88,1.48,0.13898,6.95,2,0.8771,Normal
+Inter Rapidísimo,Ruta,Cali → Santa Marta,28,10.4,76.3,61.9,1.11,5.89,1.08,0.28181,0.45,3,0.9286,Normal
+Servientrega,Ruta,Cali → Santa Marta,9,2.3,71.8,55.1,0.04,-4.04,-0.43,0.66806,-4.05,5,,Pocos datos
+4-72,Ruta,Cali → Villavicencio,2,1.3,68.5,46.3,-0.04,-4.25,-0.25,0.80639,-7.22,6,,Pocos datos
+Coordinadora,Ruta,Cali → Villavicencio,15,5.1,82.4,70.2,-1.58,-15.63,-2.0,0.04543,6.68,1,0.7223,Normal
+Envía,Ruta,Cali → Villavicencio,0,0.0,72.9,53.6,0.0,,,,-2.82,4,,Sin historial
+Grupo TCC,Ruta,Cali → Villavicencio,6,1.2,82.4,71.0,-0.15,-2.46,-0.19,0.85128,6.68,1,,Pocos datos
+Inter Rapidísimo,Ruta,Cali → Villavicencio,26,7.9,75.5,60.0,-0.08,-1.38,-0.23,0.81672,-0.22,3,0.9832,Normal
+Servientrega,Ruta,Cali → Villavicencio,12,3.8,72.6,55.5,0.51,4.08,0.48,0.63345,-3.12,5,0.9427,Normal
+4-72,Ruta,Cartagena → Barranquilla,1,0.9,69.1,48.8,-0.49,-30.46,-1.27,0.20491,-7.88,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Barranquilla,29,10.7,84.4,75.8,-0.65,-2.91,-0.53,0.59777,7.42,1,0.9427,Normal
+Envía,Ruta,Cartagena → Barranquilla,7,2.2,73.4,56.0,-0.58,-13.36,-1.32,0.18708,-3.58,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Barranquilla,13,3.7,83.2,74.1,-0.39,-4.3,-0.52,0.60053,6.22,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Cartagena → Barranquilla,30,9.6,78.4,66.6,1.73,10.1,1.89,0.05857,1.42,3,0.7759,Normal
+Servientrega,Ruta,Cartagena → Barranquilla,22,4.6,73.4,58.6,0.25,0.36,0.05,0.95782,-3.58,4,0.9866,Normal
+4-72,Ruta,Cartagena → Bogotá,9,2.4,69.0,48.1,-0.5,-12.52,-1.28,0.19947,-7.75,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Bogotá,129,39.2,84.0,73.3,-0.95,-1.86,-0.71,0.47841,7.25,2,0.9289,Normal
+Envía,Ruta,Cartagena → Bogotá,38,10.7,75.4,59.0,1.48,8.49,1.65,0.09855,-1.35,3,0.8713,Normal
+Grupo TCC,Ruta,Cartagena → Bogotá,50,21.1,84.4,75.5,0.89,3.3,0.81,0.4182,7.65,1,0.9289,Normal
+Inter Rapidísimo,Ruta,Cartagena → Bogotá,155,53.9,74.7,58.6,-1.85,-3.78,-1.56,0.11884,-2.05,4,0.8761,Normal
+Servientrega,Ruta,Cartagena → Bogotá,77,25.1,73.0,58.0,-0.03,-0.75,-0.22,0.82564,-3.75,5,0.9832,Normal
+4-72,Ruta,Cartagena → Bucaramanga,0,0.0,70.1,50.8,0.0,,,,-7.48,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Bucaramanga,19,6.6,84.9,76.6,-0.62,-4.15,-0.59,0.55841,7.32,1,0.9412,Normal
+Envía,Ruta,Cartagena → Bucaramanga,5,1.9,74.5,58.1,-0.03,-0.4,-0.03,0.97553,-3.08,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Bucaramanga,6,1.1,84.0,75.4,-0.09,-0.08,-0.01,0.99438,6.42,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Bucaramanga,25,7.9,78.1,66.0,0.9,5.82,0.96,0.33682,0.52,3,0.9286,Normal
+Servientrega,Ruta,Cartagena → Bucaramanga,5,1.5,73.9,58.9,0.18,-1.29,-0.09,0.92764,-3.68,5,,Pocos datos
+4-72,Ruta,Cartagena → Cali,8,2.3,67.1,45.1,-0.83,-20.01,-2.07,0.03874,-8.2,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Cali,42,17.4,84.4,75.2,1.0,4.4,0.98,0.32796,9.1,1,0.9286,Normal
+Envía,Ruta,Cartagena → Cali,14,3.6,71.4,51.6,-0.99,-14.41,-1.85,0.06484,-3.9,5,0.786,Normal
+Grupo TCC,Ruta,Cartagena → Cali,25,9.1,83.2,73.5,1.24,8.62,1.44,0.14848,7.9,2,0.911,Normal
+Inter Rapidísimo,Ruta,Cartagena → Cali,47,17.8,74.1,57.9,-0.92,-3.92,-0.91,0.36138,-1.2,3,0.9286,Normal
+Servientrega,Ruta,Cartagena → Cali,22,6.6,71.6,54.5,0.07,-1.26,-0.19,0.84749,-3.7,4,0.9832,Normal
+4-72,Ruta,Cartagena → Cartagena,0,0.0,71.2,53.2,0.0,,,,-7.4,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Cartagena,19,6.5,87.0,81.4,0.4,4.63,0.69,0.48934,8.4,1,0.9289,Normal
+Envía,Ruta,Cartagena → Cartagena,2,0.7,75.8,60.9,0.18,13.68,0.75,0.45522,-2.8,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Cartagena,6,2.8,83.9,76.4,-1.31,-23.34,-2.01,0.04392,5.3,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Cartagena,21,7.0,78.3,67.2,0.01,-0.8,-0.12,0.9067,-0.3,3,0.9832,Normal
+Servientrega,Ruta,Cartagena → Cartagena,10,2.8,75.4,62.7,0.66,8.37,0.89,0.37532,-3.2,5,0.9286,Normal
+4-72,Ruta,Cartagena → Cúcuta,2,0.8,68.6,48.1,-0.19,-17.42,-0.86,0.39055,-7.62,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Cúcuta,10,3.0,84.7,76.0,0.48,10.93,1.12,0.2641,8.48,1,0.9286,Normal
+Envía,Ruta,Cartagena → Cúcuta,2,0.5,73.4,56.1,0.21,22.54,1.09,0.27399,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Cúcuta,3,1.1,82.8,73.5,0.05,6.88,0.43,0.66681,6.58,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Cúcuta,18,5.9,75.3,60.1,-0.56,-6.29,-0.89,0.37556,-0.92,3,0.9286,Normal
+Servientrega,Ruta,Cartagena → Cúcuta,7,3.9,72.5,57.2,0.18,-0.61,-0.06,0.95115,-3.72,5,,Pocos datos
+4-72,Ruta,Cartagena → Ibagué,0,0.0,68.2,45.7,0.0,,,,-7.15,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Ibagué,6,1.6,83.8,72.7,0.16,9.17,0.68,0.49874,8.45,1,,Pocos datos
+Envía,Ruta,Cartagena → Ibagué,4,1.6,71.9,51.4,-0.76,-23.54,-1.75,0.07957,-3.45,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Ibagué,3,0.8,82.2,70.6,0.01,6.26,0.42,0.67151,6.85,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Ibagué,7,3.2,74.1,57.0,-1.18,-21.62,-2.1,0.03586,-1.25,3,,Pocos datos
+Servientrega,Ruta,Cartagena → Ibagué,4,1.5,71.9,53.8,0.14,-2.59,-0.2,0.84087,-3.45,4,,Pocos datos
+4-72,Ruta,Cartagena → Manizales,0,0.0,67.4,45.8,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Manizales,6,1.2,82.8,72.5,-0.06,3.24,0.3,0.76356,7.95,1,,Pocos datos
+Envía,Ruta,Cartagena → Manizales,2,0.7,72.2,53.7,0.34,26.14,1.21,0.22639,-2.65,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Manizales,1,0.4,81.5,70.8,0.06,18.09,0.75,0.45158,6.65,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Manizales,9,3.5,74.4,58.6,-0.13,-3.6,-0.42,0.6761,-0.45,3,,Pocos datos
+Servientrega,Ruta,Cartagena → Manizales,3,1.7,70.8,53.6,-0.22,-13.66,-0.9,0.36685,-4.05,5,,Pocos datos
+4-72,Ruta,Cartagena → Medellín,3,1.2,69.8,49.8,0.69,27.15,1.8,0.07216,-7.75,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Medellín,62,23.2,87.4,79.9,2.79,9.21,2.49,0.0127,9.85,1,0.5916,Normal
+Envía,Ruta,Cartagena → Medellín,21,8.2,74.2,56.6,0.62,4.53,0.7,0.48473,-3.35,4,0.9289,Normal
+Grupo TCC,Ruta,Cartagena → Medellín,27,8.4,83.8,74.6,0.69,5.41,0.87,0.38436,6.25,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Cartagena → Medellín,89,31.8,77.1,63.2,0.93,2.11,0.65,0.51449,-0.45,3,0.9387,Normal
+Servientrega,Ruta,Cartagena → Medellín,30,9.7,73.0,56.2,0.25,0.17,0.03,0.97418,-4.55,5,0.9901,Normal
+4-72,Ruta,Cartagena → Neiva,0,0.0,69.1,48.8,0.0,,,,-7.12,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Neiva,10,4.0,84.1,74.7,-0.46,-4.46,-0.51,0.6125,7.88,1,0.9427,Normal
+Envía,Ruta,Cartagena → Neiva,1,0.2,73.4,55.8,-0.15,-33.94,-1.41,0.15768,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Neiva,1,0.1,83.1,73.6,-0.06,12.75,0.53,0.59561,6.88,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Neiva,6,2.2,74.3,59.9,-1.94,-47.62,-3.86,0.00012,-1.92,3,,Pocos datos
+Servientrega,Ruta,Cartagena → Neiva,5,1.5,73.3,58.1,0.59,12.49,0.86,0.38712,-2.92,5,,Pocos datos
+4-72,Ruta,Cartagena → Pasto,0,0.0,58.7,30.2,0.0,,,,-7.4,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Pasto,7,2.0,73.8,56.1,-0.39,-6.82,-0.64,0.52131,7.7,1,,Pocos datos
+Envía,Ruta,Cartagena → Pasto,0,0.0,63.2,37.4,0.0,,,,-2.9,4,,Sin historial
+Grupo TCC,Ruta,Cartagena → Pasto,0,0.0,72.8,55.0,0.0,,,,6.7,2,,Sin historial
+Inter Rapidísimo,Ruta,Cartagena → Pasto,8,2.5,65.8,43.5,0.01,-2.08,-0.21,0.83005,-0.3,3,,Pocos datos
+Servientrega,Ruta,Cartagena → Pasto,7,1.4,62.3,38.0,-0.05,-10.03,-0.65,0.51707,-3.8,5,,Pocos datos
+4-72,Ruta,Cartagena → Pereira,0,0.0,70.3,50.0,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Pereira,10,3.1,85.3,76.3,-0.42,-5.07,-0.57,0.56869,7.55,1,0.9427,Normal
+Envía,Ruta,Cartagena → Pereira,1,0.9,74.9,57.8,0.22,12.61,0.53,0.59957,-2.85,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Pereira,8,3.4,84.5,76.1,0.16,4.04,0.37,0.71249,6.75,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Pereira,8,2.0,77.7,64.1,0.37,6.79,0.73,0.46788,-0.05,3,,Pocos datos
+Servientrega,Ruta,Cartagena → Pereira,6,2.7,73.8,58.3,-0.08,-5.85,-0.56,0.57807,-3.95,5,,Pocos datos
+4-72,Ruta,Cartagena → Quibdó,1,0.2,56.5,27.6,-0.02,-24.36,-1.01,0.3107,-7.62,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Quibdó,0,0.0,71.9,54.3,0.0,,,,7.78,1,,Sin historial
+Envía,Ruta,Cartagena → Quibdó,0,0.0,60.9,34.8,0.0,,,,-3.22,4,,Sin historial
+Grupo TCC,Ruta,Cartagena → Quibdó,0,0.0,70.5,52.3,0.0,,,,6.38,2,,Sin historial
+Inter Rapidísimo,Ruta,Cartagena → Quibdó,18,5.7,64.7,42.5,1.16,10.34,1.43,0.15141,0.58,3,0.9177,Normal
+Servientrega,Ruta,Cartagena → Quibdó,9,3.3,60.2,35.8,0.1,-1.99,-0.2,0.84458,-3.92,5,,Pocos datos
+4-72,Ruta,Cartagena → Santa Marta,1,0.1,68.4,48.2,0.0,-31.39,-1.31,0.19142,-7.07,6,,Pocos datos
+Coordinadora,Ruta,Cartagena → Santa Marta,5,1.4,83.3,73.7,-0.53,-14.86,-1.29,0.19619,7.83,1,,Pocos datos
+Envía,Ruta,Cartagena → Santa Marta,4,2.1,72.1,53.6,-0.79,-19.06,-1.28,0.20231,-3.37,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Santa Marta,2,0.9,82.2,72.6,-0.2,-5.86,-0.34,0.7306,6.73,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Santa Marta,7,1.5,75.0,61.5,-0.5,-20.83,-1.89,0.05881,-0.47,3,,Pocos datos
+Servientrega,Ruta,Cartagena → Santa Marta,4,0.8,71.8,55.9,-0.22,-28.65,-1.63,0.10393,-3.67,5,,Pocos datos
+4-72,Ruta,Cartagena → Villavicencio,0,0.0,69.3,48.0,0.0,,,,-7.47,6,,Sin historial
+Coordinadora,Ruta,Cartagena → Villavicencio,5,2.3,84.6,74.4,-0.16,-0.58,-0.05,0.96012,7.83,1,,Pocos datos
+Envía,Ruta,Cartagena → Villavicencio,6,2.7,74.2,57.0,0.48,9.47,0.81,0.41784,-2.57,4,,Pocos datos
+Grupo TCC,Ruta,Cartagena → Villavicencio,3,0.8,83.4,73.1,0.11,13.76,0.85,0.3938,6.63,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cartagena → Villavicencio,14,4.8,77.1,62.6,0.72,7.06,0.89,0.37124,0.33,3,0.9286,Normal
+Servientrega,Ruta,Cartagena → Villavicencio,6,2.5,72.0,54.7,-0.89,-23.08,-2.06,0.03929,-4.77,5,,Pocos datos
+4-72,Ruta,Cúcuta → Barranquilla,3,0.9,68.8,47.7,0.1,1.9,0.13,0.89771,-7.27,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Barranquilla,19,5.2,83.9,73.8,-0.3,-1.83,-0.26,0.79477,7.83,1,0.9832,Normal
+Envía,Ruta,Cúcuta → Barranquilla,4,1.2,73.0,54.6,-0.18,-7.08,-0.55,0.58025,-3.07,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Barranquilla,6,0.8,82.3,71.6,-0.43,-21.2,-1.73,0.08373,6.23,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Barranquilla,27,10.2,76.0,60.8,0.19,0.48,0.09,0.93168,-0.07,3,0.9839,Normal
+Servientrega,Ruta,Cúcuta → Barranquilla,11,2.7,72.4,56.0,0.09,-2.53,-0.3,0.76266,-3.67,5,0.9832,Normal
+4-72,Ruta,Cúcuta → Bogotá,8,1.9,69.1,48.2,-0.14,-5.91,-0.53,0.59728,-7.78,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Bogotá,99,32.6,83.4,72.2,-1.32,-3.0,-0.96,0.33942,6.52,1,0.9286,Normal
+Envía,Ruta,Cúcuta → Bogotá,25,6.9,72.9,54.1,-0.77,-6.22,-1.0,0.31897,-3.98,5,0.9286,Normal
+Grupo TCC,Ruta,Cúcuta → Bogotá,35,11.1,82.7,73.1,-0.63,-2.94,-0.56,0.57841,5.82,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Cúcuta → Bogotá,111,42.2,78.5,65.2,2.1,4.35,1.61,0.10702,1.62,3,0.8713,Normal
+Servientrega,Ruta,Cúcuta → Bogotá,56,21.2,74.7,59.9,1.84,5.45,1.36,0.17375,-2.18,4,0.9286,Normal
+4-72,Ruta,Cúcuta → Bucaramanga,2,1.0,71.5,52.1,0.62,26.93,1.23,0.2196,-6.87,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Bucaramanga,12,3.1,86.5,78.1,0.18,5.32,0.59,0.55723,8.13,1,0.9412,Normal
+Envía,Ruta,Cúcuta → Bucaramanga,5,2.1,76.0,59.6,0.72,17.98,1.51,0.13066,-2.37,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Bucaramanga,3,0.8,84.5,75.3,-0.32,-14.63,-0.95,0.34459,6.13,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Bucaramanga,12,5.7,77.9,64.8,0.02,-0.91,-0.12,0.90663,-0.47,3,0.9832,Normal
+Servientrega,Ruta,Cúcuta → Bucaramanga,8,2.3,73.8,57.6,-0.68,-20.15,-2.1,0.03613,-4.57,5,,Pocos datos
+4-72,Ruta,Cúcuta → Cali,3,0.6,68.2,46.1,0.22,13.55,0.83,0.40865,-6.97,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Cali,36,11.3,83.2,71.8,-0.26,-0.67,-0.13,0.8979,8.03,1,0.9832,Normal
+Envía,Ruta,Cúcuta → Cali,9,2.2,71.9,51.9,-0.56,-12.97,-1.46,0.14412,-3.27,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Cali,20,7.3,82.2,71.0,0.16,2.01,0.3,0.76276,7.03,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Cúcuta → Cali,30,11.2,74.1,57.3,-1.0,-6.04,-1.08,0.27847,-1.07,3,0.9286,Normal
+Servientrega,Ruta,Cúcuta → Cali,18,6.0,71.4,53.0,-0.24,-4.29,-0.63,0.52791,-3.77,5,0.9387,Normal
+4-72,Ruta,Cúcuta → Cartagena,1,0.9,67.4,44.8,-0.29,-20.11,-0.84,0.40254,-7.68,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Cartagena,10,3.6,83.1,71.9,0.01,2.16,0.24,0.81192,8.02,1,0.9832,Normal
+Envía,Ruta,Cúcuta → Cartagena,4,1.1,71.6,51.8,-0.44,-19.51,-1.21,0.22711,-3.48,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Cartagena,2,0.6,81.7,70.5,-0.01,6.66,0.31,0.75878,6.62,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Cartagena,20,6.4,75.4,60.2,0.64,4.73,0.76,0.44533,0.32,3,0.9289,Normal
+Servientrega,Ruta,Cúcuta → Cartagena,7,1.9,71.3,53.5,0.06,-4.53,-0.34,0.73596,-3.78,5,,Pocos datos
+4-72,Ruta,Cúcuta → Cúcuta,0,0.0,71.6,53.6,0.0,,,,-7.67,6,,Sin historial
+Coordinadora,Ruta,Cúcuta → Cúcuta,7,1.5,87.0,80.1,-0.12,0.39,0.04,0.97183,7.73,1,,Pocos datos
+Envía,Ruta,Cúcuta → Cúcuta,2,0.3,76.1,61.0,0.09,14.75,0.79,0.43013,-3.17,5,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Cúcuta,1,0.1,85.6,78.4,-0.07,12.65,0.53,0.59865,6.33,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Cúcuta,7,2.8,79.1,67.6,0.35,4.55,0.42,0.67617,-0.17,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Cúcuta,6,2.6,76.2,63.6,0.95,14.77,1.24,0.2151,-3.07,4,,Pocos datos
+4-72,Ruta,Cúcuta → Ibagué,0,0.0,69.6,48.2,0.0,,,,-7.3,6,,Sin historial
+Coordinadora,Ruta,Cúcuta → Ibagué,9,2.7,85.5,75.9,0.44,11.17,1.13,0.26016,8.6,1,,Pocos datos
+Envía,Ruta,Cúcuta → Ibagué,3,1.6,73.8,54.5,-0.22,-6.7,-0.45,0.65559,-3.1,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Ibagué,2,1.0,82.9,71.7,-0.66,-28.61,-1.54,0.12388,6.0,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Ibagué,3,1.2,76.2,60.7,-0.43,-22.33,-1.37,0.17071,-0.7,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Ibagué,3,1.0,73.4,56.7,0.19,-1.68,-0.11,0.91142,-3.5,5,,Pocos datos
+4-72,Ruta,Cúcuta → Manizales,2,0.5,68.4,46.9,0.29,23.09,1.35,0.17786,-7.35,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Manizales,8,2.2,83.5,73.3,-0.09,0.9,0.09,0.92897,7.75,1,,Pocos datos
+Envía,Ruta,Cúcuta → Manizales,1,0.5,72.8,54.0,0.25,25.59,1.07,0.28685,-2.95,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Manizales,2,1.1,82.2,71.7,0.12,10.15,0.48,0.63121,6.45,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Manizales,7,3.1,75.6,60.7,0.47,6.08,0.57,0.57183,-0.15,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Manizales,4,0.4,72.0,55.1,0.32,13.82,1.13,0.25825,-3.75,5,,Pocos datos
+4-72,Ruta,Cúcuta → Medellín,6,2.5,68.9,47.4,0.55,10.06,0.97,0.3302,-6.88,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Medellín,41,12.4,83.2,72.4,-0.61,-2.43,-0.52,0.60446,7.42,1,0.9427,Normal
+Envía,Ruta,Cúcuta → Medellín,10,3.5,72.0,52.4,-0.76,-11.56,-1.37,0.17097,-3.78,5,0.9286,Normal
+Grupo TCC,Ruta,Cúcuta → Medellín,20,5.5,80.7,67.6,-1.68,-16.18,-2.44,0.01481,4.92,2,0.5916,Normal
+Inter Rapidísimo,Ruta,Cúcuta → Medellín,52,14.1,76.8,62.5,1.36,5.68,1.39,0.16451,1.02,3,0.9286,Normal
+Servientrega,Ruta,Cúcuta → Medellín,32,9.8,73.1,56.5,1.2,5.98,1.15,0.25107,-2.68,4,0.9286,Normal
+4-72,Ruta,Cúcuta → Neiva,1,0.1,68.7,47.4,0.11,28.52,1.19,0.23511,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Neiva,2,0.5,84.0,74.0,0.0,12.78,0.64,0.52502,7.8,1,,Pocos datos
+Envía,Ruta,Cúcuta → Neiva,3,0.3,73.0,54.5,0.03,5.77,0.37,0.71231,-3.2,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Neiva,2,0.4,82.6,72.2,0.02,14.54,0.78,0.43606,6.4,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Neiva,5,1.4,76.3,62.0,0.66,20.33,1.57,0.11535,0.1,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Neiva,2,0.4,72.6,56.2,0.44,26.0,1.32,0.18593,-3.6,5,,Pocos datos
+4-72,Ruta,Cúcuta → Pasto,0,0.0,58.9,29.5,0.0,,,,-7.23,6,,Sin historial
+Coordinadora,Ruta,Cúcuta → Pasto,6,2.5,73.7,55.5,-0.66,-11.05,-0.93,0.35064,7.57,1,,Pocos datos
+Envía,Ruta,Cúcuta → Pasto,1,0.2,63.4,36.9,0.08,22.4,0.93,0.35123,-2.73,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Pasto,0,0.0,72.9,54.3,0.0,,,,6.77,2,,Sin historial
+Inter Rapidísimo,Ruta,Cúcuta → Pasto,6,1.3,65.5,42.1,-0.45,-21.36,-1.4,0.16174,-0.63,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Pasto,3,1.4,62.4,37.2,-0.12,-12.65,-0.73,0.46329,-3.73,5,,Pocos datos
+4-72,Ruta,Cúcuta → Pereira,2,0.2,68.6,46.3,0.04,-9.2,-0.53,0.59265,-7.13,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Pereira,7,1.8,83.8,72.6,-0.15,-0.45,-0.04,0.97122,8.07,1,,Pocos datos
+Envía,Ruta,Cúcuta → Pereira,2,0.4,72.9,53.3,-0.04,-3.45,-0.2,0.84005,-2.83,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Pereira,8,3.2,82.1,70.9,-0.43,-5.59,-0.55,0.58214,6.37,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Pereira,8,2.0,74.8,58.0,-0.79,-23.26,-2.14,0.03267,-0.93,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Pereira,5,2.3,72.2,54.4,0.1,-2.62,-0.21,0.83743,-3.53,5,,Pocos datos
+4-72,Ruta,Cúcuta → Quibdó,1,0.7,55.2,24.2,-0.12,-14.2,-0.59,0.5545,-7.72,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Quibdó,0,0.0,70.8,51.3,0.0,,,,7.88,1,,Sin historial
+Envía,Ruta,Cúcuta → Quibdó,0,0.0,59.7,31.8,0.0,,,,-3.22,4,,Sin historial
+Grupo TCC,Ruta,Cúcuta → Quibdó,0,0.0,69.3,49.3,0.0,,,,6.38,2,,Sin historial
+Inter Rapidísimo,Ruta,Cúcuta → Quibdó,12,3.5,63.1,39.2,0.73,9.46,1.15,0.24811,0.18,3,0.9286,Normal
+Servientrega,Ruta,Cúcuta → Quibdó,5,0.8,59.4,33.4,0.52,18.17,1.49,0.13711,-3.52,5,,Pocos datos
+4-72,Ruta,Cúcuta → Santa Marta,1,0.7,69.2,48.3,0.46,30.07,1.25,0.21065,-7.02,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Santa Marta,2,0.3,84.1,74.0,-0.11,4.06,0.22,0.824,7.88,1,,Pocos datos
+Envía,Ruta,Cúcuta → Santa Marta,1,0.8,73.4,55.3,0.25,17.01,0.71,0.47899,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Santa Marta,0,0.0,82.7,72.3,0.0,,,,6.48,2,,Sin historial
+Inter Rapidísimo,Ruta,Cúcuta → Santa Marta,7,2.3,75.6,60.4,-0.18,-6.48,-0.6,0.54989,-0.62,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Santa Marta,3,1.6,72.3,55.7,0.0,-7.13,-0.48,0.63004,-3.92,5,,Pocos datos
+4-72,Ruta,Cúcuta → Villavicencio,1,0.6,68.9,46.6,-0.15,-20.02,-0.83,0.40466,-7.57,6,,Pocos datos
+Coordinadora,Ruta,Cúcuta → Villavicencio,9,3.2,83.8,72.2,-0.75,-10.22,-0.99,0.32042,7.33,1,,Pocos datos
+Envía,Ruta,Cúcuta → Villavicencio,1,0.1,73.4,54.0,-0.1,-30.93,-1.29,0.19797,-3.07,4,,Pocos datos
+Grupo TCC,Ruta,Cúcuta → Villavicencio,1,0.7,83.1,72.1,0.05,9.54,0.4,0.69137,6.63,2,,Pocos datos
+Inter Rapidísimo,Ruta,Cúcuta → Villavicencio,4,1.9,76.7,61.7,0.53,11.81,0.82,0.41131,0.23,3,,Pocos datos
+Servientrega,Ruta,Cúcuta → Villavicencio,2,0.4,72.9,55.5,0.24,2.08,0.12,0.90477,-3.57,5,,Pocos datos
+4-72,Ruta,Ibagué → Barranquilla,3,1.2,70.2,48.9,0.09,0.97,0.06,0.95419,-7.38,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Barranquilla,21,6.2,85.3,75.1,-0.29,-1.43,-0.2,0.84251,7.72,1,0.9832,Normal
+Envía,Ruta,Ibagué → Barranquilla,4,1.1,74.8,56.6,0.25,12.55,0.81,0.41525,-2.78,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Barranquilla,4,1.4,84.4,74.2,0.22,11.58,0.87,0.38574,6.82,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Barranquilla,12,4.6,76.7,61.5,-0.54,-7.78,-0.9,0.37011,-0.88,3,0.9286,Normal
+Servientrega,Ruta,Ibagué → Barranquilla,6,2.5,74.1,58.1,0.34,2.59,0.23,0.82138,-3.48,5,,Pocos datos
+4-72,Ruta,Ibagué → Bogotá,5,2.2,69.0,47.0,-0.11,-4.29,-0.34,0.73368,-7.48,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Bogotá,73,21.3,85.2,75.5,0.68,2.73,0.73,0.46627,8.72,1,0.9289,Normal
+Envía,Ruta,Ibagué → Bogotá,13,2.2,73.5,54.4,0.01,0.59,0.07,0.94122,-2.98,4,0.9839,Normal
+Grupo TCC,Ruta,Ibagué → Bogotá,20,6.1,83.7,72.9,0.61,6.4,0.91,0.36195,7.22,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Ibagué → Bogotá,63,23.4,76.2,60.1,-0.01,-0.36,-0.1,0.92392,-0.28,3,0.9837,Normal
+Servientrega,Ruta,Ibagué → Bogotá,29,9.6,71.3,51.7,-1.42,-10.17,-1.81,0.06978,-5.18,5,0.8065,Normal
+4-72,Ruta,Ibagué → Bucaramanga,1,0.8,71.0,50.3,-0.2,-17.23,-0.72,0.47325,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Bucaramanga,11,3.7,86.1,76.5,-0.6,-6.8,-0.78,0.4348,7.6,1,0.9289,Normal
+Envía,Ruta,Ibagué → Bucaramanga,3,0.8,75.3,57.4,-0.32,-20.15,-1.05,0.29323,-3.2,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Bucaramanga,1,0.3,85.3,75.9,0.02,17.15,0.71,0.47537,6.8,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Bucaramanga,10,4.9,78.3,64.4,0.0,-1.23,-0.13,0.89291,-0.2,3,0.9832,Normal
+Servientrega,Ruta,Ibagué → Bucaramanga,4,1.4,75.0,59.3,0.18,-1.63,-0.1,0.91668,-3.5,5,,Pocos datos
+4-72,Ruta,Ibagué → Cali,3,1.2,67.5,44.3,0.07,0.1,0.01,0.99495,-7.42,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Cali,36,12.4,83.6,71.9,0.7,4.2,0.86,0.38768,8.68,1,0.9289,Normal
+Envía,Ruta,Ibagué → Cali,9,3.0,72.1,51.7,0.22,4.04,0.38,0.70312,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Cali,11,4.1,81.9,70.2,0.49,7.72,0.86,0.38781,6.98,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Ibagué → Cali,21,8.5,72.5,54.2,-2.04,-14.7,-2.52,0.01185,-2.42,3,0.5916,Normal
+Servientrega,Ruta,Ibagué → Cali,12,4.4,71.9,53.7,0.91,8.62,1.02,0.30755,-3.02,5,0.9286,Normal
+4-72,Ruta,Ibagué → Cartagena,0,0.0,69.4,47.8,0.0,,,,-7.27,6,,Sin historial
+Coordinadora,Ruta,Ibagué → Cartagena,6,1.4,84.3,73.5,-0.54,-15.5,-1.34,0.18113,7.63,1,,Pocos datos
+Envía,Ruta,Ibagué → Cartagena,1,0.3,73.7,54.7,-0.14,-25.0,-1.04,0.2981,-2.97,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Cartagena,3,0.6,83.2,72.2,-0.27,-15.98,-1.08,0.28041,6.53,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Cartagena,8,1.7,76.4,61.1,-0.13,-7.22,-0.69,0.49289,-0.27,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Cartagena,4,0.8,73.0,55.8,-0.02,-15.28,-1.09,0.27745,-3.67,5,,Pocos datos
+4-72,Ruta,Ibagué → Cúcuta,0,0.0,67.2,44.0,0.0,,,,-7.32,6,,Sin historial
+Coordinadora,Ruta,Ibagué → Cúcuta,3,1.3,82.5,70.5,-0.16,-1.01,-0.06,0.95502,7.98,1,,Pocos datos
+Envía,Ruta,Ibagué → Cúcuta,0,0.0,71.6,51.2,0.0,,,,-2.92,4,,Sin historial
+Grupo TCC,Ruta,Ibagué → Cúcuta,2,1.0,81.2,68.9,-0.04,2.95,0.17,0.86435,6.68,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Cúcuta,9,3.1,73.5,55.7,-0.83,-16.08,-1.65,0.09912,-1.02,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Cúcuta,2,0.2,71.1,52.5,0.26,9.19,0.51,0.6103,-3.42,5,,Pocos datos
+4-72,Ruta,Ibagué → Ibagué,1,0.4,72.9,53.6,0.22,17.04,0.71,0.47825,-7.15,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Ibagué,10,2.9,86.7,77.7,-1.43,-23.69,-2.36,0.01836,6.65,1,0.6083,Normal
+Envía,Ruta,Ibagué → Ibagué,1,0.4,77.2,60.6,0.13,16.71,0.7,0.48668,-2.85,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Ibagué,0,0.0,86.7,77.9,0.0,,,,6.65,1,,Sin historial
+Inter Rapidísimo,Ruta,Ibagué → Ibagué,5,1.6,80.1,67.4,0.3,6.13,0.48,0.6337,0.05,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Ibagué,2,0.3,76.7,61.8,0.37,22.42,1.17,0.24006,-3.35,5,,Pocos datos
+4-72,Ruta,Ibagué → Manizales,0,0.0,70.0,48.8,0.0,,,,-7.58,6,,Sin historial
+Coordinadora,Ruta,Ibagué → Manizales,1,0.1,85.4,75.4,-0.09,16.46,0.69,0.49323,7.82,1,,Pocos datos
+Envía,Ruta,Ibagué → Manizales,0,0.0,74.4,56.1,0.0,,,,-3.18,4,,Sin historial
+Grupo TCC,Ruta,Ibagué → Manizales,1,0.3,84.0,73.7,0.03,17.72,0.74,0.4608,6.42,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Manizales,4,1.3,77.6,63.2,0.51,15.61,0.99,0.32084,0.02,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Manizales,6,1.2,74.1,57.9,0.54,13.15,1.02,0.30991,-3.48,5,,Pocos datos
+4-72,Ruta,Ibagué → Medellín,3,0.3,69.4,47.6,0.24,25.43,1.78,0.07428,-7.32,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Medellín,43,18.1,84.9,74.8,0.32,1.68,0.4,0.69166,8.18,1,0.9691,Normal
+Envía,Ruta,Ibagué → Medellín,8,2.3,72.7,52.8,-0.84,-18.53,-1.66,0.09593,-4.02,5,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Medellín,15,6.7,83.8,73.2,0.66,6.35,0.87,0.38423,7.08,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Ibagué → Medellín,30,7.3,76.2,60.6,0.02,-0.72,-0.13,0.89983,-0.52,3,0.9832,Normal
+Servientrega,Ruta,Ibagué → Medellín,9,1.6,73.3,56.7,0.63,13.47,1.19,0.23566,-3.42,4,,Pocos datos
+4-72,Ruta,Ibagué → Neiva,1,0.4,68.7,47.0,0.29,28.34,1.18,0.2382,-7.1,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Neiva,4,0.8,83.6,72.8,-0.24,-7.12,-0.49,0.62735,7.8,1,,Pocos datos
+Envía,Ruta,Ibagué → Neiva,2,0.6,73.1,54.2,0.3,26.86,1.3,0.19192,-2.7,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Neiva,0,0.0,82.4,71.2,0.0,,,,6.6,2,,Sin historial
+Inter Rapidísimo,Ruta,Ibagué → Neiva,3,0.9,75.0,59.1,-0.46,-32.86,-1.73,0.08348,-0.8,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Neiva,0,0.0,72.0,54.5,0.0,,,,-3.8,5,,Sin historial
+4-72,Ruta,Ibagué → Pasto,0,0.0,59.0,28.5,0.0,,,,-7.28,6,,Sin historial
+Coordinadora,Ruta,Ibagué → Pasto,7,1.7,73.9,54.1,-0.54,-12.22,-0.86,0.38984,7.62,1,,Pocos datos
+Envía,Ruta,Ibagué → Pasto,2,0.6,63.3,35.3,-0.11,-8.46,-0.4,0.6925,-2.98,4,,Pocos datos
+Grupo TCC,Ruta,Ibagué → Pasto,0,0.0,73.0,53.3,0.0,,,,6.72,2,,Sin historial
+Inter Rapidísimo,Ruta,Ibagué → Pasto,8,1.8,65.7,41.4,-0.38,-14.46,-1.45,0.14699,-0.58,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Pasto,3,1.3,62.8,37.0,0.18,-1.47,-0.1,0.92166,-3.48,5,,Pocos datos
+4-72,Ruta,Ibagué → Pereira,1,0.6,68.4,45.3,-0.2,-21.76,-0.91,0.3651,-7.72,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Pereira,3,1.2,84.2,72.9,0.07,8.98,0.53,0.59495,8.08,1,,Pocos datos
+Envía,Ruta,Ibagué → Pereira,0,0.0,73.1,53.2,0.0,,,,-3.02,4,,Sin historial
+Grupo TCC,Ruta,Ibagué → Pereira,4,1.4,82.5,70.4,-0.13,-1.49,-0.1,0.91773,6.38,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Pereira,4,1.0,75.9,59.7,0.19,3.91,0.27,0.79016,-0.22,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Pereira,4,1.4,72.6,54.5,0.34,4.54,0.33,0.73869,-3.52,5,,Pocos datos
+4-72,Ruta,Ibagué → Quibdó,0,0.0,56.2,25.1,0.0,,,,-7.72,6,,Sin historial
+Coordinadora,Ruta,Ibagué → Quibdó,0,0.0,71.6,52.0,0.0,,,,7.68,1,,Sin historial
+Envía,Ruta,Ibagué → Quibdó,0,0.0,60.6,32.4,0.0,,,,-3.32,4,,Sin historial
+Grupo TCC,Ruta,Ibagué → Quibdó,0,0.0,70.2,50.0,0.0,,,,6.28,2,,Sin historial
+Inter Rapidísimo,Ruta,Ibagué → Quibdó,14,3.5,64.8,41.7,1.55,21.88,2.6,0.0092,0.88,3,0.5916,Normal
+Servientrega,Ruta,Ibagué → Quibdó,7,2.3,60.1,33.8,0.31,2.01,0.18,0.8539,-3.82,5,,Pocos datos
+4-72,Ruta,Ibagué → Santa Marta,1,0.1,70.7,50.6,0.01,-27.13,-1.13,0.25875,-7.37,6,,Pocos datos
+Coordinadora,Ruta,Ibagué → Santa Marta,4,2.6,86.2,77.7,0.06,3.82,0.3,0.76298,8.13,1,,Pocos datos
+Envía,Ruta,Ibagué → Santa Marta,0,0.0,75.1,57.8,0.0,,,,-2.97,4,,Sin historial
+Grupo TCC,Ruta,Ibagué → Santa Marta,4,0.8,84.7,75.3,-0.07,1.51,0.11,0.91538,6.63,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Santa Marta,3,1.1,77.2,63.6,-0.56,-31.99,-1.86,0.06302,-0.87,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Santa Marta,1,0.2,74.5,59.2,0.18,-9.08,-0.38,0.70552,-3.57,5,,Pocos datos
+4-72,Ruta,Ibagué → Villavicencio,0,0.0,68.4,44.7,0.0,,,,-7.57,6,,Sin historial
+Coordinadora,Ruta,Ibagué → Villavicencio,3,0.8,83.8,71.4,-0.05,5.35,0.32,0.74925,7.83,1,,Pocos datos
+Envía,Ruta,Ibagué → Villavicencio,0,0.0,72.8,52.0,0.0,,,,-3.17,4,,Sin historial
+Grupo TCC,Ruta,Ibagué → Villavicencio,1,0.2,82.4,69.6,-0.04,11.8,0.49,0.62333,6.43,2,,Pocos datos
+Inter Rapidísimo,Ruta,Ibagué → Villavicencio,2,0.7,75.9,59.2,0.47,27.59,1.41,0.15996,-0.07,3,,Pocos datos
+Servientrega,Ruta,Ibagué → Villavicencio,2,1.0,72.5,54.0,0.54,15.78,0.93,0.35436,-3.47,5,,Pocos datos
+4-72,Ruta,Manizales → Barranquilla,0,0.0,69.2,49.2,0.0,,,,-7.58,6,,Sin historial
+Coordinadora,Ruta,Manizales → Barranquilla,14,4.5,84.5,75.6,-0.13,0.09,0.01,0.9909,7.72,1,0.9929,Normal
+Envía,Ruta,Manizales → Barranquilla,4,2.0,73.3,56.0,-0.28,-6.98,-0.5,0.61951,-3.48,5,,Pocos datos
+Grupo TCC,Ruta,Manizales → Barranquilla,8,2.3,83.5,74.6,0.25,7.79,0.78,0.43368,6.72,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Barranquilla,16,6.3,76.4,62.6,0.1,-0.08,-0.01,0.99079,-0.38,3,0.9929,Normal
+Servientrega,Ruta,Manizales → Barranquilla,10,2.5,73.8,58.9,0.96,15.63,1.68,0.09325,-2.98,4,0.8713,Normal
+4-72,Ruta,Manizales → Bogotá,5,1.3,68.3,47.8,-0.33,-16.09,-1.25,0.21062,-6.85,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Bogotá,65,24.0,82.5,72.1,-1.6,-4.53,-1.24,0.21665,7.35,1,0.9286,Normal
+Envía,Ruta,Manizales → Bogotá,19,6.4,72.3,54.3,-0.69,-5.97,-0.94,0.34961,-2.85,4,0.9286,Normal
+Grupo TCC,Ruta,Manizales → Bogotá,25,8.8,81.4,70.0,-1.22,-7.55,-1.24,0.21382,6.25,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Manizales → Bogotá,64,22.1,76.1,63.0,0.36,0.84,0.22,0.82422,0.95,3,0.9832,Normal
+Servientrega,Ruta,Manizales → Bogotá,32,11.1,70.3,52.5,-1.94,-11.91,-2.22,0.02658,-4.85,5,0.6188,Normal
+4-72,Ruta,Manizales → Bucaramanga,1,0.5,70.1,51.1,0.31,24.31,1.01,0.31153,-7.52,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Bucaramanga,10,3.5,85.5,77.8,0.28,6.29,0.68,0.49478,7.88,1,0.9289,Normal
+Envía,Ruta,Manizales → Bucaramanga,4,1.5,74.7,58.3,0.43,15.57,1.13,0.25804,-2.92,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Bucaramanga,2,1.0,84.0,75.5,0.13,11.16,0.63,0.52588,6.38,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Bucaramanga,13,5.4,76.9,63.7,0.01,-1.01,-0.12,0.90292,-0.72,3,0.9832,Normal
+Servientrega,Ruta,Manizales → Bucaramanga,5,1.6,74.5,60.4,1.05,27.73,2.33,0.01972,-3.12,5,,Pocos datos
+4-72,Ruta,Manizales → Cali,4,1.2,67.3,45.8,-0.63,-29.49,-1.9,0.05729,-7.92,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Cali,27,8.4,82.9,72.8,-0.47,-2.32,-0.36,0.72114,7.68,1,0.9771,Normal
+Envía,Ruta,Manizales → Cali,6,1.3,72.2,53.9,-0.11,-3.91,-0.32,0.75121,-3.02,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Cali,7,2.2,82.2,72.9,0.3,9.23,0.79,0.42889,6.98,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Cali,27,9.1,74.8,59.4,-0.23,-2.18,-0.37,0.71496,-0.42,3,0.9771,Normal
+Servientrega,Ruta,Manizales → Cali,12,5.0,71.9,55.1,0.39,1.9,0.22,0.82394,-3.32,5,0.9832,Normal
+4-72,Ruta,Manizales → Cartagena,1,0.7,68.8,48.8,0.44,25.69,1.07,0.28485,-7.15,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Cartagena,7,2.8,83.6,74.3,-0.14,-0.24,-0.02,0.98135,7.65,1,,Pocos datos
+Envía,Ruta,Manizales → Cartagena,1,0.6,73.0,55.6,0.21,19.54,0.81,0.41599,-2.95,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Cartagena,2,0.4,82.4,72.9,0.02,13.78,0.8,0.42406,6.45,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Cartagena,5,2.8,75.6,61.5,0.19,1.56,0.13,0.89588,-0.35,3,,Pocos datos
+Servientrega,Ruta,Manizales → Cartagena,2,1.0,72.3,56.6,0.32,5.15,0.28,0.77575,-3.65,5,,Pocos datos
+4-72,Ruta,Manizales → Cúcuta,1,0.1,69.3,49.7,0.02,-25.2,-1.05,0.2943,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Cúcuta,8,2.1,84.6,76.2,-0.11,0.64,0.06,0.95038,7.8,1,,Pocos datos
+Envía,Ruta,Manizales → Cúcuta,1,0.1,73.7,56.9,0.01,18.69,0.78,0.43668,-3.1,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Cúcuta,2,0.4,83.3,74.6,0.03,14.4,0.82,0.41014,6.5,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Cúcuta,5,2.3,76.9,64.9,0.57,10.58,0.76,0.44453,0.1,3,,Pocos datos
+Servientrega,Ruta,Manizales → Cúcuta,3,0.5,73.0,58.1,0.19,-3.24,-0.23,0.82151,-3.8,5,,Pocos datos
+4-72,Ruta,Manizales → Ibagué,1,0.2,69.1,48.0,-0.03,-30.93,-1.29,0.19793,-7.45,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Ibagué,4,2.0,84.9,75.3,0.28,10.78,0.86,0.39159,8.35,1,,Pocos datos
+Envía,Ruta,Manizales → Ibagué,3,0.7,73.7,55.4,0.1,8.48,0.57,0.5656,-2.85,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Ibagué,1,0.1,83.1,72.8,-0.06,10.53,0.44,0.66109,6.55,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Ibagué,7,2.5,75.8,60.6,-0.38,-10.09,-0.88,0.37623,-0.75,3,,Pocos datos
+Servientrega,Ruta,Manizales → Ibagué,0,0.0,72.7,56.2,0.0,,,,-3.85,5,,Sin historial
+4-72,Ruta,Manizales → Manizales,0,0.0,71.6,53.9,0.0,,,,-7.38,6,,Sin historial
+Coordinadora,Ruta,Manizales → Manizales,7,3.2,87.2,80.8,0.2,5.42,0.54,0.59249,8.22,1,,Pocos datos
+Envía,Ruta,Manizales → Manizales,1,0.7,75.6,60.2,-0.41,-27.76,-1.16,0.24793,-3.38,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Manizales,0,0.0,85.6,78.8,0.0,,,,6.62,2,,Sin historial
+Inter Rapidísimo,Ruta,Manizales → Manizales,2,0.3,78.7,67.6,0.06,-8.49,-0.49,0.62192,-0.28,3,,Pocos datos
+Servientrega,Ruta,Manizales → Manizales,3,1.0,75.2,61.9,0.02,-10.9,-0.65,0.51573,-3.78,5,,Pocos datos
+4-72,Ruta,Manizales → Medellín,4,1.2,69.0,49.0,0.69,25.77,1.92,0.05521,-7.23,6,,Pocos datos
+Coordinadora,Ruta,Manizales → Medellín,15,4.3,83.7,74.2,-0.02,1.38,0.17,0.86316,7.47,1,0.9832,Normal
+Envía,Ruta,Manizales → Medellín,6,2.4,73.0,55.6,0.26,5.95,0.48,0.63236,-3.23,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Medellín,15,5.4,83.2,74.2,0.87,9.95,1.31,0.19095,6.97,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Manizales → Medellín,39,12.7,76.0,62.8,0.6,2.44,0.5,0.61545,-0.23,3,0.9427,Normal
+Servientrega,Ruta,Manizales → Medellín,17,5.4,72.5,57.8,0.61,4.01,0.53,0.59616,-3.73,5,0.9427,Normal
+4-72,Ruta,Manizales → Neiva,0,0.0,66.4,44.4,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Manizales → Neiva,1,0.1,81.7,71.1,-0.09,27.5,1.14,0.25234,7.85,1,,Pocos datos
+Envía,Ruta,Manizales → Neiva,1,0.2,70.9,51.9,0.11,26.23,1.09,0.27501,-2.95,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Neiva,0,0.0,80.4,69.3,0.0,,,,6.55,2,,Sin historial
+Inter Rapidísimo,Ruta,Manizales → Neiva,4,0.6,73.8,58.8,0.4,24.04,1.62,0.1056,-0.05,3,,Pocos datos
+Servientrega,Ruta,Manizales → Neiva,3,1.0,69.9,52.4,-0.08,-15.69,-0.94,0.34656,-3.95,5,,Pocos datos
+4-72,Ruta,Manizales → Pasto,0,0.0,58.9,31.2,0.0,,,,-7.5,6,,Sin historial
+Coordinadora,Ruta,Manizales → Pasto,1,0.1,74.3,57.9,-0.09,30.03,1.25,0.21131,7.9,1,,Pocos datos
+Envía,Ruta,Manizales → Pasto,0,0.0,63.4,38.5,0.0,,,,-3.0,4,,Sin historial
+Grupo TCC,Ruta,Manizales → Pasto,0,0.0,72.9,56.1,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Manizales → Pasto,6,2.1,65.9,44.6,-0.1,-5.12,-0.43,0.66736,-0.5,3,,Pocos datos
+Servientrega,Ruta,Manizales → Pasto,2,0.5,63.0,40.0,0.43,22.78,1.17,0.24232,-3.4,5,,Pocos datos
+4-72,Ruta,Manizales → Pereira,0,0.0,71.0,52.1,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Manizales → Pereira,2,0.6,86.3,78.6,-0.11,2.13,0.1,0.91876,7.85,1,,Pocos datos
+Envía,Ruta,Manizales → Pereira,0,0.0,75.4,59.4,0.0,,,,-3.05,4,,Sin historial
+Grupo TCC,Ruta,Manizales → Pereira,4,1.2,85.0,77.1,0.03,5.3,0.36,0.72076,6.55,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Pereira,1,0.8,78.4,66.3,0.34,13.72,0.57,0.56805,-0.05,3,,Pocos datos
+Servientrega,Ruta,Manizales → Pereira,4,1.0,74.6,60.4,0.05,-8.78,-0.63,0.53153,-3.85,5,,Pocos datos
+4-72,Ruta,Manizales → Quibdó,0,0.0,53.8,22.7,0.0,,,,-7.5,6,,Sin historial
+Coordinadora,Ruta,Manizales → Quibdó,0,0.0,69.3,49.5,0.0,,,,8.0,1,,Sin historial
+Envía,Ruta,Manizales → Quibdó,0,0.0,58.2,30.0,0.0,,,,-3.1,4,,Sin historial
+Grupo TCC,Ruta,Manizales → Quibdó,0,0.0,67.8,47.6,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Manizales → Quibdó,10,2.1,61.2,36.7,0.28,4.4,0.48,0.6324,-0.1,3,0.9427,Normal
+Servientrega,Ruta,Manizales → Quibdó,5,0.7,57.5,31.0,0.12,-7.02,-0.63,0.53163,-3.8,5,,Pocos datos
+4-72,Ruta,Manizales → Santa Marta,0,0.0,67.3,46.1,0.0,,,,-7.37,6,,Sin historial
+Coordinadora,Ruta,Manizales → Santa Marta,4,1.7,82.3,72.2,-0.46,-9.63,-0.62,0.53785,7.63,1,,Pocos datos
+Envía,Ruta,Manizales → Santa Marta,0,0.0,71.7,53.4,0.0,,,,-2.97,4,,Sin historial
+Grupo TCC,Ruta,Manizales → Santa Marta,5,2.0,81.7,71.7,0.43,13.5,1.12,0.26449,7.03,2,,Pocos datos
+Inter Rapidísimo,Ruta,Manizales → Santa Marta,3,1.3,73.7,58.4,-0.68,-30.44,-2.11,0.03446,-0.97,3,,Pocos datos
+Servientrega,Ruta,Manizales → Santa Marta,3,0.4,71.3,55.0,0.38,21.16,1.44,0.15081,-3.37,5,,Pocos datos
+4-72,Ruta,Manizales → Villavicencio,0,0.0,67.0,45.1,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Manizales → Villavicencio,1,0.2,82.4,71.8,-0.07,12.72,0.53,0.59636,7.95,1,,Pocos datos
+Envía,Ruta,Manizales → Villavicencio,1,0.3,71.1,52.1,-0.28,-53.59,-2.23,0.02572,-3.35,4,,Pocos datos
+Grupo TCC,Ruta,Manizales → Villavicencio,0,0.0,81.0,70.0,0.0,,,,6.55,2,,Sin historial
+Inter Rapidísimo,Ruta,Manizales → Villavicencio,3,1.6,74.9,60.1,0.8,21.74,1.36,0.1742,0.45,3,,Pocos datos
+Servientrega,Ruta,Manizales → Villavicencio,4,1.4,70.3,53.2,-0.26,-17.38,-1.33,0.1836,-4.15,5,,Pocos datos
+4-72,Ruta,Medellín → Barranquilla,12,2.8,69.8,49.1,0.59,9.81,1.14,0.25396,-7.63,6,0.9286,Normal
+Coordinadora,Ruta,Medellín → Barranquilla,115,40.2,83.7,74.1,-0.89,-1.7,-0.61,0.5416,6.27,1,0.9412,Normal
+Envía,Ruta,Medellín → Barranquilla,37,12.3,76.1,59.9,2.51,12.78,2.43,0.01492,-1.33,4,0.5916,Normal
+Grupo TCC,Ruta,Medellín → Barranquilla,57,19.0,81.9,71.1,-1.33,-4.49,-1.06,0.28879,4.47,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Medellín → Barranquilla,150,57.7,79.3,67.1,2.99,5.37,2.24,0.02517,1.87,3,0.6188,Normal
+Servientrega,Ruta,Medellín → Barranquilla,51,16.2,73.8,58.4,1.03,3.33,0.75,0.45538,-3.63,5,0.9289,Normal
+4-72,Ruta,Medellín → Bogotá,49,16.8,69.7,48.4,0.44,1.49,0.35,0.72639,-7.22,6,0.9771,Normal
+Coordinadora,Ruta,Medellín → Bogotá,534,179.2,84.3,74.2,-0.41,-0.35,-0.27,0.78815,7.38,1,0.9832,Normal
+Envía,Ruta,Medellín → Bogotá,143,48.7,73.9,55.7,0.25,0.54,0.21,0.83229,-3.02,4,0.9832,Normal
+Grupo TCC,Ruta,Medellín → Bogotá,196,63.5,84.0,74.5,0.78,1.56,0.7,0.48272,7.08,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Medellín → Bogotá,580,195.1,76.5,62.2,0.17,0.07,0.06,0.95459,-0.42,3,0.9866,Normal
+Servientrega,Ruta,Medellín → Bogotá,270,90.9,73.1,56.5,0.27,0.08,0.04,0.96412,-3.82,5,0.9866,Normal
+4-72,Ruta,Medellín → Bucaramanga,3,0.2,70.3,50.3,0.02,-11.16,-0.79,0.42666,-7.45,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Bucaramanga,74,22.9,84.2,73.6,-1.53,-4.44,-1.25,0.21223,6.45,1,0.9286,Normal
+Envía,Ruta,Medellín → Bucaramanga,20,7.3,75.2,58.8,0.48,3.89,0.58,0.55865,-2.55,5,0.9412,Normal
+Grupo TCC,Ruta,Medellín → Bucaramanga,30,9.4,83.3,72.6,-0.96,-5.51,-0.95,0.34186,5.55,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Medellín → Bucaramanga,94,29.9,77.5,64.5,0.15,0.1,0.03,0.97451,-0.25,3,0.9901,Normal
+Servientrega,Ruta,Medellín → Bucaramanga,47,14.9,76.0,62.2,2.1,8.16,1.85,0.06405,-1.75,4,0.786,Normal
+4-72,Ruta,Medellín → Cali,13,4.6,68.4,46.2,-0.27,-4.02,-0.47,0.63735,-7.63,6,0.9427,Normal
+Coordinadora,Ruta,Medellín → Cali,202,69.3,84.0,73.9,-0.07,0.11,0.05,0.95962,7.97,1,0.9866,Normal
+Envía,Ruta,Medellín → Cali,49,16.1,74.9,57.1,1.82,7.53,1.75,0.08082,-1.13,3,0.8112,Normal
+Grupo TCC,Ruta,Medellín → Cali,73,23.1,83.6,73.5,0.95,3.28,0.94,0.3492,7.57,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Medellín → Cali,217,79.6,73.8,57.0,-1.9,-3.28,-1.6,0.1088,-2.23,4,0.8713,Normal
+Servientrega,Ruta,Medellín → Cali,82,21.9,71.5,54.4,-0.76,-3.2,-0.95,0.34217,-4.53,5,0.9286,Normal
+4-72,Ruta,Medellín → Cartagena,5,2.3,67.2,44.7,-0.64,-16.39,-1.25,0.21084,-7.2,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Cartagena,50,15.6,84.0,73.7,0.79,3.88,0.89,0.37497,9.6,1,0.9286,Normal
+Envía,Ruta,Medellín → Cartagena,17,4.7,69.8,49.1,-2.41,-27.66,-3.44,0.00057,-4.6,5,0.2779,Normal
+Grupo TCC,Ruta,Medellín → Cartagena,27,7.4,81.0,69.0,-0.79,-5.43,-0.86,0.38974,6.6,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Medellín → Cartagena,56,17.5,73.2,57.3,-1.63,-6.71,-1.61,0.10733,-1.2,3,0.8713,Normal
+Servientrega,Ruta,Medellín → Cartagena,38,12.0,71.2,53.0,-0.22,-2.28,-0.48,0.63193,-3.2,4,0.9427,Normal
+4-72,Ruta,Medellín → Cúcuta,5,1.8,67.8,45.6,0.01,-1.83,-0.16,0.87304,-7.28,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Cúcuta,43,14.4,84.3,74.3,1.1,5.5,1.24,0.21402,9.22,1,0.9286,Normal
+Envía,Ruta,Medellín → Cúcuta,12,3.2,71.1,50.7,-1.07,-17.65,-2.16,0.03112,-3.98,5,0.6188,Normal
+Grupo TCC,Ruta,Medellín → Cúcuta,20,5.5,81.2,70.2,-0.55,-4.7,-0.68,0.49414,6.12,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Medellín → Cúcuta,59,15.5,73.5,56.5,-1.32,-6.04,-1.51,0.12986,-1.58,3,0.8771,Normal
+Servientrega,Ruta,Medellín → Cúcuta,20,6.7,72.6,55.8,1.21,8.39,1.2,0.22945,-2.48,4,0.9286,Normal
+4-72,Ruta,Medellín → Ibagué,2,0.5,69.9,48.8,0.09,1.8,0.11,0.91617,-7.38,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Ibagué,32,10.4,85.4,75.6,0.13,1.51,0.26,0.79176,8.12,1,0.9832,Normal
+Envía,Ruta,Medellín → Ibagué,8,2.0,73.5,54.3,-0.79,-20.33,-2.05,0.0406,-3.78,5,,Pocos datos
+Grupo TCC,Ruta,Medellín → Ibagué,15,6.9,83.6,72.9,-0.29,-1.62,-0.23,0.81502,6.32,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Medellín → Ibagué,35,10.2,77.0,63.0,0.06,-0.27,-0.06,0.9544,-0.28,3,0.9866,Normal
+Servientrega,Ruta,Medellín → Ibagué,19,6.4,74.3,58.3,0.82,5.25,0.76,0.44906,-2.98,4,0.9289,Normal
+4-72,Ruta,Medellín → Manizales,2,0.6,68.0,46.3,-0.23,-26.36,-1.23,0.2203,-7.27,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Manizales,36,12.8,82.7,71.8,-0.9,-3.76,-0.74,0.45735,7.43,1,0.9289,Normal
+Envía,Ruta,Medellín → Manizales,12,2.8,72.9,54.4,0.28,5.42,0.6,0.54783,-2.37,4,0.9412,Normal
+Grupo TCC,Ruta,Medellín → Manizales,14,6.8,81.3,69.6,-0.93,-6.99,-0.91,0.36231,6.03,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Medellín → Manizales,45,16.0,75.8,60.9,0.55,1.81,0.41,0.68504,0.53,3,0.9691,Normal
+Servientrega,Ruta,Medellín → Manizales,20,5.0,70.9,53.4,-0.89,-12.07,-1.94,0.05185,-4.37,5,0.7362,Normal
+4-72,Ruta,Medellín → Medellín,18,5.4,73.0,55.5,0.68,6.25,0.8,0.42281,-7.42,6,0.9289,Normal
+Coordinadora,Ruta,Medellín → Medellín,243,83.1,87.3,79.6,-0.55,-0.67,-0.35,0.72745,6.88,1,0.9771,Normal
+Envía,Ruta,Medellín → Medellín,92,29.7,77.4,62.6,0.61,1.67,0.53,0.59562,-3.02,5,0.9427,Normal
+Grupo TCC,Ruta,Medellín → Medellín,121,37.6,86.8,79.4,0.47,1.3,0.48,0.63212,6.38,2,0.9427,Normal
+Inter Rapidísimo,Ruta,Medellín → Medellín,291,98.2,80.1,69.3,0.66,0.84,0.48,0.63371,-0.32,3,0.9427,Normal
+Servientrega,Ruta,Medellín → Medellín,144,45.7,77.9,66.1,1.94,3.6,1.41,0.15867,-2.52,4,0.9278,Normal
+4-72,Ruta,Medellín → Neiva,1,0.8,68.9,47.9,-0.17,-15.84,-0.66,0.50966,-7.22,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Neiva,26,9.4,83.3,72.6,-1.16,-6.49,-1.12,0.26404,7.18,1,0.9286,Normal
+Envía,Ruta,Medellín → Neiva,8,2.7,73.0,55.0,-0.4,-7.61,-0.76,0.44524,-3.12,4,,Pocos datos
+Grupo TCC,Ruta,Medellín → Neiva,10,2.7,83.3,73.9,0.27,7.11,0.77,0.43885,7.18,1,0.9289,Normal
+Inter Rapidísimo,Ruta,Medellín → Neiva,37,11.8,75.4,61.2,-0.66,-4.03,-0.85,0.3954,-0.72,3,0.9289,Normal
+Servientrega,Ruta,Medellín → Neiva,25,7.0,72.8,56.4,0.14,-0.62,-0.11,0.91508,-3.32,5,0.9832,Normal
+4-72,Ruta,Medellín → Pasto,3,0.5,59.6,31.1,0.38,28.58,1.68,0.09248,-7.38,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Pasto,40,14.7,75.9,59.0,1.2,5.84,1.29,0.19676,8.92,1,0.9286,Normal
+Envía,Ruta,Medellín → Pasto,11,3.5,63.8,37.7,0.1,1.77,0.19,0.85289,-3.18,4,0.9832,Normal
+Grupo TCC,Ruta,Medellín → Pasto,0,0.0,73.3,55.1,0.0,,,,6.32,2,,Sin historial
+Inter Rapidísimo,Ruta,Medellín → Pasto,37,12.8,66.8,46.7,0.5,1.93,0.4,0.6922,-0.18,3,0.9691,Normal
+Servientrega,Ruta,Medellín → Pasto,23,6.8,62.5,38.3,-0.35,-4.72,-0.68,0.49722,-4.48,5,0.9289,Normal
+4-72,Ruta,Medellín → Pereira,2,1.2,69.9,49.2,0.35,11.96,0.6,0.55029,-6.92,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Pereira,43,10.9,83.6,72.5,-1.35,-6.78,-1.38,0.16908,6.78,1,0.9286,Normal
+Envía,Ruta,Medellín → Pereira,13,5.2,74.3,56.1,0.34,3.76,0.5,0.614,-2.52,4,0.9427,Normal
+Grupo TCC,Ruta,Medellín → Pereira,16,5.0,83.3,72.2,-0.27,-1.92,-0.25,0.79938,6.48,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Medellín → Pereira,61,21.6,76.2,62.0,-0.45,-1.87,-0.49,0.624,-0.62,3,0.9427,Normal
+Servientrega,Ruta,Medellín → Pereira,35,12.0,73.6,57.7,0.48,1.35,0.27,0.78912,-3.22,5,0.9832,Normal
+4-72,Ruta,Medellín → Quibdó,5,1.3,55.3,24.9,-0.39,-17.69,-1.18,0.23647,-7.92,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Quibdó,0,0.0,71.1,52.4,0.0,,,,7.88,1,,Sin historial
+Envía,Ruta,Medellín → Quibdó,0,0.0,60.1,32.9,0.0,,,,-3.12,4,,Sin historial
+Grupo TCC,Ruta,Medellín → Quibdó,0,0.0,69.7,50.4,0.0,,,,6.48,2,,Sin historial
+Inter Rapidísimo,Ruta,Medellín → Quibdó,70,25.6,63.5,40.4,0.71,1.77,0.51,0.61139,0.28,3,0.9427,Normal
+Servientrega,Ruta,Medellín → Quibdó,35,10.8,59.6,34.8,0.34,0.67,0.13,0.89856,-3.62,5,0.9832,Normal
+4-72,Ruta,Medellín → Santa Marta,2,0.5,69.1,48.3,0.3,22.46,1.15,0.25049,-7.28,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Santa Marta,37,12.6,85.2,76.2,1.03,5.77,1.18,0.23652,8.82,1,0.9286,Normal
+Envía,Ruta,Medellín → Santa Marta,12,4.3,72.6,54.2,-0.56,-6.99,-0.8,0.42589,-3.78,4,0.9289,Normal
+Grupo TCC,Ruta,Medellín → Santa Marta,5,1.4,82.7,72.4,-0.06,1.22,0.1,0.91854,6.32,2,,Pocos datos
+Inter Rapidísimo,Ruta,Medellín → Santa Marta,41,13.5,77.2,63.3,1.37,5.98,1.23,0.21993,0.82,3,0.9286,Normal
+Servientrega,Ruta,Medellín → Santa Marta,11,4.8,71.5,54.2,-0.84,-12.17,-1.48,0.13942,-4.88,5,0.8771,Normal
+4-72,Ruta,Medellín → Villavicencio,1,1.0,67.3,45.3,-1.14,-63.92,-2.66,0.0078,-8.25,6,,Pocos datos
+Coordinadora,Ruta,Medellín → Villavicencio,26,10.2,82.8,72.2,-1.12,-5.82,-1.07,0.2834,7.25,2,0.9286,Normal
+Envía,Ruta,Medellín → Villavicencio,9,2.2,72.2,51.7,-0.73,-17.21,-1.67,0.09459,-3.35,5,,Pocos datos
+Grupo TCC,Ruta,Medellín → Villavicencio,14,5.2,82.9,71.6,0.4,5.23,0.63,0.52573,7.35,1,0.9387,Normal
+Inter Rapidísimo,Ruta,Medellín → Villavicencio,20,6.7,75.5,59.1,-0.08,-1.55,-0.22,0.82513,-0.05,3,0.9832,Normal
+Servientrega,Ruta,Medellín → Villavicencio,18,5.3,72.6,54.7,0.49,2.85,0.41,0.68309,-2.95,4,0.9691,Normal
+4-72,Ruta,Neiva → Barranquilla,1,0.3,71.2,52.5,0.18,19.43,0.81,0.41857,-7.02,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Barranquilla,21,7.8,85.3,76.5,-1.18,-7.77,-1.19,0.23413,7.08,1,0.9286,Normal
+Envía,Ruta,Neiva → Barranquilla,6,3.3,75.6,59.8,0.18,3.1,0.28,0.78285,-2.62,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Barranquilla,9,3.5,83.9,74.3,-1.19,-16.91,-1.72,0.08537,5.68,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Barranquilla,22,6.4,79.0,67.3,0.89,6.91,1.12,0.264,0.78,3,0.9286,Normal
+Servientrega,Ruta,Neiva → Barranquilla,3,0.5,74.3,59.8,-0.31,-48.72,-3.12,0.00183,-3.92,5,,Pocos datos
+4-72,Ruta,Neiva → Bogotá,2,0.5,70.5,51.6,-0.16,-22.6,-1.13,0.25986,-7.98,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Bogotá,66,23.2,87.4,80.2,1.26,4.39,1.18,0.23913,8.92,1,0.9286,Normal
+Envía,Ruta,Neiva → Bogotá,18,7.2,76.4,61.3,1.26,10.06,1.42,0.15543,-2.08,4,0.9278,Normal
+Grupo TCC,Ruta,Neiva → Bogotá,29,8.2,85.4,77.6,0.68,5.45,0.93,0.35268,6.92,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Neiva → Bogotá,73,25.7,77.1,64.4,-0.7,-2.36,-0.67,0.49971,-1.38,3,0.9289,Normal
+Servientrega,Ruta,Neiva → Bogotá,30,11.0,74.1,60.1,-0.22,-2.43,-0.44,0.65667,-4.38,5,0.9595,Normal
+4-72,Ruta,Neiva → Bucaramanga,1,0.6,71.7,53.4,0.35,22.38,0.93,0.35161,-7.0,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Bucaramanga,14,4.2,86.7,79.1,-0.08,0.69,0.08,0.93387,8.0,1,0.9839,Normal
+Envía,Ruta,Neiva → Bucaramanga,1,0.1,75.8,60.0,0.02,11.52,0.48,0.63146,-2.9,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Bucaramanga,7,2.4,85.5,77.9,0.15,5.38,0.47,0.63532,6.8,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Bucaramanga,13,5.0,77.2,64.2,-1.18,-14.11,-1.8,0.07163,-1.5,3,0.8091,Normal
+Servientrega,Ruta,Neiva → Bucaramanga,9,2.4,75.3,61.6,0.43,4.55,0.5,0.61978,-3.4,5,,Pocos datos
+4-72,Ruta,Neiva → Cali,0,0.0,70.8,52.1,0.0,,,,-7.68,6,,Sin historial
+Coordinadora,Ruta,Neiva → Cali,20,7.4,86.8,79.8,0.48,4.75,0.72,0.46896,8.32,1,0.9289,Normal
+Envía,Ruta,Neiva → Cali,4,1.9,75.6,59.9,0.33,9.47,0.68,0.49596,-2.88,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Cali,8,2.8,84.3,76.5,-0.52,-8.02,-0.75,0.45572,5.82,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Cali,22,5.4,77.9,65.4,-0.02,-1.33,-0.19,0.8517,-0.58,3,0.9832,Normal
+Servientrega,Ruta,Neiva → Cali,10,3.8,75.5,62.2,1.11,12.54,1.36,0.17437,-2.98,5,0.9286,Normal
+4-72,Ruta,Neiva → Cartagena,1,0.2,71.7,53.9,0.18,24.89,1.04,0.3001,-7.17,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Cartagena,11,3.9,87.5,81.2,0.56,9.44,1.0,0.31776,8.63,1,0.9286,Normal
+Envía,Ruta,Neiva → Cartagena,1,0.1,75.9,60.5,-0.09,-26.62,-1.11,0.26783,-2.97,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Cartagena,3,0.3,85.4,78.0,-0.19,-14.35,-1.01,0.31279,6.53,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Cartagena,8,3.5,77.4,65.4,-1.21,-20.08,-2.06,0.0394,-1.47,3,,Pocos datos
+Servientrega,Ruta,Neiva → Cartagena,7,3.1,75.3,61.5,0.16,-1.04,-0.1,0.92272,-3.57,5,,Pocos datos
+4-72,Ruta,Neiva → Cúcuta,1,0.8,70.5,51.5,0.48,26.22,1.09,0.27519,-7.1,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Cúcuta,7,3.1,85.1,76.5,-0.44,-5.16,-0.46,0.64669,7.5,1,,Pocos datos
+Envía,Ruta,Neiva → Cúcuta,1,0.1,74.4,57.8,-0.04,-20.3,-0.84,0.39812,-3.2,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Cúcuta,0,0.0,84.1,75.5,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Neiva → Cúcuta,2,1.4,77.6,65.3,0.51,14.88,0.87,0.38193,-0.0,3,,Pocos datos
+Servientrega,Ruta,Neiva → Cúcuta,3,0.8,73.9,59.3,0.29,4.82,0.29,0.77327,-3.7,5,,Pocos datos
+4-72,Ruta,Neiva → Ibagué,0,0.0,73.1,55.0,0.0,,,,-7.35,6,,Sin historial
+Coordinadora,Ruta,Neiva → Ibagué,5,1.5,87.8,80.6,-0.7,-19.99,-1.51,0.13171,7.35,1,,Pocos datos
+Envía,Ruta,Neiva → Ibagué,0,0.0,77.5,62.3,0.0,,,,-2.95,4,,Sin historial
+Grupo TCC,Ruta,Neiva → Ibagué,3,1.1,86.9,79.6,-0.19,-4.33,-0.29,0.77351,6.45,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Ibagué,3,1.1,80.3,68.8,0.12,0.55,0.03,0.97362,-0.15,3,,Pocos datos
+Servientrega,Ruta,Neiva → Ibagué,1,0.7,77.1,64.0,0.43,16.05,0.67,0.50413,-3.35,5,,Pocos datos
+4-72,Ruta,Neiva → Manizales,0,0.0,69.8,50.5,0.0,,,,-7.43,6,,Sin historial
+Coordinadora,Ruta,Neiva → Manizales,4,0.8,85.3,77.5,0.12,15.22,1.11,0.26714,8.07,1,,Pocos datos
+Envía,Ruta,Neiva → Manizales,0,0.0,74.2,57.8,0.0,,,,-3.03,4,,Sin historial
+Grupo TCC,Ruta,Neiva → Manizales,4,1.4,83.9,75.6,0.1,7.29,0.5,0.61577,6.67,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Manizales,9,3.0,76.5,63.4,-0.34,-7.76,-0.75,0.45203,-0.73,3,,Pocos datos
+Servientrega,Ruta,Neiva → Manizales,1,0.1,73.7,59.1,0.27,30.5,1.27,0.20426,-3.53,5,,Pocos datos
+4-72,Ruta,Neiva → Medellín,2,0.3,70.3,50.9,0.11,5.99,0.34,0.73606,-7.27,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Medellín,32,8.9,84.7,75.9,-0.86,-4.82,-0.93,0.35417,7.13,1,0.9286,Normal
+Envía,Ruta,Neiva → Medellín,6,2.4,74.1,57.1,-0.45,-9.74,-0.9,0.37009,-3.47,5,,Pocos datos
+Grupo TCC,Ruta,Neiva → Medellín,9,4.4,83.7,75.0,-0.47,-4.65,-0.52,0.60059,6.13,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Medellín,38,13.8,78.0,65.6,0.76,3.04,0.61,0.54348,0.43,3,0.9412,Normal
+Servientrega,Ruta,Neiva → Medellín,16,6.9,74.6,59.9,0.81,4.87,0.69,0.48911,-2.97,4,0.9289,Normal
+4-72,Ruta,Neiva → Neiva,0,0.0,73.8,58.1,0.0,,,,-7.53,6,,Sin historial
+Coordinadora,Ruta,Neiva → Neiva,5,2.1,89.1,84.9,-0.11,0.58,0.04,0.966,7.77,1,,Pocos datos
+Envía,Ruta,Neiva → Neiva,3,0.7,78.3,65.7,0.1,8.83,0.46,0.64891,-3.03,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Neiva,2,0.5,87.8,83.1,-0.03,6.26,0.37,0.71328,6.47,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Neiva,3,1.2,81.2,72.4,0.31,8.22,0.46,0.64367,-0.13,3,,Pocos datos
+Servientrega,Ruta,Neiva → Neiva,3,1.0,77.8,67.0,0.42,10.26,0.65,0.51734,-3.53,5,,Pocos datos
+4-72,Ruta,Neiva → Pasto,0,0.0,59.4,32.0,0.0,,,,-7.53,6,,Sin historial
+Coordinadora,Ruta,Neiva → Pasto,6,1.6,74.9,58.9,0.02,4.88,0.35,0.72898,7.97,1,,Pocos datos
+Envía,Ruta,Neiva → Pasto,0,0.0,63.8,39.3,0.0,,,,-3.13,4,,Sin historial
+Grupo TCC,Ruta,Neiva → Pasto,0,0.0,73.4,56.8,0.0,,,,6.47,2,,Sin historial
+Inter Rapidísimo,Ruta,Neiva → Pasto,5,1.4,67.1,46.7,0.64,19.75,1.45,0.14826,0.17,3,,Pocos datos
+Servientrega,Ruta,Neiva → Pasto,2,0.5,63.0,40.1,-0.03,-27.47,-1.62,0.10593,-3.93,5,,Pocos datos
+4-72,Ruta,Neiva → Pereira,1,0.9,71.5,52.7,-0.37,-24.91,-1.04,0.2998,-7.72,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Pereira,3,0.4,87.1,79.9,-0.2,-8.35,-0.59,0.55414,7.88,1,,Pocos datos
+Envía,Ruta,Neiva → Pereira,0,0.0,76.3,60.8,0.0,,,,-2.92,4,,Sin historial
+Grupo TCC,Ruta,Neiva → Pereira,2,0.3,85.8,78.3,-0.1,-0.73,-0.04,0.97004,6.58,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Pereira,9,3.1,78.7,66.9,-0.21,-5.33,-0.58,0.55966,-0.52,3,,Pocos datos
+Servientrega,Ruta,Neiva → Pereira,4,1.5,75.9,62.5,0.5,9.82,0.67,0.50196,-3.32,5,,Pocos datos
+4-72,Ruta,Neiva → Quibdó,0,0.0,55.1,24.9,0.0,,,,-7.32,6,,Sin historial
+Coordinadora,Ruta,Neiva → Quibdó,0,0.0,70.5,51.7,0.0,,,,8.08,1,,Sin historial
+Envía,Ruta,Neiva → Quibdó,0,0.0,59.5,32.2,0.0,,,,-2.92,4,,Sin historial
+Grupo TCC,Ruta,Neiva → Quibdó,0,0.0,69.1,49.8,0.0,,,,6.68,2,,Sin historial
+Inter Rapidísimo,Ruta,Neiva → Quibdó,7,1.6,62.0,38.0,-0.23,-10.74,-0.99,0.3216,-0.42,3,,Pocos datos
+Servientrega,Ruta,Neiva → Quibdó,4,1.5,58.3,32.2,-0.44,-22.35,-1.41,0.15746,-4.12,5,,Pocos datos
+4-72,Ruta,Neiva → Santa Marta,0,0.0,69.0,49.2,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Neiva → Santa Marta,4,1.4,84.4,76.1,0.02,5.73,0.39,0.69535,7.95,1,,Pocos datos
+Envía,Ruta,Neiva → Santa Marta,0,0.0,73.4,56.5,0.0,,,,-3.05,4,,Sin historial
+Grupo TCC,Ruta,Neiva → Santa Marta,1,0.4,83.0,74.1,-0.03,8.37,0.35,0.72745,6.55,2,,Pocos datos
+Inter Rapidísimo,Ruta,Neiva → Santa Marta,7,3.3,76.3,63.0,0.23,1.99,0.18,0.85329,-0.15,3,,Pocos datos
+Servientrega,Ruta,Neiva → Santa Marta,1,0.2,72.6,57.4,0.04,-39.8,-1.66,0.09763,-3.85,5,,Pocos datos
+4-72,Ruta,Neiva → Villavicencio,1,0.3,69.5,49.6,0.27,29.24,1.22,0.22349,-7.42,6,,Pocos datos
+Coordinadora,Ruta,Neiva → Villavicencio,4,1.7,84.8,75.8,0.03,5.15,0.34,0.73176,7.88,1,,Pocos datos
+Envía,Ruta,Neiva → Villavicencio,2,0.2,73.7,56.2,0.02,6.12,0.34,0.73171,-3.22,4,,Pocos datos
+Grupo TCC,Ruta,Neiva → Villavicencio,0,0.0,83.3,73.8,0.0,,,,6.38,2,,Sin historial
+Inter Rapidísimo,Ruta,Neiva → Villavicencio,4,2.0,77.3,64.3,0.91,20.71,1.43,0.15295,0.38,3,,Pocos datos
+Servientrega,Ruta,Neiva → Villavicencio,1,0.9,72.9,56.9,0.06,-9.07,-0.38,0.70579,-4.02,5,,Pocos datos
+4-72,Ruta,Pasto → Barranquilla,4,1.2,59.9,31.6,-0.32,-17.1,-1.2,0.22866,-8.02,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Barranquilla,10,2.3,76.0,59.5,0.31,9.92,1.01,0.31287,8.08,1,0.9286,Normal
+Envía,Ruta,Pasto → Barranquilla,2,0.5,64.8,39.7,0.16,19.01,1.02,0.30785,-3.12,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Barranquilla,0,0.0,74.2,57.0,0.0,,,,6.28,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Barranquilla,25,7.3,68.1,47.6,0.77,5.26,0.93,0.35387,0.18,3,0.9286,Normal
+Servientrega,Ruta,Pasto → Barranquilla,10,3.8,64.5,41.0,0.72,7.09,0.71,0.47673,-3.42,5,0.9289,Normal
+4-72,Ruta,Pasto → Bogotá,5,1.7,60.0,31.8,-0.32,-11.92,-0.88,0.37742,-6.88,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Bogotá,80,28.1,74.8,57.9,-0.96,-2.29,-0.69,0.49194,7.92,1,0.9289,Normal
+Envía,Ruta,Pasto → Bogotá,16,7.7,63.8,37.5,-0.91,-6.73,-0.91,0.36187,-3.08,5,0.9286,Normal
+Grupo TCC,Ruta,Pasto → Bogotá,0,0.0,74.3,57.3,0.0,,,,7.42,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Bogotá,90,30.0,64.4,40.4,-2.94,-8.12,-2.49,0.01286,-2.48,3,0.5916,Normal
+Servientrega,Ruta,Pasto → Bogotá,35,10.0,64.0,40.6,0.12,-0.6,-0.12,0.90629,-2.88,4,0.9832,Normal
+4-72,Ruta,Pasto → Bucaramanga,0,0.0,61.7,35.3,0.0,,,,-7.32,6,,Sin historial
+Coordinadora,Ruta,Pasto → Bucaramanga,11,4.6,76.2,60.3,-0.89,-8.99,-0.99,0.32144,7.18,1,0.9286,Normal
+Envía,Ruta,Pasto → Bucaramanga,1,0.3,66.0,42.3,-0.13,-23.43,-0.98,0.32937,-3.02,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Bucaramanga,0,0.0,75.7,60.2,0.0,,,,6.68,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Bucaramanga,6,1.7,68.9,49.3,0.17,1.93,0.19,0.85141,-0.12,3,,Pocos datos
+Servientrega,Ruta,Pasto → Bucaramanga,7,1.5,65.6,44.0,0.29,2.35,0.2,0.84488,-3.42,5,,Pocos datos
+4-72,Ruta,Pasto → Cali,3,1.1,59.8,31.5,0.77,31.93,1.97,0.04938,-6.7,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Cali,29,7.6,74.4,56.8,-0.01,0.94,0.17,0.86407,7.9,1,0.9832,Normal
+Envía,Ruta,Pasto → Cali,5,1.3,63.0,36.6,-0.44,-17.01,-1.49,0.13706,-3.5,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Cali,0,0.0,73.0,54.9,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Cali,25,8.1,66.3,43.5,0.21,0.73,0.12,0.90694,-0.2,3,0.9832,Normal
+Servientrega,Ruta,Pasto → Cali,14,5.7,62.5,38.2,-0.14,-3.48,-0.44,0.65941,-4.0,5,0.9595,Normal
+4-72,Ruta,Pasto → Cartagena,0,0.0,59.4,31.1,0.0,,,,-7.85,6,,Sin historial
+Coordinadora,Ruta,Pasto → Cartagena,9,3.3,75.4,58.8,0.52,10.48,1.04,0.2996,8.15,1,,Pocos datos
+Envía,Ruta,Pasto → Cartagena,2,0.9,64.3,39.2,0.45,26.67,1.21,0.22723,-2.95,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Cartagena,0,0.0,73.5,55.9,0.0,,,,6.25,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Cartagena,10,4.2,67.2,46.0,0.71,7.7,0.83,0.4078,-0.05,3,0.9289,Normal
+Servientrega,Ruta,Pasto → Cartagena,7,1.7,63.7,40.3,0.64,12.96,0.98,0.32908,-3.55,5,,Pocos datos
+4-72,Ruta,Pasto → Cúcuta,1,0.9,59.5,31.3,-0.18,-13.74,-0.57,0.56736,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Cúcuta,5,0.7,75.2,58.7,-0.01,8.91,0.71,0.4769,8.2,1,,Pocos datos
+Envía,Ruta,Pasto → Cúcuta,1,0.1,64.1,39.0,-0.05,-15.48,-0.64,0.51938,-2.9,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Cúcuta,0,0.0,73.7,56.8,0.0,,,,6.7,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Cúcuta,6,2.3,65.6,43.4,-1.17,-29.31,-2.24,0.02505,-1.4,3,,Pocos datos
+Servientrega,Ruta,Pasto → Cúcuta,3,0.8,63.9,41.0,0.58,22.11,1.49,0.13645,-3.1,5,,Pocos datos
+4-72,Ruta,Pasto → Ibagué,0,0.0,59.6,30.5,0.0,,,,-7.65,6,,Sin historial
+Coordinadora,Ruta,Pasto → Ibagué,4,1.1,74.9,56.9,-0.16,-1.4,-0.1,0.92279,7.65,1,,Pocos datos
+Envía,Ruta,Pasto → Ibagué,1,0.2,63.9,37.6,-0.1,-18.87,-0.79,0.43215,-3.35,5,,Pocos datos
+Grupo TCC,Ruta,Pasto → Ibagué,0,0.0,73.6,55.4,0.0,,,,6.35,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Ibagué,7,2.0,67.1,44.7,0.41,7.8,0.59,0.5538,-0.15,3,,Pocos datos
+Servientrega,Ruta,Pasto → Ibagué,3,1.5,64.4,40.7,1.2,34.37,2.25,0.02448,-2.85,4,,Pocos datos
+4-72,Ruta,Pasto → Manizales,1,0.1,60.3,32.1,0.03,-20.55,-0.86,0.39243,-7.4,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Manizales,8,4.5,75.3,57.7,-0.43,-3.59,-0.38,0.70501,7.6,1,,Pocos datos
+Envía,Ruta,Pasto → Manizales,0,0.0,64.7,39.2,0.0,,,,-3.0,4,,Sin historial
+Grupo TCC,Ruta,Pasto → Manizales,0,0.0,74.3,56.8,0.0,,,,6.6,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Manizales,4,0.6,67.7,46.2,0.4,24.82,1.68,0.09274,0.0,3,,Pocos datos
+Servientrega,Ruta,Pasto → Manizales,2,0.3,63.9,40.1,0.09,-19.03,-1.08,0.27804,-3.8,5,,Pocos datos
+4-72,Ruta,Pasto → Medellín,4,1.2,60.2,31.9,0.03,-1.71,-0.13,0.89639,-7.07,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Medellín,34,7.4,75.2,58.3,-0.41,-2.17,-0.42,0.67783,7.93,1,0.9653,Normal
+Envía,Ruta,Pasto → Medellín,11,4.8,65.1,40.0,0.58,6.83,0.81,0.41594,-2.17,4,0.9289,Normal
+Grupo TCC,Ruta,Pasto → Medellín,0,0.0,74.1,56.7,0.0,,,,6.83,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Medellín,54,19.6,65.5,43.2,-1.66,-6.28,-1.49,0.13638,-1.77,3,0.8771,Normal
+Servientrega,Ruta,Pasto → Medellín,13,5.1,63.5,39.5,-0.24,-4.96,-0.6,0.54918,-3.77,5,0.9412,Normal
+4-72,Ruta,Pasto → Neiva,0,0.0,59.9,32.2,0.0,,,,-7.58,6,,Sin historial
+Coordinadora,Ruta,Pasto → Neiva,4,0.6,75.0,58.3,-0.33,-15.62,-1.22,0.22286,7.52,1,,Pocos datos
+Envía,Ruta,Pasto → Neiva,1,0.3,64.2,39.2,-0.15,-27.19,-1.13,0.25767,-3.28,5,,Pocos datos
+Grupo TCC,Ruta,Pasto → Neiva,0,0.0,73.9,57.0,0.0,,,,6.42,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Neiva,8,2.4,67.3,46.3,0.32,4.54,0.44,0.65771,-0.18,3,,Pocos datos
+Servientrega,Ruta,Pasto → Neiva,4,1.4,64.6,42.3,1.08,31.69,2.34,0.01948,-2.88,4,,Pocos datos
+4-72,Ruta,Pasto → Pasto,0,0.0,68.8,49.1,0.0,,,,-7.38,6,,Sin historial
+Coordinadora,Ruta,Pasto → Pasto,2,0.9,84.4,76.2,0.19,18.75,0.86,0.39135,8.22,1,,Pocos datos
+Envía,Ruta,Pasto → Pasto,1,1.0,73.5,57.0,0.32,17.41,0.72,0.46866,-2.68,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Pasto,0,0.0,82.8,74.0,0.0,,,,6.62,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Pasto,4,1.0,76.0,62.9,0.13,1.2,0.09,0.92777,-0.18,3,,Pocos datos
+Servientrega,Ruta,Pasto → Pasto,3,2.0,71.6,55.5,-0.75,-25.61,-1.77,0.07613,-4.58,5,,Pocos datos
+4-72,Ruta,Pasto → Pereira,1,0.5,60.9,32.6,-0.02,-9.86,-0.41,0.68164,-7.67,6,,Pocos datos
+Coordinadora,Ruta,Pasto → Pereira,5,2.6,76.8,60.5,0.51,12.84,1.07,0.28503,8.23,1,,Pocos datos
+Envía,Ruta,Pasto → Pereira,1,0.1,65.4,40.1,0.07,28.69,1.19,0.23235,-3.17,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Pereira,0,0.0,74.9,57.6,0.0,,,,6.33,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Pereira,2,0.3,68.2,46.8,0.26,26.53,1.56,0.11881,-0.37,3,,Pocos datos
+Servientrega,Ruta,Pasto → Pereira,4,0.8,65.2,42.2,0.74,32.08,2.43,0.01524,-3.37,5,,Pocos datos
+4-72,Ruta,Pasto → Quibdó,0,0.0,55.2,24.7,0.0,,,,-7.42,6,,Sin historial
+Coordinadora,Ruta,Pasto → Quibdó,0,0.0,70.7,51.5,0.0,,,,8.08,1,,Sin historial
+Envía,Ruta,Pasto → Quibdó,0,0.0,59.6,32.0,0.0,,,,-3.02,4,,Sin historial
+Grupo TCC,Ruta,Pasto → Quibdó,0,0.0,69.2,49.6,0.0,,,,6.58,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Quibdó,7,2.5,62.1,38.1,-0.14,-5.23,-0.51,0.60822,-0.52,3,,Pocos datos
+Servientrega,Ruta,Pasto → Quibdó,1,0.5,58.9,32.9,0.06,-17.43,-0.73,0.46817,-3.72,5,,Pocos datos
+4-72,Ruta,Pasto → Santa Marta,0,0.0,58.9,30.2,0.0,,,,-7.48,6,,Sin historial
+Coordinadora,Ruta,Pasto → Santa Marta,3,1.2,74.7,57.8,0.37,21.62,1.43,0.15159,8.32,1,,Pocos datos
+Envía,Ruta,Pasto → Santa Marta,1,0.6,63.0,36.9,-0.36,-30.22,-1.26,0.20839,-3.38,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Santa Marta,0,0.0,72.9,55.1,0.0,,,,6.52,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Santa Marta,6,2.1,65.9,43.8,-0.06,-4.05,-0.31,0.75878,-0.48,3,,Pocos datos
+Servientrega,Ruta,Pasto → Santa Marta,2,0.3,62.9,39.1,0.4,30.33,1.71,0.08704,-3.48,5,,Pocos datos
+4-72,Ruta,Pasto → Villavicencio,0,0.0,59.0,29.4,0.0,,,,-7.53,6,,Sin historial
+Coordinadora,Ruta,Pasto → Villavicencio,7,2.3,74.3,55.8,-0.07,1.42,0.13,0.89836,7.77,1,,Pocos datos
+Envía,Ruta,Pasto → Villavicencio,1,0.3,63.6,37.1,0.23,42.1,1.75,0.07968,-2.93,4,,Pocos datos
+Grupo TCC,Ruta,Pasto → Villavicencio,0,0.0,73.0,54.2,0.0,,,,6.47,2,,Sin historial
+Inter Rapidísimo,Ruta,Pasto → Villavicencio,2,0.5,66.3,43.4,0.26,14.83,0.81,0.42021,-0.23,3,,Pocos datos
+Servientrega,Ruta,Pasto → Villavicencio,1,0.4,63.0,38.4,0.47,35.52,1.48,0.13929,-3.53,5,,Pocos datos
+4-72,Ruta,Pereira → Barranquilla,0,0.0,70.5,51.2,0.0,,,,-7.57,6,,Sin historial
+Coordinadora,Ruta,Pereira → Barranquilla,16,5.0,86.4,78.7,0.49,6.85,0.9,0.36825,8.33,1,0.9286,Normal
+Envía,Ruta,Pereira → Barranquilla,4,0.6,74.8,58.1,-0.16,-12.41,-0.93,0.35289,-3.27,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Barranquilla,5,2.5,84.6,76.3,0.05,2.89,0.26,0.79797,6.53,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Barranquilla,30,9.6,77.5,65.5,-0.13,-1.5,-0.26,0.79134,-0.57,3,0.9832,Normal
+Servientrega,Ruta,Pereira → Barranquilla,8,1.7,74.6,60.2,0.48,8.17,0.88,0.38149,-3.47,5,,Pocos datos
+4-72,Ruta,Pereira → Bogotá,5,2.2,68.8,48.6,-0.57,-15.34,-1.21,0.22819,-7.85,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Bogotá,111,41.6,85.0,76.3,0.29,0.93,0.33,0.73885,8.35,1,0.9832,Normal
+Envía,Ruta,Pereira → Bogotá,33,11.4,72.7,53.1,-1.02,-5.41,-1.02,0.30814,-3.95,5,0.9286,Normal
+Grupo TCC,Ruta,Pereira → Bogotá,31,12.6,84.4,75.9,1.07,5.8,1.05,0.29161,7.75,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Pereira → Bogotá,108,40.3,76.0,62.3,-0.4,-1.14,-0.4,0.68781,-0.65,3,0.9691,Normal
+Servientrega,Ruta,Pereira → Bogotá,52,16.0,73.0,57.4,0.07,-0.61,-0.14,0.88554,-3.65,4,0.9832,Normal
+4-72,Ruta,Pereira → Bucaramanga,0,0.0,71.0,51.8,0.0,,,,-7.32,6,,Sin historial
+Coordinadora,Ruta,Pereira → Bucaramanga,12,4.2,86.4,78.3,-0.03,1.4,0.17,0.8635,8.08,1,0.9832,Normal
+Envía,Ruta,Pereira → Bucaramanga,2,1.0,74.8,57.9,-0.58,-28.26,-1.38,0.16612,-3.52,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Bucaramanga,5,1.1,85.0,76.8,0.04,5.88,0.5,0.62005,6.68,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Bucaramanga,15,6.4,78.9,67.0,0.9,7.07,0.95,0.3405,0.58,3,0.9286,Normal
+Servientrega,Ruta,Pereira → Bucaramanga,11,4.4,73.8,58.7,-0.73,-11.73,-1.33,0.18201,-4.52,5,0.9286,Normal
+4-72,Ruta,Pereira → Cali,4,1.9,69.1,48.3,0.05,-0.48,-0.04,0.97028,-7.55,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Cali,29,8.2,84.9,75.6,0.38,3.63,0.64,0.52222,8.25,1,0.9387,Normal
+Envía,Ruta,Pereira → Cali,6,1.9,73.5,55.4,0.04,1.5,0.11,0.91378,-3.15,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Cali,9,2.0,82.9,72.8,-0.22,-3.24,-0.29,0.77556,6.25,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Cali,44,17.3,76.4,62.4,0.22,0.44,0.1,0.91968,-0.25,3,0.9832,Normal
+Servientrega,Ruta,Pereira → Cali,16,4.3,73.1,56.9,0.4,2.3,0.31,0.75971,-3.55,5,0.9832,Normal
+4-72,Ruta,Pereira → Cartagena,0,0.0,69.5,49.3,0.0,,,,-7.48,6,,Sin historial
+Coordinadora,Ruta,Pereira → Cartagena,16,4.4,84.4,75.5,-0.48,-4.29,-0.57,0.5687,7.42,1,0.9427,Normal
+Envía,Ruta,Pereira → Cartagena,4,2.1,74.1,57.1,0.24,6.33,0.47,0.6363,-2.88,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Cartagena,7,2.1,83.2,73.6,-0.28,-4.78,-0.45,0.65455,6.22,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Cartagena,9,4.2,76.7,62.9,0.13,0.24,0.03,0.97979,-0.28,3,,Pocos datos
+Servientrega,Ruta,Pereira → Cartagena,6,1.7,74.0,59.1,0.95,22.84,1.82,0.06887,-2.98,5,,Pocos datos
+4-72,Ruta,Pereira → Cúcuta,1,0.8,68.5,47.6,-0.39,-29.71,-1.24,0.21625,-7.2,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Cúcuta,11,3.5,82.3,72.2,-2.04,-29.21,-3.26,0.00112,6.6,1,0.2779,Normal
+Envía,Ruta,Pereira → Cúcuta,0,0.0,73.3,55.6,0.0,,,,-2.4,4,,Sin historial
+Grupo TCC,Ruta,Pereira → Cúcuta,3,1.2,82.2,71.9,-0.78,-28.58,-1.57,0.1172,6.5,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Cúcuta,10,3.2,75.7,61.1,-0.34,-7.43,-0.78,0.43359,0.0,3,0.9289,Normal
+Servientrega,Ruta,Pereira → Cúcuta,5,1.7,72.2,55.6,-0.29,-15.33,-1.04,0.29784,-3.5,5,,Pocos datos
+4-72,Ruta,Pereira → Ibagué,0,0.0,69.3,48.2,0.0,,,,-7.28,6,,Sin historial
+Coordinadora,Ruta,Pereira → Ibagué,8,2.6,83.7,72.6,-1.06,-18.53,-1.66,0.09596,7.12,1,,Pocos datos
+Envía,Ruta,Pereira → Ibagué,2,0.5,73.5,55.0,-0.22,-22.35,-1.23,0.2193,-3.08,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Ibagué,2,1.5,83.0,72.4,-0.32,-8.0,-0.46,0.64525,6.42,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Ibagué,2,0.3,76.5,62.0,0.12,1.72,0.09,0.92584,-0.08,3,,Pocos datos
+Servientrega,Ruta,Pereira → Ibagué,2,1.0,73.5,57.4,0.62,20.55,1.17,0.24042,-3.08,4,,Pocos datos
+4-72,Ruta,Pereira → Manizales,0,0.0,69.0,48.9,0.0,,,,-7.55,6,,Sin historial
+Coordinadora,Ruta,Pereira → Manizales,3,1.1,84.6,75.9,0.15,12.82,0.66,0.50993,8.05,1,,Pocos datos
+Envía,Ruta,Pereira → Manizales,0,0.0,73.4,56.2,0.0,,,,-3.15,4,,Sin historial
+Grupo TCC,Ruta,Pereira → Manizales,0,0.0,83.0,73.7,0.0,,,,6.45,2,,Sin historial
+Inter Rapidísimo,Ruta,Pereira → Manizales,9,1.9,76.4,63.3,0.31,5.57,0.45,0.65559,-0.15,3,,Pocos datos
+Servientrega,Ruta,Pereira → Manizales,1,0.1,72.9,57.5,0.26,25.57,1.06,0.2871,-3.65,5,,Pocos datos
+4-72,Ruta,Pereira → Medellín,4,2.1,68.9,48.7,-0.16,-5.87,-0.42,0.67225,-7.58,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Medellín,41,12.5,84.5,76.0,0.04,0.85,0.18,0.85919,8.02,1,0.9832,Normal
+Envía,Ruta,Pereira → Medellín,13,5.2,72.7,54.1,-0.79,-8.22,-0.99,0.32082,-3.78,4,0.9286,Normal
+Grupo TCC,Ruta,Pereira → Medellín,17,5.9,83.9,74.9,0.87,9.05,1.25,0.20996,7.42,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Pereira → Medellín,58,19.3,77.0,62.6,0.85,2.66,0.67,0.50277,0.52,3,0.9289,Normal
+Servientrega,Ruta,Pereira → Medellín,27,8.8,71.9,55.2,-0.71,-6.2,-1.06,0.29046,-4.58,5,0.9286,Normal
+4-72,Ruta,Pereira → Neiva,1,0.2,68.0,47.2,0.18,30.93,1.29,0.19795,-7.15,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Neiva,8,1.3,82.9,73.0,-0.36,-8.59,-0.95,0.34017,7.75,1,,Pocos datos
+Envía,Ruta,Pereira → Neiva,0,0.0,72.3,54.1,0.0,,,,-2.85,4,,Sin historial
+Grupo TCC,Ruta,Pereira → Neiva,2,0.7,82.0,71.9,0.09,13.68,0.77,0.43962,6.85,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Neiva,11,2.3,74.5,60.2,-0.46,-12.72,-1.5,0.13301,-0.65,3,0.8771,Normal
+Servientrega,Ruta,Pereira → Neiva,4,0.7,71.2,54.5,-0.23,-31.48,-1.95,0.05124,-3.95,5,,Pocos datos
+4-72,Ruta,Pereira → Pasto,0,0.0,59.6,31.4,0.0,,,,-7.68,6,,Sin historial
+Coordinadora,Ruta,Pereira → Pasto,7,2.2,75.4,58.6,0.34,10.96,0.92,0.35848,8.12,1,,Pocos datos
+Envía,Ruta,Pereira → Pasto,1,0.1,64.0,38.5,-0.04,-22.69,-0.94,0.3449,-3.28,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Pasto,0,0.0,73.6,56.2,0.0,,,,6.32,2,,Sin historial
+Inter Rapidísimo,Ruta,Pereira → Pasto,8,2.7,67.5,46.5,0.86,14.42,1.4,0.162,0.22,3,,Pocos datos
+Servientrega,Ruta,Pereira → Pasto,1,0.2,63.6,40.1,0.35,29.92,1.25,0.21297,-3.68,5,,Pocos datos
+4-72,Ruta,Pereira → Pereira,0,0.0,74.5,57.7,0.0,,,,-7.32,6,,Sin historial
+Coordinadora,Ruta,Pereira → Pereira,10,3.1,89.2,82.6,-0.77,-10.89,-1.15,0.24937,7.38,1,0.9286,Normal
+Envía,Ruta,Pereira → Pereira,2,1.0,79.0,65.0,0.04,2.78,0.15,0.87867,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Pereira,2,0.4,88.5,82.5,-0.03,7.08,0.42,0.678,6.68,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Pereira,8,1.6,81.7,71.5,0.13,0.64,0.07,0.94241,-0.12,3,,Pocos datos
+Servientrega,Ruta,Pereira → Pereira,1,0.5,78.0,65.5,-0.1,-33.6,-1.4,0.16195,-3.82,5,,Pocos datos
+4-72,Ruta,Pereira → Quibdó,1,0.1,56.5,27.7,-0.02,-32.57,-1.36,0.17521,-7.4,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Quibdó,0,0.0,72.0,54.4,0.0,,,,8.1,1,,Sin historial
+Envía,Ruta,Pereira → Quibdó,0,0.0,60.9,34.9,0.0,,,,-3.0,4,,Sin historial
+Grupo TCC,Ruta,Pereira → Quibdó,0,0.0,70.5,52.4,0.0,,,,6.6,2,,Sin historial
+Inter Rapidísimo,Ruta,Pereira → Quibdó,9,3.9,63.3,40.3,-0.28,-5.4,-0.54,0.59142,-0.6,3,,Pocos datos
+Servientrega,Ruta,Pereira → Quibdó,5,0.9,60.2,35.9,0.12,-5.81,-0.51,0.61108,-3.7,5,,Pocos datos
+4-72,Ruta,Pereira → Santa Marta,1,0.1,69.8,50.0,0.01,-41.44,-1.72,0.08454,-7.48,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Santa Marta,5,1.3,85.3,76.8,0.03,6.49,0.4,0.68626,8.02,1,,Pocos datos
+Envía,Ruta,Pereira → Santa Marta,2,0.3,74.1,56.9,-0.07,-9.46,-0.49,0.62682,-3.18,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Santa Marta,3,0.9,84.0,75.0,0.14,13.15,0.78,0.43574,6.72,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Santa Marta,6,2.2,76.6,62.7,-0.29,-9.61,-0.82,0.41294,-0.68,3,,Pocos datos
+Servientrega,Ruta,Pereira → Santa Marta,3,0.8,73.9,58.9,0.51,19.47,1.17,0.24293,-3.38,5,,Pocos datos
+4-72,Ruta,Pereira → Villavicencio,1,0.1,68.4,46.4,0.04,-18.46,-0.77,0.44218,-7.72,6,,Pocos datos
+Coordinadora,Ruta,Pereira → Villavicencio,9,2.4,83.9,73.3,0.13,5.62,0.59,0.55651,7.78,1,,Pocos datos
+Envía,Ruta,Pereira → Villavicencio,2,1.3,73.3,54.6,0.56,22.24,1.21,0.22556,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Pereira → Villavicencio,4,0.8,82.5,71.6,0.19,18.74,1.36,0.17248,6.38,2,,Pocos datos
+Inter Rapidísimo,Ruta,Pereira → Villavicencio,7,2.8,76.4,61.7,1.02,17.17,1.67,0.09461,0.28,3,,Pocos datos
+Servientrega,Ruta,Pereira → Villavicencio,1,0.1,72.2,54.9,0.27,24.69,1.03,0.3041,-3.92,5,,Pocos datos
+4-72,Ruta,Quibdó → Barranquilla,2,1.0,56.0,26.3,0.18,5.76,0.34,0.7352,-6.93,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Barranquilla,0,0.0,71.2,52.6,0.0,,,,8.27,1,,Sin historial
+Envía,Ruta,Quibdó → Barranquilla,0,0.0,60.2,33.1,0.0,,,,-2.73,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Barranquilla,0,0.0,69.8,50.7,0.0,,,,6.87,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Barranquilla,30,9.5,61.7,36.4,-1.18,-8.08,-1.49,0.13688,-1.23,3,0.8771,Normal
+Servientrega,Ruta,Quibdó → Barranquilla,25,6.1,58.7,33.1,-0.73,-8.76,-1.52,0.1273,-4.23,5,0.8771,Normal
+4-72,Ruta,Quibdó → Bogotá,7,2.6,57.2,27.4,0.34,5.5,0.48,0.63431,-7.5,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Bogotá,0,0.0,72.3,54.1,0.0,,,,7.6,1,,Sin historial
+Envía,Ruta,Quibdó → Bogotá,0,0.0,61.2,34.5,0.0,,,,-3.5,5,,Sin historial
+Grupo TCC,Ruta,Quibdó → Bogotá,0,0.0,70.8,52.1,0.0,,,,6.1,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Bogotá,146,51.0,64.5,40.5,0.59,0.96,0.38,0.70629,-0.2,3,0.9752,Normal
+Servientrega,Ruta,Quibdó → Bogotá,68,19.6,62.2,38.1,1.73,5.34,1.45,0.14777,-2.5,4,0.911,Normal
+4-72,Ruta,Quibdó → Bucaramanga,3,1.6,58.8,31.2,0.29,6.98,0.45,0.65505,-7.47,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Bucaramanga,0,0.0,74.0,57.6,0.0,,,,7.73,1,,Sin historial
+Envía,Ruta,Quibdó → Bucaramanga,0,0.0,62.9,38.1,0.0,,,,-3.37,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Bucaramanga,0,0.0,72.5,55.7,0.0,,,,6.23,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Bucaramanga,22,7.3,67.1,47.1,1.46,10.53,1.56,0.11762,0.83,3,0.8761,Normal
+Servientrega,Ruta,Quibdó → Bucaramanga,14,3.9,62.3,38.7,0.14,-1.12,-0.14,0.8921,-3.97,5,0.9832,Normal
+4-72,Ruta,Quibdó → Cali,4,1.2,56.4,26.4,0.49,17.72,1.17,0.2403,-7.07,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Cali,0,0.0,71.4,52.4,0.0,,,,7.93,1,,Sin historial
+Envía,Ruta,Quibdó → Cali,0,0.0,60.3,32.8,0.0,,,,-3.17,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Cali,0,0.0,69.9,50.4,0.0,,,,6.43,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Cali,36,13.0,63.5,39.6,0.5,1.89,0.38,0.70278,0.03,3,0.9752,Normal
+Servientrega,Ruta,Quibdó → Cali,18,6.7,59.3,33.6,-0.25,-3.97,-0.6,0.54854,-4.17,5,0.9412,Normal
+4-72,Ruta,Quibdó → Cartagena,1,0.1,57.4,28.5,0.17,35.18,1.46,0.14313,-7.3,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Cartagena,0,0.0,72.6,54.9,0.0,,,,7.9,1,,Sin historial
+Envía,Ruta,Quibdó → Cartagena,0,0.0,61.6,35.4,0.0,,,,-3.1,5,,Sin historial
+Grupo TCC,Ruta,Quibdó → Cartagena,0,0.0,71.2,53.0,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Cartagena,19,8.3,63.2,39.7,-1.09,-8.4,-1.3,0.19192,-1.5,3,0.9286,Normal
+Servientrega,Ruta,Quibdó → Cartagena,8,2.5,62.2,38.6,1.39,24.24,1.98,0.04753,-2.5,4,,Pocos datos
+4-72,Ruta,Quibdó → Cúcuta,0,0.0,57.0,27.5,0.0,,,,-7.42,6,,Sin historial
+Coordinadora,Ruta,Quibdó → Cúcuta,0,0.0,72.5,54.3,0.0,,,,8.08,1,,Sin historial
+Envía,Ruta,Quibdó → Cúcuta,0,0.0,61.4,34.8,0.0,,,,-3.02,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Cúcuta,0,0.0,71.0,52.4,0.0,,,,6.58,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Cúcuta,13,3.0,64.3,41.4,0.2,1.59,0.2,0.83806,-0.12,3,0.9832,Normal
+Servientrega,Ruta,Quibdó → Cúcuta,2,1.1,60.3,35.3,-0.3,-23.93,-1.41,0.15973,-4.12,5,,Pocos datos
+4-72,Ruta,Quibdó → Ibagué,0,0.0,56.2,25.0,0.0,,,,-7.53,6,,Sin historial
+Coordinadora,Ruta,Quibdó → Ibagué,0,0.0,71.7,51.8,0.0,,,,7.97,1,,Sin historial
+Envía,Ruta,Quibdó → Ibagué,0,0.0,60.6,32.3,0.0,,,,-3.13,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Ibagué,0,0.0,70.2,49.8,0.0,,,,6.47,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Ibagué,11,3.1,63.6,39.2,0.29,3.15,0.38,0.707,-0.13,3,0.9752,Normal
+Servientrega,Ruta,Quibdó → Ibagué,4,1.3,60.1,33.7,0.29,2.79,0.19,0.84887,-3.63,5,,Pocos datos
+4-72,Ruta,Quibdó → Manizales,1,0.2,55.6,26.0,0.18,33.04,1.38,0.16903,-7.4,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Manizales,0,0.0,70.9,52.4,0.0,,,,7.9,1,,Sin historial
+Envía,Ruta,Quibdó → Manizales,0,0.0,59.9,32.9,0.0,,,,-3.1,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Manizales,0,0.0,69.5,50.4,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Manizales,8,2.2,62.7,39.8,0.22,2.65,0.24,0.81075,-0.3,3,,Pocos datos
+Servientrega,Ruta,Quibdó → Manizales,3,1.1,59.4,34.4,0.39,8.19,0.55,0.58484,-3.6,5,,Pocos datos
+4-72,Ruta,Quibdó → Medellín,3,0.8,56.2,26.4,0.16,5.31,0.37,0.71395,-7.68,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Medellín,0,0.0,71.4,52.8,0.0,,,,7.52,1,,Sin historial
+Envía,Ruta,Quibdó → Medellín,0,0.0,60.4,33.3,0.0,,,,-3.48,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Medellín,0,0.0,70.0,50.8,0.0,,,,6.12,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Medellín,73,25.0,65.1,43.4,2.03,5.76,1.6,0.10864,1.22,3,0.8713,Normal
+Servientrega,Ruta,Quibdó → Medellín,37,11.5,60.2,35.6,0.6,2.06,0.42,0.67097,-3.68,5,0.9653,Normal
+4-72,Ruta,Quibdó → Neiva,1,0.5,56.5,27.5,-0.14,-21.34,-0.89,0.37432,-7.7,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Neiva,0,0.0,72.1,54.4,0.0,,,,7.9,1,,Sin historial
+Envía,Ruta,Quibdó → Neiva,0,0.0,61.0,34.9,0.0,,,,-3.2,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Neiva,0,0.0,70.6,52.5,0.0,,,,6.4,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Neiva,9,3.7,64.2,41.9,0.51,5.83,0.64,0.52367,0.0,3,,Pocos datos
+Servientrega,Ruta,Quibdó → Neiva,4,1.1,60.8,36.7,0.56,15.68,0.97,0.33138,-3.4,5,,Pocos datos
+4-72,Ruta,Quibdó → Pasto,1,0.1,54.5,23.6,0.06,-5.86,-0.24,0.80732,-7.45,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Pasto,0,0.0,69.9,50.3,0.0,,,,7.95,1,,Sin historial
+Envía,Ruta,Quibdó → Pasto,0,0.0,58.8,30.7,0.0,,,,-3.15,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Pasto,0,0.0,68.4,48.3,0.0,,,,6.45,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Pasto,5,2.3,62.1,37.9,0.57,10.7,0.92,0.35818,0.15,3,,Pocos datos
+Servientrega,Ruta,Quibdó → Pasto,9,1.9,58.0,31.8,-0.04,-7.15,-0.76,0.44511,-3.95,5,,Pocos datos
+4-72,Ruta,Quibdó → Pereira,1,0.2,57.3,27.4,0.17,33.61,1.4,0.16179,-7.18,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Pereira,0,0.0,72.5,53.8,0.0,,,,8.02,1,,Sin historial
+Envía,Ruta,Quibdó → Pereira,0,0.0,61.5,34.3,0.0,,,,-2.98,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Pereira,0,0.0,71.1,51.8,0.0,,,,6.62,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Pereira,7,2.6,63.5,39.9,-0.63,-15.03,-1.48,0.13804,-0.98,3,,Pocos datos
+Servientrega,Ruta,Quibdó → Pereira,10,2.3,61.0,35.7,0.29,1.62,0.19,0.84954,-3.48,5,0.9832,Normal
+4-72,Ruta,Quibdó → Quibdó,0,0.0,62.9,40.3,0.0,,,,-7.62,6,,Sin historial
+Coordinadora,Ruta,Quibdó → Quibdó,0,0.0,78.4,67.1,0.0,,,,7.88,1,,Sin historial
+Envía,Ruta,Quibdó → Quibdó,0,0.0,67.3,47.6,0.0,,,,-3.22,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Quibdó,0,0.0,76.9,65.1,0.0,,,,6.38,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Quibdó,11,3.5,70.4,54.3,0.41,4.51,0.52,0.60589,-0.12,3,0.9427,Normal
+Servientrega,Ruta,Quibdó → Quibdó,3,0.6,67.2,49.5,0.63,36.45,2.28,0.02261,-3.32,5,,Pocos datos
+4-72,Ruta,Quibdó → Santa Marta,1,0.3,56.4,26.6,-0.06,-23.06,-0.96,0.33714,-7.48,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Santa Marta,0,0.0,71.9,53.3,0.0,,,,8.02,1,,Sin historial
+Envía,Ruta,Quibdó → Santa Marta,0,0.0,60.8,33.8,0.0,,,,-3.08,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Santa Marta,0,0.0,70.4,51.3,0.0,,,,6.52,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Santa Marta,4,1.3,63.7,40.5,0.23,4.73,0.35,0.72449,-0.18,3,,Pocos datos
+Servientrega,Ruta,Quibdó → Santa Marta,3,1.3,60.1,35.1,0.08,-5.54,-0.37,0.70975,-3.78,5,,Pocos datos
+4-72,Ruta,Quibdó → Villavicencio,1,0.1,53.6,20.8,0.14,31.39,1.31,0.19139,-7.32,6,,Pocos datos
+Coordinadora,Ruta,Quibdó → Villavicencio,0,0.0,68.9,47.3,0.0,,,,7.98,1,,Sin historial
+Envía,Ruta,Quibdó → Villavicencio,0,0.0,57.9,27.8,0.0,,,,-3.02,4,,Sin historial
+Grupo TCC,Ruta,Quibdó → Villavicencio,0,0.0,67.5,45.4,0.0,,,,6.58,2,,Sin historial
+Inter Rapidísimo,Ruta,Quibdó → Villavicencio,11,3.8,60.6,34.1,0.06,-0.72,-0.08,0.93828,-0.32,3,0.9839,Normal
+Servientrega,Ruta,Quibdó → Villavicencio,4,0.8,57.0,28.7,-0.07,-18.08,-1.39,0.16531,-3.92,5,,Pocos datos
+4-72,Ruta,Santa Marta → Barranquilla,0,0.0,67.9,47.0,0.0,,,,-7.35,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Barranquilla,9,2.5,83.8,74.8,0.52,13.65,1.6,0.11028,8.55,1,,Pocos datos
+Envía,Ruta,Santa Marta → Barranquilla,4,1.1,71.9,53.5,-0.44,-19.67,-1.07,0.28254,-3.35,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Barranquilla,4,1.4,81.2,70.7,-0.71,-22.74,-1.76,0.07919,5.95,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Barranquilla,15,4.0,74.8,60.1,-0.12,-3.13,-0.44,0.66221,-0.45,3,0.9595,Normal
+Servientrega,Ruta,Santa Marta → Barranquilla,10,3.0,71.9,55.8,0.38,2.94,0.33,0.73905,-3.35,4,0.9832,Normal
+4-72,Ruta,Santa Marta → Bogotá,5,1.1,68.9,48.3,0.37,13.53,1.17,0.241,-7.27,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Bogotá,56,20.4,85.3,77.7,1.3,4.93,1.24,0.21391,9.13,1,0.9286,Normal
+Envía,Ruta,Santa Marta → Bogotá,10,2.7,71.9,52.7,-1.08,-21.01,-2.42,0.0154,-4.27,5,0.5916,Normal
+Grupo TCC,Ruta,Santa Marta → Bogotá,21,7.6,81.7,70.4,-0.9,-6.1,-0.97,0.32985,5.53,2,0.9286,Normal
+Inter Rapidísimo,Ruta,Santa Marta → Bogotá,69,24.6,76.9,64.7,1.29,3.59,0.99,0.32096,0.73,3,0.9286,Normal
+Servientrega,Ruta,Santa Marta → Bogotá,36,11.2,72.3,55.7,0.08,-0.74,-0.15,0.87936,-3.87,4,0.9832,Normal
+4-72,Ruta,Santa Marta → Bucaramanga,1,0.1,70.1,50.7,0.01,-24.28,-1.01,0.31223,-7.53,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Bucaramanga,6,1.8,85.0,76.4,-0.57,-12.63,-0.91,0.36527,7.37,1,,Pocos datos
+Envía,Ruta,Santa Marta → Bucaramanga,2,1.1,74.5,57.8,-0.03,-0.68,-0.04,0.96872,-3.13,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Bucaramanga,8,2.3,84.0,75.7,-0.18,-1.96,-0.18,0.85325,6.37,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Bucaramanga,10,3.4,78.1,65.6,0.87,11.89,1.33,0.18318,0.47,3,0.9286,Normal
+Servientrega,Ruta,Santa Marta → Bucaramanga,4,1.4,74.1,59.4,0.38,6.13,0.39,0.7001,-3.53,5,,Pocos datos
+4-72,Ruta,Santa Marta → Cali,3,1.2,68.7,47.7,0.75,27.99,1.71,0.08815,-6.97,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Cali,19,7.5,83.4,73.5,-0.05,0.63,0.1,0.92428,7.73,1,0.9837,Normal
+Envía,Ruta,Santa Marta → Cali,8,3.1,72.4,53.5,0.01,0.37,0.04,0.97098,-3.27,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Cali,4,1.1,81.6,70.5,-0.43,-16.03,-1.23,0.22046,5.93,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Cali,23,8.7,76.1,61.2,1.07,6.47,1.04,0.29883,0.43,3,0.9286,Normal
+Servientrega,Ruta,Santa Marta → Cali,15,3.9,71.8,55.2,0.25,0.35,0.05,0.96357,-3.87,5,0.9866,Normal
+4-72,Ruta,Santa Marta → Cartagena,1,0.2,66.9,45.4,0.17,23.62,0.98,0.32557,-7.23,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Cartagena,12,3.9,81.0,69.6,-1.13,-13.97,-1.6,0.11044,6.87,1,0.8713,Normal
+Envía,Ruta,Santa Marta → Cartagena,4,1.5,71.2,52.6,0.07,2.92,0.18,0.85994,-2.93,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Cartagena,3,1.8,80.9,70.1,0.16,7.44,0.52,0.60272,6.77,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Cartagena,8,3.6,74.9,60.7,1.14,15.5,1.57,0.11746,0.77,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Cartagena,3,1.0,69.9,52.5,-0.37,-28.81,-1.4,0.16025,-4.23,5,,Pocos datos
+4-72,Ruta,Santa Marta → Cúcuta,0,0.0,67.1,45.5,0.0,,,,-7.23,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Cúcuta,8,3.0,81.7,70.0,-0.85,-12.88,-1.3,0.19351,7.37,1,,Pocos datos
+Envía,Ruta,Santa Marta → Cúcuta,1,0.1,71.4,52.6,-0.11,-56.83,-2.37,0.018,-2.93,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Cúcuta,2,0.5,81.1,70.5,0.03,13.55,0.65,0.51826,6.77,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Cúcuta,7,1.7,73.9,58.5,-0.27,-11.28,-1.12,0.26085,-0.43,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Cúcuta,2,0.3,70.8,53.8,0.11,-16.62,-0.97,0.33338,-3.53,5,,Pocos datos
+4-72,Ruta,Santa Marta → Ibagué,0,0.0,70.6,50.4,0.0,,,,-7.42,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Ibagué,2,0.3,85.8,76.8,-0.24,-20.29,-1.18,0.23616,7.78,1,,Pocos datos
+Envía,Ruta,Santa Marta → Ibagué,1,0.2,75.1,57.8,0.06,22.58,0.94,0.34731,-2.92,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Ibagué,0,0.0,84.7,75.3,0.0,,,,6.68,2,,Sin historial
+Inter Rapidísimo,Ruta,Santa Marta → Ibagué,5,1.4,77.1,62.9,-0.59,-25.31,-1.9,0.05748,-0.92,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Ibagué,2,0.6,74.8,59.5,0.52,24.75,1.38,0.16778,-3.22,5,,Pocos datos
+4-72,Ruta,Santa Marta → Manizales,0,0.0,65.7,42.4,0.0,,,,-7.52,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Manizales,2,0.5,81.0,69.0,-0.12,1.23,0.06,0.95162,7.78,1,,Pocos datos
+Envía,Ruta,Santa Marta → Manizales,1,0.2,70.0,49.4,-0.13,-34.48,-1.44,0.15119,-3.22,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Manizales,2,1.0,79.9,67.8,0.16,13.6,0.63,0.52889,6.68,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Manizales,5,0.8,73.4,57.0,0.57,29.57,2.56,0.01048,0.18,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Manizales,0,0.0,69.3,50.5,0.0,,,,-3.92,5,,Sin historial
+4-72,Ruta,Santa Marta → Medellín,4,1.4,67.6,45.5,-0.38,-16.65,-1.17,0.24341,-7.97,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Medellín,48,18.1,82.4,71.2,-0.98,-3.2,-0.73,0.46826,6.83,1,0.9289,Normal
+Envía,Ruta,Santa Marta → Medellín,4,1.0,72.3,53.2,-0.14,-6.92,-0.53,0.59427,-3.27,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Medellín,19,5.7,82.4,72.3,0.43,5.06,0.71,0.47976,6.83,1,0.9289,Normal
+Inter Rapidísimo,Ruta,Santa Marta → Medellín,33,11.2,76.9,63.2,1.8,9.27,1.74,0.08155,1.33,3,0.8112,Normal
+Servientrega,Ruta,Santa Marta → Medellín,14,3.2,71.8,54.6,0.23,0.13,0.02,0.98648,-3.77,5,0.9925,Normal
+4-72,Ruta,Santa Marta → Neiva,1,0.5,69.0,49.2,-0.29,-38.53,-1.6,0.10881,-7.55,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Neiva,4,0.9,84.7,76.1,-0.07,3.25,0.24,0.81035,8.15,1,,Pocos datos
+Envía,Ruta,Santa Marta → Neiva,3,0.8,73.4,56.1,-0.29,-18.54,-1.17,0.24355,-3.15,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Neiva,3,0.4,83.3,74.5,0.01,12.88,0.85,0.39302,6.75,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Neiva,2,1.0,75.6,62.0,-0.74,-43.5,-1.94,0.05298,-0.95,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Neiva,3,1.0,73.3,58.4,0.44,11.32,0.58,0.56431,-3.25,5,,Pocos datos
+4-72,Ruta,Santa Marta → Pasto,0,0.0,60.1,31.8,0.0,,,,-7.3,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Pasto,7,3.2,74.7,57.2,-0.79,-10.88,-1.18,0.2377,7.3,1,,Pocos datos
+Envía,Ruta,Santa Marta → Pasto,0,0.0,64.5,39.0,0.0,,,,-2.9,4,,Sin historial
+Grupo TCC,Ruta,Santa Marta → Pasto,0,0.0,74.1,56.6,0.0,,,,6.7,2,,Sin historial
+Inter Rapidísimo,Ruta,Santa Marta → Pasto,7,2.6,67.1,44.9,-0.11,-4.36,-0.37,0.71488,-0.3,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Pasto,2,0.5,63.9,40.1,0.18,-3.64,-0.18,0.86036,-3.5,5,,Pocos datos
+4-72,Ruta,Santa Marta → Pereira,0,0.0,67.7,45.2,0.0,,,,-7.22,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Pereira,5,1.5,83.3,72.6,0.24,12.32,0.93,0.34996,8.38,1,,Pocos datos
+Envía,Ruta,Santa Marta → Pereira,1,0.3,72.0,52.1,-0.12,-17.2,-0.72,0.47394,-2.92,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Pereira,0,0.0,81.7,70.1,0.0,,,,6.78,2,,Sin historial
+Inter Rapidísimo,Ruta,Santa Marta → Pereira,8,3.5,73.0,56.1,-1.72,-27.61,-2.83,0.00466,-1.92,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Pereira,3,0.9,71.8,54.4,0.55,18.2,1.05,0.29247,-3.12,5,,Pocos datos
+4-72,Ruta,Santa Marta → Quibdó,2,0.3,55.6,25.9,0.0,-11.28,-0.65,0.51347,-7.42,6,,Pocos datos
+Coordinadora,Ruta,Santa Marta → Quibdó,0,0.0,71.0,52.4,0.0,,,,7.98,1,,Sin historial
+Envía,Ruta,Santa Marta → Quibdó,0,0.0,60.0,32.9,0.0,,,,-3.02,4,,Sin historial
+Grupo TCC,Ruta,Santa Marta → Quibdó,0,0.0,69.6,50.4,0.0,,,,6.58,2,,Sin historial
+Inter Rapidísimo,Ruta,Santa Marta → Quibdó,11,4.0,62.6,39.2,-0.05,-2.1,-0.22,0.8231,-0.42,3,0.9832,Normal
+Servientrega,Ruta,Santa Marta → Quibdó,6,1.5,59.3,33.8,0.12,-3.51,-0.25,0.80588,-3.72,5,,Pocos datos
+4-72,Ruta,Santa Marta → Santa Marta,0,0.0,71.0,52.7,0.0,,,,-7.52,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Santa Marta,1,0.1,86.3,79.3,-0.11,10.47,0.44,0.6629,7.78,1,,Pocos datos
+Envía,Ruta,Santa Marta → Santa Marta,2,0.4,75.6,60.2,0.14,17.78,1.02,0.30608,-2.92,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Santa Marta,2,0.5,85.0,77.6,-0.01,9.0,0.49,0.62702,6.48,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Santa Marta,4,1.1,78.4,66.7,0.29,8.61,0.67,0.50344,-0.12,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Santa Marta,3,1.3,74.8,61.3,0.23,0.55,0.03,0.97562,-3.72,5,,Pocos datos
+4-72,Ruta,Santa Marta → Villavicencio,0,0.0,65.1,40.4,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Santa Marta → Villavicencio,2,0.7,80.4,66.9,-0.12,1.17,0.07,0.94522,7.85,1,,Pocos datos
+Envía,Ruta,Santa Marta → Villavicencio,1,0.2,69.4,47.4,-0.14,-27.34,-1.14,0.25515,-3.15,4,,Pocos datos
+Grupo TCC,Ruta,Santa Marta → Villavicencio,1,0.6,79.2,65.7,0.14,18.13,0.75,0.45039,6.65,2,,Pocos datos
+Inter Rapidísimo,Ruta,Santa Marta → Villavicencio,3,0.8,71.9,53.3,-0.28,-23.66,-1.32,0.18798,-0.65,3,,Pocos datos
+Servientrega,Ruta,Santa Marta → Villavicencio,3,1.0,69.3,49.8,0.64,22.53,1.33,0.18376,-3.25,5,,Pocos datos
+4-72,Ruta,Villavicencio → Barranquilla,0,0.0,72.2,53.9,0.0,,,,-7.48,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Barranquilla,15,3.9,87.3,80.0,-0.31,-2.42,-0.29,0.76979,7.62,1,0.9832,Normal
+Envía,Ruta,Villavicencio → Barranquilla,5,1.7,77.2,62.2,0.55,17.38,1.5,0.13431,-2.48,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Barranquilla,4,1.0,86.1,78.6,-0.11,-0.85,-0.05,0.95644,6.42,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Barranquilla,13,3.8,79.1,67.4,-0.13,-3.38,-0.39,0.69535,-0.58,3,0.9708,Normal
+Servientrega,Ruta,Villavicencio → Barranquilla,11,4.2,76.2,62.7,0.45,2.93,0.32,0.7491,-3.48,5,0.9832,Normal
+4-72,Ruta,Villavicencio → Bogotá,4,2.4,72.6,54.7,-0.7,-16.67,-1.21,0.2274,-8.35,6,,Pocos datos
+Coordinadora,Ruta,Villavicencio → Bogotá,62,17.8,88.9,83.0,0.26,1.48,0.36,0.71795,7.95,1,0.9771,Normal
+Envía,Ruta,Villavicencio → Bogotá,14,5.7,77.3,62.3,-0.32,-3.02,-0.37,0.70831,-3.65,4,0.9752,Normal
+Grupo TCC,Ruta,Villavicencio → Bogotá,13,3.2,87.3,80.8,0.07,2.62,0.31,0.75858,6.35,2,0.9832,Normal
+Inter Rapidísimo,Ruta,Villavicencio → Bogotá,66,19.3,82.7,73.8,2.38,8.15,2.17,0.02982,1.75,3,0.6188,Normal
+Servientrega,Ruta,Villavicencio → Bogotá,36,15.9,76.9,64.2,0.09,-0.55,-0.12,0.90752,-4.05,5,0.9832,Normal
+4-72,Ruta,Villavicencio → Bucaramanga,0,0.0,73.7,56.4,0.0,,,,-7.62,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Bucaramanga,5,1.4,88.9,82.7,-0.19,-2.27,-0.18,0.85543,7.58,1,,Pocos datos
+Envía,Ruta,Villavicencio → Bucaramanga,4,1.0,78.5,64.4,0.42,21.74,1.76,0.07883,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Bucaramanga,8,3.3,87.4,80.7,-0.25,-2.55,-0.25,0.80552,6.08,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Bucaramanga,9,2.6,81.0,70.6,0.22,2.36,0.23,0.81881,-0.32,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Bucaramanga,7,2.7,78.4,66.6,1.12,17.63,1.62,0.10596,-2.92,5,,Pocos datos
+4-72,Ruta,Villavicencio → Cali,1,0.3,72.1,53.9,0.19,23.41,0.97,0.32985,-6.8,6,,Pocos datos
+Coordinadora,Ruta,Villavicencio → Cali,27,11.9,86.1,77.6,-1.25,-5.78,-1.06,0.29032,7.2,1,0.9286,Normal
+Envía,Ruta,Villavicencio → Cali,5,1.8,75.6,59.1,-0.74,-20.68,-1.67,0.09456,-3.3,5,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Cali,8,2.3,85.1,76.2,-0.89,-17.86,-1.74,0.08223,6.2,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Cali,25,8.7,78.5,67.0,-0.56,-4.48,-0.75,0.45158,-0.4,3,0.9289,Normal
+Servientrega,Ruta,Villavicencio → Cali,8,3.5,76.0,61.9,0.44,3.33,0.36,0.71647,-2.9,4,,Pocos datos
+4-72,Ruta,Villavicencio → Cartagena,0,0.0,73.0,55.3,0.0,,,,-7.37,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Cartagena,10,3.8,88.8,82.9,0.38,7.23,0.73,0.46458,8.43,1,0.9289,Normal
+Envía,Ruta,Villavicencio → Cartagena,1,0.9,76.9,61.4,-0.5,-27.55,-1.15,0.25143,-3.47,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Cartagena,2,1.1,87.1,80.3,0.08,8.1,0.37,0.70874,6.73,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Cartagena,9,3.9,80.0,68.7,-0.05,-2.16,-0.22,0.82585,-0.37,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Cartagena,2,0.8,76.4,63.3,-0.12,-21.61,-1.16,0.24432,-3.97,5,,Pocos datos
+4-72,Ruta,Villavicencio → Cúcuta,1,0.1,72.7,54.8,0.11,27.97,1.16,0.24432,-7.43,6,,Pocos datos
+Coordinadora,Ruta,Villavicencio → Cúcuta,5,1.4,87.9,81.0,-0.16,-0.99,-0.08,0.9369,7.77,1,,Pocos datos
+Envía,Ruta,Villavicencio → Cúcuta,2,0.8,77.3,62.4,0.31,19.76,1.16,0.24782,-2.83,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Cúcuta,3,0.8,86.4,78.9,-0.26,-11.15,-0.72,0.47126,6.27,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Cúcuta,5,3.1,80.0,69.0,0.35,4.13,0.34,0.73041,-0.13,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Cúcuta,2,0.2,76.5,63.2,0.28,17.3,1.02,0.30875,-3.63,5,,Pocos datos
+4-72,Ruta,Villavicencio → Ibagué,0,0.0,74.3,56.8,0.0,,,,-7.18,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Ibagué,1,1.0,89.7,83.6,-0.07,3.4,0.14,0.88756,8.22,1,,Pocos datos
+Envía,Ruta,Villavicencio → Ibagué,2,0.8,79.0,64.6,0.32,21.66,1.01,0.31461,-2.48,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Ibagué,5,4.0,86.7,78.5,-1.63,-20.68,-1.91,0.0559,5.22,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Ibagué,3,1.0,81.7,71.0,0.31,10.53,0.72,0.46944,0.22,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Ibagué,3,1.2,77.5,63.9,-0.38,-25.11,-1.31,0.19168,-3.98,5,,Pocos datos
+4-72,Ruta,Villavicencio → Manizales,0,0.0,69.7,49.2,0.0,,,,-7.45,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Manizales,3,0.4,85.1,75.9,-0.05,11.65,0.84,0.40345,7.95,1,,Pocos datos
+Envía,Ruta,Villavicencio → Manizales,1,0.8,73.6,55.3,-0.55,-32.77,-1.36,0.17254,-3.55,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Manizales,3,0.9,83.7,74.1,-0.05,2.26,0.12,0.90142,6.55,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Manizales,6,1.9,77.6,64.4,0.8,18.84,1.79,0.07321,0.45,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Manizales,2,0.5,73.2,57.1,-0.09,-32.66,-1.88,0.05966,-3.95,5,,Pocos datos
+4-72,Ruta,Villavicencio → Medellín,3,0.9,71.6,52.9,-0.29,-21.08,-1.15,0.25159,-7.6,6,,Pocos datos
+Coordinadora,Ruta,Villavicencio → Medellín,33,9.6,87.1,79.2,-0.21,-0.47,-0.09,0.92835,7.9,1,0.9839,Normal
+Envía,Ruta,Villavicencio → Medellín,14,4.5,76.1,60.1,-0.21,-2.41,-0.3,0.76063,-3.1,4,0.9832,Normal
+Grupo TCC,Ruta,Villavicencio → Medellín,18,4.8,85.3,77.6,-0.54,-5.16,-0.68,0.49547,6.1,2,0.9289,Normal
+Inter Rapidísimo,Ruta,Villavicencio → Medellín,39,14.8,79.8,68.1,0.85,3.26,0.7,0.48399,0.6,3,0.9289,Normal
+Servientrega,Ruta,Villavicencio → Medellín,16,6.0,75.3,61.6,-0.15,-3.43,-0.5,0.61929,-3.9,5,0.9427,Normal
+4-72,Ruta,Villavicencio → Neiva,0,0.0,69.4,49.4,0.0,,,,-7.35,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Neiva,1,0.2,84.7,76.1,-0.08,15.83,0.66,0.50999,7.95,1,,Pocos datos
+Envía,Ruta,Villavicencio → Neiva,0,0.0,73.8,56.7,0.0,,,,-2.95,4,,Sin historial
+Grupo TCC,Ruta,Villavicencio → Neiva,0,0.0,83.4,74.3,0.0,,,,6.65,2,,Sin historial
+Inter Rapidísimo,Ruta,Villavicencio → Neiva,2,0.6,76.6,63.4,0.13,2.22,0.11,0.91514,-0.15,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Neiva,3,1.3,72.6,56.5,-0.4,-24.67,-1.63,0.10205,-4.15,5,,Pocos datos
+4-72,Ruta,Villavicencio → Pasto,0,0.0,63.1,37.5,0.0,,,,-7.33,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Pasto,8,1.9,78.5,64.1,-0.09,1.2,0.13,0.89814,8.07,1,,Pocos datos
+Envía,Ruta,Villavicencio → Pasto,0,0.0,67.5,44.8,0.0,,,,-2.93,4,,Sin historial
+Grupo TCC,Ruta,Villavicencio → Pasto,0,0.0,77.1,62.3,0.0,,,,6.67,2,,Sin historial
+Inter Rapidísimo,Ruta,Villavicencio → Pasto,7,2.8,69.5,49.9,-0.69,-15.26,-1.42,0.15655,-0.93,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Pasto,1,0.3,66.9,45.9,0.21,-1.28,-0.05,0.95741,-3.53,5,,Pocos datos
+4-72,Ruta,Villavicencio → Pereira,0,0.0,72.4,53.9,0.0,,,,-7.38,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Pereira,8,2.4,87.8,80.7,0.02,3.31,0.3,0.76702,8.02,1,,Pocos datos
+Envía,Ruta,Villavicencio → Pereira,0,0.0,76.8,61.2,0.0,,,,-2.98,4,,Sin historial
+Grupo TCC,Ruta,Villavicencio → Pereira,3,1.5,86.1,78.2,-0.32,-7.94,-0.49,0.62129,6.32,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Pereira,3,0.8,79.5,68.1,0.01,-6.64,-0.36,0.71667,-0.28,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Pereira,1,0.1,76.1,62.4,0.16,-35.76,-1.49,0.13659,-3.68,5,,Pocos datos
+4-72,Ruta,Villavicencio → Quibdó,1,0.5,58.0,30.2,-0.24,-28.88,-1.2,0.22927,-7.8,6,,Pocos datos
+Coordinadora,Ruta,Villavicencio → Quibdó,0,0.0,73.7,57.3,0.0,,,,7.9,1,,Sin historial
+Envía,Ruta,Villavicencio → Quibdó,0,0.0,62.7,37.7,0.0,,,,-3.1,4,,Sin historial
+Grupo TCC,Ruta,Villavicencio → Quibdó,0,0.0,72.3,55.3,0.0,,,,6.5,2,,Sin historial
+Inter Rapidísimo,Ruta,Villavicencio → Quibdó,10,2.6,66.2,45.6,0.83,14.84,1.41,0.15822,0.4,3,0.9278,Normal
+Servientrega,Ruta,Villavicencio → Quibdó,3,0.4,61.9,38.7,0.08,-15.85,-1.08,0.28155,-3.9,5,,Pocos datos
+4-72,Ruta,Villavicencio → Santa Marta,0,0.0,73.5,56.0,0.0,,,,-7.48,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Santa Marta,5,2.0,88.5,81.9,-0.42,-7.56,-0.53,0.59271,7.52,1,,Pocos datos
+Envía,Ruta,Villavicencio → Santa Marta,1,0.1,77.9,63.3,0.01,20.42,0.85,0.39532,-3.08,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Santa Marta,2,0.5,87.5,81.0,-0.01,8.54,0.47,0.63996,6.52,2,,Pocos datos
+Inter Rapidísimo,Ruta,Villavicencio → Santa Marta,3,1.3,81.1,70.6,0.5,15.2,0.88,0.38018,0.12,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Santa Marta,2,0.6,77.4,64.6,0.3,6.94,0.38,0.70244,-3.58,5,,Pocos datos
+4-72,Ruta,Villavicencio → Villavicencio,0,0.0,73.3,55.4,0.0,,,,-7.42,6,,Sin historial
+Coordinadora,Ruta,Villavicencio → Villavicencio,1,0.2,88.7,82.0,-0.1,8.2,0.34,0.7329,7.98,1,,Pocos datos
+Envía,Ruta,Villavicencio → Villavicencio,2,0.5,77.9,63.1,0.21,21.66,1.12,0.26293,-2.82,4,,Pocos datos
+Grupo TCC,Ruta,Villavicencio → Villavicencio,0,0.0,87.3,80.3,0.0,,,,6.58,2,,Sin historial
+Inter Rapidísimo,Ruta,Villavicencio → Villavicencio,5,1.7,80.1,68.4,-0.26,-11.31,-0.78,0.43276,-0.62,3,,Pocos datos
+Servientrega,Ruta,Villavicencio → Villavicencio,1,0.1,77.0,63.8,0.12,-37.07,-1.54,0.12282,-3.72,5,,Pocos datos
+4-72,Temporada,alta,139,28.7,63.6,39.8,-0.33,-4.18,-1.78,0.07431,-7.47,6,0.4458,Normal
+Coordinadora,Temporada,alta,1970,392.7,79.9,66.1,0.5,0.67,1.07,0.28537,8.83,1,0.5864,Normal
+Envía,Temporada,alta,466,89.8,66.0,42.7,-2.33,-3.86,-2.97,0.00298,-5.07,5,0.0358,Debilidad
+Grupo TCC,Temporada,alta,738,140.3,78.9,65.5,0.96,1.53,1.46,0.14403,7.83,2,0.5761,Normal
+Inter Rapidísimo,Temporada,alta,2424,476.0,70.5,52.0,-0.52,-0.6,-1.05,0.2932,-0.57,3,0.5864,Normal
+Servientrega,Temporada,alta,1189,237.2,67.5,47.6,-0.06,-0.27,-0.33,0.74124,-3.57,4,0.958,Normal
+4-72,Temporada,normal,662,242.7,70.6,50.7,0.04,-1.39,-1.2,0.22942,-7.4,6,0.5864,Normal
+Coordinadora,Temporada,normal,6957,2581.2,85.9,77.5,-0.08,0.02,0.06,0.95578,7.9,1,0.958,Normal
+Envía,Temporada,normal,1847,690.6,75.3,58.5,0.3,0.16,0.23,0.81594,-2.7,4,0.958,Normal
+Grupo TCC,Temporada,normal,2615,955.7,84.4,75.4,-0.14,0.03,0.05,0.95803,6.4,2,0.958,Normal
+Inter Rapidísimo,Temporada,normal,8409,3187.2,77.7,64.5,0.08,0.06,0.18,0.85863,-0.3,3,0.958,Normal
+Servientrega,Temporada,normal,3970,1389.8,74.1,58.8,0.01,-0.15,-0.33,0.74421,-3.9,5,0.958,Normal
+4-72,Contenedor,Dry,801,271.4,70.0,49.7,0.0,-1.68,-1.58,0.11299,-7.72,6,0.7026,Normal
+Coordinadora,Contenedor,Dry,5586,1871.7,85.7,77.0,0.22,0.35,0.86,0.3886,7.98,1,0.7234,Normal
+Envía,Contenedor,Dry,2313,780.4,74.5,56.9,0.0,-0.3,-0.49,0.62767,-3.22,4,0.8208,Normal
+Grupo TCC,Contenedor,Dry,2083,679.0,84.5,75.4,0.46,0.8,1.2,0.22849,6.78,2,0.7026,Normal
+Inter Rapidísimo,Contenedor,Dry,7436,2483.6,77.5,63.9,0.35,0.35,0.99,0.32091,-0.22,3,0.7234,Normal
+Servientrega,Contenedor,Dry,3192,1015.0,74.1,58.5,0.44,0.35,0.65,0.51544,-3.62,5,0.7302,Normal
+4-72,Contenedor,Flat Rack,0,0.0,60.8,34.1,0.0,,,,-6.85,6,,Sin historial
+Coordinadora,Contenedor,Flat Rack,750,249.3,76.0,60.4,-0.29,-0.21,-0.19,0.85001,8.35,1,0.9465,Normal
+Envía,Contenedor,Flat Rack,0,0.0,65.2,41.4,0.0,,,,-2.45,4,,Sin historial
+Grupo TCC,Contenedor,Flat Rack,291,95.5,73.1,55.7,-1.69,-2.15,-1.22,0.22251,5.45,2,0.7026,Normal
+Inter Rapidísimo,Contenedor,Flat Rack,0,0.0,67.9,47.7,0.0,,,,0.25,3,,Sin historial
+Servientrega,Contenedor,Flat Rack,492,151.3,62.9,39.9,-1.53,-2.17,-1.6,0.10905,-4.75,5,0.7026,Normal
+4-72,Contenedor,Open Top,0,0.0,64.0,38.9,0.0,,,,-7.0,6,,Sin historial
+Coordinadora,Contenedor,Open Top,1050,348.0,78.7,63.9,-0.76,-0.74,-0.8,0.42552,7.7,1,0.7234,Normal
+Envía,Contenedor,Open Top,0,0.0,68.4,46.1,0.0,,,,-2.6,4,,Sin historial
+Grupo TCC,Contenedor,Open Top,402,133.5,77.0,61.3,-1.02,-1.02,-0.67,0.50419,6.0,2,0.7302,Normal
+Inter Rapidísimo,Contenedor,Open Top,1423,488.6,70.1,50.8,-0.98,-1.1,-1.38,0.16779,-0.9,3,0.7026,Normal
+Servientrega,Contenedor,Open Top,598,177.4,67.8,47.1,0.24,0.17,0.14,0.89083,-3.2,5,0.9465,Normal
+4-72,Contenedor,Reefer,0,0.0,71.0,52.7,0.0,,,,-7.15,6,,Sin historial
+Coordinadora,Contenedor,Reefer,1541,504.9,86.3,79.1,-0.16,-0.05,-0.06,0.94878,8.15,1,0.9488,Normal
+Envía,Contenedor,Reefer,0,0.0,75.5,60.0,0.0,,,,-2.65,4,,Sin historial
+Grupo TCC,Contenedor,Reefer,577,188.1,84.9,77.7,-0.1,0.23,0.18,0.85548,6.75,2,0.9465,Normal
+Inter Rapidísimo,Contenedor,Reefer,1974,690.9,77.5,65.4,-0.56,-0.61,-0.91,0.36327,-0.65,3,0.7234,Normal
+Servientrega,Contenedor,Reefer,877,283.2,73.7,59.6,-0.89,-1.17,-1.16,0.24797,-4.45,5,0.7026,Normal

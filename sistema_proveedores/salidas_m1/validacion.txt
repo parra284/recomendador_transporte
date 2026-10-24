@@ -1,0 +1,51 @@
+1) PRUEBA EN EL TIEMPO — entrena hasta 2026-03-31 (23871 envíos), predice 7515 envíos posteriores
+   Brier y log-loss: menor es mejor · AUC: mayor es mejor (0,5 = azar)
+
+                               modelo  brier  log_loss    auc
+       A. Tasa global (todos iguales) 0.2196    0.6313 0.5000
+B. % a tiempo histórico del proveedor 0.2121    0.6139 0.6037
+         C. Solo dificultad del envío 0.2107    0.6113 0.6080
+            D. Dificultad + proveedor 0.2036    0.5938 0.6579
+     E. Modelo completo (+ contextos) 0.2038    0.5945 0.6564
+
+   Sensibilidad a parámetros — 5 mejores combinaciones (log-loss):
+vida_media_meses  m_proveedor  m_contexto  brier  log_loss    auc
+              12            5         300 0.2034    0.5934 0.6586
+              12           50         300 0.2034    0.5934 0.6587
+               6            5         300 0.2034    0.5935 0.6587
+ sin decaimiento           50         300 0.2035    0.5935 0.6582
+ sin decaimiento            5         300 0.2035    0.5935 0.6581
+   Parámetros por defecto (6 meses, m_proveedor=50, m_contexto=50): log-loss 0.5945, puesto 25 de 48
+
+2) RECUPERACIÓN DE LOS PARÁMETROS VERDADEROS (efecto real en puntualidad)
+
+                  efecto_verdadero  efecto_estimado_pts  a_tiempo_bruto_pct
+Coordinadora                  0.12                10.22               74.97
+Grupo TCC                     0.10                 8.25               74.83
+Inter Rapidísimo             -0.03                -2.99               61.38
+Servientrega                 -0.08                -8.45               54.45
+Envía                        -0.12                -9.31               55.51
+4-72                         -0.22               -16.59               48.44
+
+   Correlación de orden (Spearman) con la verdad — modelo: 1.00 · tasa bruta: 0.94
+
+3) POCOS DATOS — % de veces que un proveedor con N envíos aparece por error como #1 (el verdadero #1 es Coordinadora)
+
+ envios_del_proveedor  veces_falso_1_tasa_bruta_pct  veces_falso_1_modelo_pct
+                   10                          18.9                       0.0
+                   20                          18.1                       0.0
+                   50                           9.9                       0.0
+                  100                          10.9                       0.0
+
+4) FORTALEZAS Y DEBILIDADES SEMBRADAS
+   Sembrada: Fortaleza de Envía en contenido = Retail (50 % de sus envíos ahí cambiados)
+   Sembrada: Debilidad de Coordinadora en zona = especial (30 % de sus envíos ahí cambiados)
+
+   Lo que encontró el modelo:
+       proveedor dimension    valor  envios  vs_su_promedio_pts     z  etiqueta
+    Coordinadora      Zona especial     427               -3.01 -2.69 Debilidad
+Inter Rapidísimo      Zona especial    1239                3.07  3.90 Fortaleza
+           Envía Contenido   Retail     471                4.02  3.95 Fortaleza
+
+   Detectadas 2 de 2 sembradas. Otros hallazgos: 1 (pueden ser diferencias propias de la base
+   o efectos secundarios de lo sembrado: revisarlos antes de presentarlos)

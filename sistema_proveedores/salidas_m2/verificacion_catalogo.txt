@@ -1,0 +1,15 @@
+VERIFICACIÓN DEL CATÁLOGO CONTRA EL HISTORIAL
+[OK ] Contenedor: 'maneja' <=> al menos 5 envíos en ese contenedor
+[OK ] Velocidad: 'ofrece' <=> al menos 5 envíos con ese contenedor y esa velocidad
+[OK ] Velocidad: ninguna combinación permitida sin historial
+[OK ] Peso: máximo por proveedor y contenedor = máximo del historial
+[OK ] Ciudades: cubiertas = ciudades con al menos un envío (origen o destino)
+[OK ] Velocidad-zona: posibles = combinaciones observadas
+        mismo día solo en ['local']; exprés en ['local', 'nacional', 'regional']
+[OK ] Categoría -> contenedor: cada categoría tiene un único contenedor
+[OK ] catalogo_proveedores.csv: cada conteo coincide con el historial
+[OK ] Historial: el proveedor real solo queda excluido en combinaciones ocasionales publicadas
+        9 de 31,386 envíos (0.03 %) caen en combinaciones ocasionales: 4-72 Dry same (1); Grupo TCC Reefer same (3); Servientrega Flat Rack same (2); Servientrega Open Top same (3)
+[OK ] Capacidad semanal: una fila por cada proveedor-contenedor del catálogo, y solo esas
+
+10 de 10 comprobaciones superadas.

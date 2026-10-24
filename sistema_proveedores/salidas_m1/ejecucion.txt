@@ -1,0 +1,36 @@
+
+RANKING DE FIABILIDAD (ajustado por dificultad, 0-100)
+
+ posicion        proveedor  envios confianza  fiabilidad_ajustada  fiabilidad_ic95_inf  fiabilidad_ic95_sup  puntualidad_ajustada  a_tiempo_bruto_pct tendencia
+        1     Coordinadora    8927      Alta                 84.5                 83.8                 85.3                  75.0                75.0   Estable
+        2        Grupo TCC    3353      Alta                 83.1                 81.8                 84.3                  73.0                74.8   Estable
+        3 Inter Rapidísimo   10833      Alta                 76.2                 75.3                 77.0                  61.8                61.4   Estable
+        4            Envía    2313      Alta                 73.5                 71.8                 75.2                  55.5                55.5   Estable
+        5     Servientrega    5159      Alta                 72.7                 71.4                 73.9                  56.3                54.4   Estable
+        6             4-72     801     Media                 69.1                 66.3                 71.9                  48.2                48.4   Estable
+
+EJEMPLO — envío S-000002: Pasto → Medellín, Bebidas, Paquete, zona especial
+
+  Coordinadora: fiabilidad 80.2 · a tiempo 68.8% · confianza Alta · Estable
+        73.7  Dificultad de este tipo de envío (proveedor promedio)
+        +6.3  Desempeño general de Coordinadora
+        +1.2  Zona: especial (427 envíos)
+        -1.0  Otros ajustes menores
+
+  Grupo TCC: fiabilidad 78.4 · a tiempo 65.8% · confianza Alta · Estable
+        73.7  Dificultad de este tipo de envío (proveedor promedio)
+        +4.9  Desempeño general de Grupo TCC
+        -0.3  Otros ajustes menores
+      nota: Sin historial en zona 'especial': se usa su desempeño general.
+      nota: Sin historial en ruta 'Pasto → Medellín': se usa su desempeño general.
+
+  Inter Rapidísimo: fiabilidad 73.2 · a tiempo 56.8% · confianza Alta · Estable
+        73.7  Dificultad de este tipo de envío (proveedor promedio)
+        -2.1  Desempeño general de Inter Rapidísimo
+        +2.1  Zona: especial (1239 envíos)
+        +1.5  Contenido: Bebidas (409 envíos)
+        -1.7  Ruta: Pasto → Medellín (54 envíos)
+        -0.6  Contenedor: Reefer (1974 envíos)
+        +0.2  Otros ajustes menores
+
+Archivos guardados en: /home/claude/modelo2/salidas_m1

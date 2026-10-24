@@ -1,0 +1,203 @@
+==========================================================================================
+SOLICITUD T-001: Bogotá → Medellín (nacional, 298 km) · Retail · Dry · 3 × 12 kg · velocidad estándar
+
+  Base para contenedor Dry: precio 45%, tiempo 20%, fiabilidad 35%
+  Referencia de mercado: $96,266 · 41 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo   Confianza
+  1  Coordinadora         67.6   $     95,168      -1%      34 h     -17%    89.0      83%   Alta
+  2  Inter Rapidísimo     64.7   $     86,753     -10%      41 h      -1%    78.7      66%   Alta
+  3  Grupo TCC            59.6   $    105,466     +10%      38 h      -8%    85.0      75%   Alta
+
+  Desglose (puntos × peso = aporte):
+   Coordinadora      precio 51 × 45% = 23.0 + tiempo 67 × 20% = 13.4 + fiabilidad 89 × 35% = 31.1 → 67.6
+   Inter Rapidísimo  precio 60 × 45% = 26.9 + tiempo 51 × 20% = 10.2 + fiabilidad 79 × 35% = 27.5 → 64.7
+   Grupo TCC         precio 40 × 45% = 18.2 + tiempo 58 × 20% = 11.6 + fiabilidad 85 × 35% = 29.7 → 59.6
+  Coordinadora queda primero con 67.6 puntos. Frente a Inter Rapidísimo (64.7): es 10% más caro (-3.9 pts); llega 7 h antes (+3.2 pts); es más fiable (89 frente a 79) (+3.6 pts).
+
+==========================================================================================
+SOLICITUD T-002: Bogotá → Cali (nacional, 383 km) · Medicinas · Reefer · 5 × 2 kg · velocidad prioritaria · plazo 30 h
+
+  Base para contenedor Reefer: precio 10%, tiempo 40%, fiabilidad 50% · Velocidad prioritaria: el tiempo gana 10% de peso · Plazo ajustado (30 h frente a 27 h típicas): el tiempo gana 15% de peso · Pesos finales (renormalizados a 100 %): precio 8%, tiempo 52%, fiabilidad 40%
+  Referencia de mercado: $186,238 · 27 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo En plazo   Confianza
+  1  Grupo TCC            68.6   $    208,814     +12%      25 h      -8%    87.9      82%      76%   Alta
+  2  Inter Rapidísimo     61.6   $    174,436      -6%      27 h      +1%    79.7      69%      66%   Alta
+  3  Servientrega         51.0   $    199,370      +7%      32 h     +17%    75.7      64%      51%   Alta
+  ('A tiempo' = cumple lo que promete el proveedor; 'En plazo' = llega antes de 30 h)
+
+  Desglose (puntos × peso = aporte):
+   Grupo TCC         precio 38 × 8% = 3.0 + tiempo 58 × 52% = 30.4 + fiabilidad 88 × 40% = 35.2 → 68.6
+   Inter Rapidísimo  precio 56 × 8% = 4.5 + tiempo 49 × 52% = 25.2 + fiabilidad 80 × 40% = 31.9 → 61.6
+   Servientrega      precio 43 × 8% = 3.4 + tiempo 33 × 52% = 17.3 + fiabilidad 76 × 40% = 30.3 → 51.0
+  Grupo TCC queda primero con 68.6 puntos. Frente a Inter Rapidísimo (61.6): es 20% más caro (-1.5 pts); llega 2.7 h antes (+5.2 pts); es más fiable (88 frente a 80) (+3.3 pts).
+
+  Avisos:
+   - Promete más tiempo que el plazo de 30 h: Grupo TCC (34 h), Inter Rapidísimo (32 h), Servientrega (34 h). Su '% a tiempo' se mide contra su propia promesa; para el plazo pedido, ver la columna 'En plazo'.
+   - Inter Rapidísimo llega dentro del plazo de 30 h solo el 66% de las veces (mínimo recomendado 70%).
+   - Servientrega llega dentro del plazo de 30 h solo el 51% de las veces (mínimo recomendado 70%).
+
+  Excluidos:
+   - 4-72: No maneja contenedor Reefer
+   - Coordinadora: Sin cupos esta semana para Reefer
+   - Envía: No maneja contenedor Reefer
+
+==========================================================================================
+SOLICITUD T-003: Bogotá → Bucaramanga (nacional, 360 km) · Acero · Open Top · 4 × 350 kg · velocidad estándar
+
+  Base para contenedor Open Top: precio 35%, tiempo 10%, fiabilidad 55%
+  Referencia de mercado: $1,300,993 · 46 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo   Confianza
+  1  Coordinadora         67.6   $  1,306,299      +0%      40 h     -12%    80.1      66%   Alta
+  2  Inter Rapidísimo     63.5   $  1,228,669      -6%      48 h      +5%    71.9      54%   Alta
+  3  Grupo TCC            63.3   $  1,434,372     +10%      45 h      -2%    80.2      68%   Alta
+
+  Desglose (puntos × peso = aporte):
+   Coordinadora      precio 50 × 35% = 17.4 + tiempo 62 × 10% = 6.2 + fiabilidad 80 × 55% = 44.1 → 67.6
+   Inter Rapidísimo  precio 56 × 35% = 19.4 + tiempo 45 × 10% = 4.5 + fiabilidad 72 × 55% = 39.5 → 63.5
+   Grupo TCC         precio 40 × 35% = 13.9 + tiempo 52 × 10% = 5.2 + fiabilidad 80 × 55% = 44.1 → 63.3
+  Coordinadora queda primero con 67.6 puntos. Frente a Inter Rapidísimo (63.5): es 6% más caro (-2.1 pts); llega 8 h antes (+1.7 pts); es más fiable (80 frente a 72) (+4.5 pts).
+
+  Excluidos:
+   - 4-72: No maneja contenedor Open Top
+   - Envía: No maneja contenedor Open Top
+
+==========================================================================================
+SOLICITUD T-004: Medellín → Barranquilla (nacional, 665 km) · Carga sobredimensionada · Flat Rack · 1 × 1500 kg · velocidad estándar
+
+  Base para contenedor Flat Rack: precio 25%, tiempo 5%, fiabilidad 70%
+  Referencia de mercado: $2,424,685 · 47 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo   Confianza
+  1  Coordinadora         70.2   $  2,328,897      -4%      42 h     -11%    76.6      63%   Alta
+  2  Grupo TCC            63.4   $  2,585,486      +7%      47 h      -1%    71.4      54%   Alta
+  3  Servientrega         59.0   $  2,425,877      +0%      57 h     +20%    64.3      44%   Alta
+
+  Desglose (puntos × peso = aporte):
+   Coordinadora      precio 54 × 25% = 13.5 + tiempo 61 × 5% = 3.1 + fiabilidad 77 × 70% = 53.6 → 70.2
+   Grupo TCC         precio 43 × 25% = 10.8 + tiempo 51 × 5% = 2.6 + fiabilidad 71 × 70% = 50.0 → 63.4
+   Servientrega      precio 50 × 25% = 12.5 + tiempo 30 × 5% = 1.5 + fiabilidad 64 × 70% = 45.0 → 59.0
+  Coordinadora queda primero con 70.2 puntos. Frente a Grupo TCC (63.4): es 10% más barato (+2.6 pts); llega 5 h antes (+0.5 pts); es más fiable (77 frente a 71) (+3.6 pts).
+
+  Excluidos:
+   - 4-72: No maneja contenedor Flat Rack
+   - Envía: No maneja contenedor Flat Rack
+   - Inter Rapidísimo: No maneja contenedor Flat Rack
+
+==========================================================================================
+SOLICITUD T-005: Cali → Quibdó (especial, 312 km) · Mariscos · Reefer · 10 × 15 kg · velocidad exprés
+
+  Ningún proveedor cumple todos los requisitos.
+
+  ALTERNATIVAS:
+   - Inter Rapidísimo: Con velocidad prioritaria en lugar de exprés · 59.5 pts · $771,981 · 69 h · fiabilidad 71
+       desglose: precio 49 pts × 9% = 4.4 + tiempo 50 pts × 45% = 22.6 + fiabilidad 71 pts × 45% = 32.4 → 59.5
+   - Servientrega: Con velocidad prioritaria en lugar de exprés · 49.8 pts · $843,968 · 78 h · fiabilidad 65
+       desglose: precio 40 pts × 9% = 3.6 + tiempo 37 pts × 45% = 16.6 + fiabilidad 65 pts × 45% = 29.5 → 49.8
+
+  Avisos:
+   - Ningún proveedor cumple todos los requisitos: revisar las alternativas.
+
+  Excluidos:
+   - 4-72: No maneja contenedor Reefer; Velocidad exprés no es posible en zona especial
+   - Coordinadora: No cubre Quibdó; Velocidad exprés no es posible en zona especial; Sin cupos esta semana para Reefer
+   - Envía: No maneja contenedor Reefer; No cubre Quibdó; Velocidad exprés no es posible en zona especial
+   - Grupo TCC: No cubre Quibdó; Velocidad exprés no es posible en zona especial
+   - Inter Rapidísimo: Velocidad exprés no es posible en zona especial
+   - Servientrega: Velocidad exprés no es posible en zona especial
+
+==========================================================================================
+SOLICITUD T-006: Bogotá → Pasto (especial, 659 km) · Retail · Dry · 2 × 30 kg · velocidad estándar
+
+  Base para contenedor Dry: precio 45%, tiempo 20%, fiabilidad 35%
+  Referencia de mercado: $153,588 · 100 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo   Confianza
+  1  Coordinadora         63.5   $    158,177      +3%      80 h     -19%    81.4      68%   Alta
+  2  Inter Rapidísimo     60.2   $    146,764      -4%      96 h      -4%    71.3      52%   Alta
+  3  Servientrega         52.2   $    164,642      +7%     105 h      +5%    68.5      47%   Alta
+
+  Desglose (puntos × peso = aporte):
+   Coordinadora      precio 47 × 45% = 21.2 + tiempo 69 × 20% = 13.9 + fiabilidad 81 × 35% = 28.5 → 63.5
+   Inter Rapidísimo  precio 54 × 45% = 24.5 + tiempo 54 × 20% = 10.7 + fiabilidad 71 × 35% = 25.0 → 60.2
+   Servientrega      precio 43 × 45% = 19.3 + tiempo 45 × 20% = 8.9 + fiabilidad 68 × 35% = 24.0 → 52.2
+  Coordinadora queda primero con 63.5 puntos. Frente a Inter Rapidísimo (60.2): es 8% más caro (-3.3 pts); llega 16 h antes (+3.1 pts); es más fiable (81 frente a 71) (+3.5 pts).
+
+  Excluidos:
+   - 4-72: Peso 60 kg supera su máximo atendido en Dry (50 kg)
+   - Grupo TCC: No cubre Pasto
+
+==========================================================================================
+SOLICITUD T-007: Medellín → Medellín (local, 0 km) · Hi-tech · Dry · 2 × 5 kg · velocidad mismo día · plazo 6 h
+
+  Base para contenedor Dry: precio 45%, tiempo 20%, fiabilidad 35% · Velocidad mismo día: el tiempo gana 25% de peso · Plazo ajustado (6 h frente a 6 h típicas): el tiempo gana 15% de peso · Pesos finales (renormalizados a 100 %): precio 32%, tiempo 43%, fiabilidad 25%
+  Referencia de mercado: $71,745 · 6 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo En plazo   Confianza
+  1  Coordinadora         65.0   $     73,197      +2%       5 h     -17%    83.5      75%      83%   Alta
+  2  Grupo TCC            62.1   $     72,559      +1%       5 h     -10%    83.3      76%      76%   Alta
+  3  Inter Rapidísimo     59.3   $     71,189      -1%       5 h      -6%    76.5      63%      72%   Alta
+  ('A tiempo' = cumple lo que promete el proveedor; 'En plazo' = llega antes de 6 h)
+
+  Desglose (puntos × peso = aporte):
+   Coordinadora      precio 48 × 32% = 15.4 + tiempo 67 × 43% = 28.7 + fiabilidad 84 × 25% = 20.9 → 65.0
+   Grupo TCC         precio 49 × 32% = 15.7 + tiempo 60 × 43% = 25.6 + fiabilidad 83 × 25% = 20.8 → 62.1
+   Inter Rapidísimo  precio 51 × 32% = 16.3 + tiempo 56 × 43% = 23.8 + fiabilidad 76 × 25% = 19.1 → 59.3
+  Coordinadora queda primero con 65.0 puntos. Frente a Grupo TCC (62.1): llega 0.4 h antes (+3.2 pts).
+
+  Avisos:
+   - Promete más tiempo que el plazo de 6 h: Grupo TCC (6.1 h). Su '% a tiempo' se mide contra su propia promesa; para el plazo pedido, ver la columna 'En plazo'.
+
+  Excluidos:
+   - 4-72: No ofrece velocidad mismo día con Dry (1 servicios en el historial; mínimo 5)
+
+==========================================================================================
+SOLICITUD T-008: Medellín → Medellín (local, 0 km) · Carga sobredimensionada · Flat Rack · 1 × 1200 kg · velocidad mismo día
+
+  Ningún proveedor cumple todos los requisitos.
+
+  ALTERNATIVAS:
+   - Coordinadora: Con velocidad exprés en lugar de mismo día · 67.6 pts · $1,512,206 · 10 h · fiabilidad 75
+       desglose: precio 53 pts × 21% = 11.0 + tiempo 61 pts × 21% = 12.6 + fiabilidad 75 pts × 58% = 43.9 → 67.6
+   - Grupo TCC: Con velocidad exprés en lugar de mismo día · 62.5 pts · $1,623,945 · 10 h · fiabilidad 71
+       desglose: precio 46 pts × 21% = 9.5 + tiempo 54 pts × 21% = 11.3 + fiabilidad 71 pts × 58% = 41.6 → 62.5
+   - Servientrega: Con velocidad exprés en lugar de mismo día · 52.7 pts · $1,616,848 · 13 h · fiabilidad 62
+       desglose: precio 46 pts × 21% = 9.6 + tiempo 32 pts × 21% = 6.6 + fiabilidad 62 pts × 58% = 36.4 → 52.7
+
+  Avisos:
+   - Ningún proveedor cumple todos los requisitos: revisar las alternativas.
+
+  Excluidos:
+   - 4-72: No maneja contenedor Flat Rack
+   - Coordinadora: No ofrece velocidad mismo día con Flat Rack (0 servicios en el historial; mínimo 5)
+   - Envía: No maneja contenedor Flat Rack
+   - Grupo TCC: No ofrece velocidad mismo día con Flat Rack (0 servicios en el historial; mínimo 5)
+   - Inter Rapidísimo: No maneja contenedor Flat Rack
+   - Servientrega: No ofrece velocidad mismo día con Flat Rack (2 servicios en el historial; mínimo 5)
+
+==========================================================================================
+SOLICITUD T-009: Bogotá → Barranquilla (nacional, 875 km) · Carne · Reefer · 7 × 150 kg · velocidad estándar
+
+  Base para contenedor Reefer: precio 10%, tiempo 40%, fiabilidad 50%
+  Referencia de mercado: $1,333,047 · 41 h
+
+  #  Proveedor         Puntaje         Precio vs merc.    Tiempo vs merc.   Fiab. A tiempo   Confianza
+  1  Inter Rapidísimo     61.7   $  1,268,125      -5%      43 h      +6%    77.0      65%   Alta
+  2  Servientrega         54.5   $  1,364,960      +2%      49 h     +20%    75.5      64%   Alta
+
+  Desglose (puntos × peso = aporte):
+   Inter Rapidísimo  precio 55 × 10% = 5.5 + tiempo 44 × 40% = 17.7 + fiabilidad 77 × 50% = 38.5 → 61.7
+   Servientrega      precio 48 × 10% = 4.8 + tiempo 30 × 40% = 12.0 + fiabilidad 76 × 50% = 37.8 → 54.5
+  Inter Rapidísimo queda primero con 61.7 puntos. Frente a Servientrega (54.5): es 7% más barato (+0.7 pts); llega 6 h antes (+5.7 pts); es más fiable (77 frente a 76) (+0.8 pts).
+
+  Avisos:
+   - Concentración: Inter Rapidísimo ya tiene el 36% de los envíos de las últimas 4 semanas (umbral 35%). Si la diferencia es pequeña, considerar la segunda opción.
+
+  Excluidos:
+   - 4-72: No maneja contenedor Reefer
+   - Coordinadora: Sin cupos esta semana para Reefer
+   - Envía: No maneja contenedor Reefer
+   - Grupo TCC: Peso 1,050 kg supera su máximo atendido en Reefer (900 kg)
+
