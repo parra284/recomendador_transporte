@@ -79,14 +79,19 @@ def proveedor_desde_fila(fila):
     )
 
 
+def cargar_tarifas(dir_datos=DIR_DATOS):
+    """{(id_proveedor, origen, destino, tipo_contenedor): precio_cop}"""
+    return {(f["id_proveedor"], f["origen"], f["destino"], f["tipo_contenedor"]): float(f["precio_cop"])
+            for f in _leer_csv(Path(dir_datos) / "tarifas.csv")}
+
+
 def cargar_datos(dir_datos=DIR_DATOS):
     """Lee proveedores, rutas, tarifas y capacidad desde los CSV de data/."""
     dir_datos = Path(dir_datos)
     proveedores = tuple(proveedor_desde_fila(f) for f in _leer_csv(dir_datos / "proveedores.csv"))
     rutas = frozenset((f["id_proveedor"], f["origen"], f["destino"])
                       for f in _leer_csv(dir_datos / "rutas_proveedor.csv"))
-    tarifas = {(f["id_proveedor"], f["origen"], f["destino"], f["tipo_contenedor"]): float(f["precio_cop"])
-               for f in _leer_csv(dir_datos / "tarifas.csv")}
+    tarifas = cargar_tarifas(dir_datos)
     capacidad = {(f["id_proveedor"], date.fromisoformat(f["fecha"]), f["tipo_contenedor"]):
                  (f["estado"], int(f["camiones_libres"]))
                  for f in _leer_csv(dir_datos / "capacidad.csv")}
