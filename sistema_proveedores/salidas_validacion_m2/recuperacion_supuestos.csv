@@ -1,0 +1,7 @@
+﻿proveedor,factor_precio_verdadero_rel,factor_precio_estimado_rel,factor_tiempo_verdadero_rel,factor_tiempo_prometido_estimado_rel,efecto_puntualidad_verdadero,puntualidad_m1_pts,error_precio_pct,error_tiempo_pct
+4-72,0.88,0.915,1.359,1.358,-0.22,-16.291,3.984,-0.059
+Coordinadora,1.0,1.0,1.0,1.0,0.12,9.668,0.0,0.0
+Envía,0.97,0.974,1.141,1.14,-0.12,-11.948,0.399,-0.071
+Grupo TCC,1.12,1.079,1.087,1.073,0.1,7.93,-3.648,-1.308
+Inter Rapidísimo,0.92,0.936,1.033,1.032,-0.03,-3.197,1.712,-0.066
+Servientrega,1.06,1.038,1.087,1.086,-0.08,-7.533,-2.114,-0.06

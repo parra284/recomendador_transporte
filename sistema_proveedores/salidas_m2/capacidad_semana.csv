@@ -1,0 +1,18 @@
+﻿proveedor,tipo_contenedor,cupos_semana,comprometidos,disponibles
+4-72,Dry,14,9,5
+Coordinadora,Dry,79,64,15
+Coordinadora,Flat Rack,13,10,3
+Coordinadora,Open Top,17,12,5
+Coordinadora,Reefer,23,23,0
+Envía,Dry,35,30,5
+Grupo TCC,Dry,32,29,3
+Grupo TCC,Flat Rack,6,4,2
+Grupo TCC,Open Top,9,7,2
+Grupo TCC,Reefer,11,7,4
+Inter Rapidísimo,Dry,105,98,7
+Inter Rapidísimo,Open Top,23,21,2
+Inter Rapidísimo,Reefer,29,23,6
+Servientrega,Dry,47,40,7
+Servientrega,Flat Rack,11,8,3
+Servientrega,Open Top,11,10,1
+Servientrega,Reefer,14,10,4

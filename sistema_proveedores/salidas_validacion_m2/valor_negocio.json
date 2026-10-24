@@ -1,0 +1,91 @@
+{
+  "fuente": {
+    "corte": "2026-03-31",
+    "envios_prueba": 7515,
+    "semanas_prueba": 27,
+    "metodo_lote": "programación entera (PuLP + HiGHS)",
+    "sin_asignar_con_restricciones": 0
+  },
+  "validacion_sin_restricciones": {
+    "escenario_modelo": "Sin restricciones (techo teórico)",
+    "envios": 7510,
+    "coincidencia_pct": 31.198402130492674,
+    "costo_total_elegido_cop": 2981113402.5490546,
+    "costo_total_recomendado_cop": 2955399784.7346015,
+    "dif_costo_total_pct": -0.8625508104611601,
+    "dif_costo_medio_cop": -3423.9171523905407,
+    "dif_prob_a_tiempo_pts": 9.06515312916112,
+    "prob_a_tiempo_elegido_pct": 67.22304926764313,
+    "prob_a_tiempo_recomendado_pct": 76.28820239680427,
+    "dif_tiempo_h": -5.414196003900214,
+    "reparto_pct": {
+      "Coordinadora": 96.0,
+      "Inter Rapidísimo": 3.8,
+      "Servientrega": 0.2
+    },
+    "max_cuota_pct": 96.0
+  },
+  "validacion_con_restricciones": {
+    "escenario_modelo": "Con cupos semanales y tope 35 % (operación)",
+    "envios": 7510,
+    "coincidencia_pct": 27.470039946737685,
+    "costo_total_elegido_cop": 2981113402.549054,
+    "costo_total_recomendado_cop": 2984016904.0592327,
+    "dif_costo_total_pct": 0.09739654679676857,
+    "dif_costo_medio_cop": 386.61804396523917,
+    "dif_prob_a_tiempo_pts": 4.609933422103861,
+    "prob_a_tiempo_elegido_pct": 67.22304926764313,
+    "prob_a_tiempo_recomendado_pct": 71.832982689747,
+    "dif_tiempo_h": -1.892528002730037,
+    "reparto_pct": {
+      "Inter Rapidísimo": 34.9,
+      "Coordinadora": 34.9,
+      "Grupo TCC": 20.5,
+      "Servientrega": 6.8,
+      "Envía": 3.0
+    },
+    "max_cuota_pct": 34.9
+  },
+  "segundos_por_solicitud": 0.15595722010000018,
+  "precio_medio_envio_cop": 404350.04644045245,
+  "supuestos": {
+    "envios_mes": 1300,
+    "envios_ano": 15600,
+    "gasto_flete_ano_cop": 6307860724.471058,
+    "min_manual": 5.0,
+    "min_sistema": 1.0,
+    "costo_hora_operario_cop": 25000,
+    "horas_ano_persona": 2000,
+    "adopcion_esperada": 0.8,
+    "adopcion_conservadora": 0.5,
+    "realizacion_conservadora": 0.5
+  },
+  "escenarios": [
+    {
+      "escenario": "Conservador",
+      "adopcion": 0.5,
+      "realizacion": 0.5,
+      "envios_con_sistema_ano": 7800.0,
+      "ahorro_flete_cop_ano": -1535909.6305961097,
+      "ahorro_flete_pct_gasto": -0.024349136699192142,
+      "mejora_puntualidad_pts": 1.1524833555259653,
+      "envios_adicionales_a_tiempo_ano": 179.78740346205058,
+      "horas_operario_ahorradas_ano": 520.0,
+      "personas_equivalentes": 0.26,
+      "valor_tiempo_operario_cop_ano": 13000000.0
+    },
+    {
+      "escenario": "Esperado",
+      "adopcion": 0.8,
+      "realizacion": 1.0,
+      "envios_con_sistema_ano": 12480.0,
+      "ahorro_flete_cop_ano": -4914910.817907551,
+      "ahorro_flete_pct_gasto": -0.07791723743741485,
+      "mejora_puntualidad_pts": 3.687946737683089,
+      "envios_adicionales_a_tiempo_ano": 575.3196910785618,
+      "horas_operario_ahorradas_ano": 832.0,
+      "personas_equivalentes": 0.416,
+      "valor_tiempo_operario_cop_ano": 20800000.0
+    }
+  ]
+}

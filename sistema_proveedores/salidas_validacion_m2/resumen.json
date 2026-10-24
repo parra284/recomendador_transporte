@@ -1,0 +1,94 @@
+{
+  "corte": "2026-03-31",
+  "envios_entrenamiento": 23871,
+  "envios_prueba": 7515,
+  "igualdad_con_recomendar": {
+    "envios_comparados": 60,
+    "max_dif_puntaje": 2.842170943040401e-14,
+    "envios_distintos": 0
+  },
+  "sin_candidato": 5,
+  "total": {
+    "envios": 7510.0,
+    "coincidencia_pct": 31.198402130492674,
+    "dif_costo_media_cop": -3423.9171523905407,
+    "dif_costo_media_pct": 1.296807078270484,
+    "dif_costo_total_pct": -0.8625508104611601,
+    "dif_prob_a_tiempo_pts": 9.06515312916112,
+    "dif_tiempo_esperado_h": -5.414196003900214,
+    "dif_fiabilidad_pts": 5.672143808255658
+  },
+  "por_contenedor": {
+    "Dry": {
+      "envios": 5125.0,
+      "coincidencia_pct": 29.385365853658534,
+      "dif_costo_media_cop": 2057.9394646526043,
+      "dif_costo_media_pct": 1.5803948753322372,
+      "dif_costo_total_pct": 1.1781317122383728,
+      "dif_prob_a_tiempo_pts": 9.462829268292683,
+      "dif_tiempo_esperado_h": -6.128633686523576,
+      "dif_fiabilidad_pts": 5.824390243902439
+    },
+    "Flat Rack": {
+      "envios": 342.0,
+      "coincidencia_pct": 52.92397660818714,
+      "dif_costo_media_cop": -128009.65063209512,
+      "dif_costo_media_pct": -4.043484904824568,
+      "dif_costo_total_pct": -4.769106655793265,
+      "dif_prob_a_tiempo_pts": 6.492105263157895,
+      "dif_tiempo_esperado_h": -4.389336632424865,
+      "dif_fiabilidad_pts": 4.166374269005848
+    },
+    "Open Top": {
+      "envios": 813.0,
+      "coincidencia_pct": 32.47232472324723,
+      "dif_costo_media_cop": 2147.418087725424,
+      "dif_costo_media_pct": 1.074970494520389,
+      "dif_costo_total_pct": 0.2190335017234757,
+      "dif_prob_a_tiempo_pts": 9.077244772447726,
+      "dif_tiempo_esperado_h": -4.680201304013633,
+      "dif_fiabilidad_pts": 5.778228782287822
+    },
+    "Reefer": {
+      "envios": 1230.0,
+      "coincidencia_pct": 31.869918699186993,
+      "dif_costo_media_cop": 4693.408162648945,
+      "dif_costo_media_pct": 1.7466815017386534,
+      "dif_costo_total_pct": 1.5567056198647178,
+      "dif_prob_a_tiempo_pts": 8.115609756097562,
+      "dif_tiempo_esperado_h": -3.207485819028371,
+      "dif_fiabilidad_pts": 5.3863414634146345
+    }
+  },
+  "verificacion_real": {
+    "No coincide": {
+      "envios": 5167.0,
+      "a_tiempo_real_pct": 64.27327269208438,
+      "a_tiempo_esperado_pct": 64.12517902070834,
+      "real_menos_esperado_pts": 0.14809367137603147
+    },
+    "Coincide": {
+      "envios": 2343.0,
+      "a_tiempo_real_pct": 76.01365770379856,
+      "a_tiempo_esperado_pct": 74.0547588561673,
+      "real_menos_esperado_pts": 1.9588988476312608
+    }
+  },
+  "violaciones_filtros": {
+    "contenedor": 0,
+    "cobertura": 0,
+    "peso": 0,
+    "velocidad": 0,
+    "velocidad_zona": 0
+  },
+  "sensibilidad_max_pct_total": 5.046604527296937,
+  "sensibilidad_max_pct_contenedor": 7.3951219512195125,
+  "supuestos": {
+    "corr_precio": 0.9988163151573839,
+    "error_precio_max_pct": 3.9843591200723782,
+    "corr_tiempo": 0.9990636377320518,
+    "spearman_puntualidad": 1.0
+  },
+  "casos_razonables": 9,
+  "casos": 9
+}

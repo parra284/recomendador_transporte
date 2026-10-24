@@ -1,0 +1,7 @@
+﻿variable,modelo,R2_prueba,error_medio_pct,elegido
+precio,Ridge,0.961,17.4051,
+precio,Gradient boosting,0.9886,9.441,sí
+prometido,Ridge,1.0,0.0464,sí
+prometido,Gradient boosting,1.0,0.0301,
+tiempo,Ridge,0.6689,31.5729,sí
+tiempo,Gradient boosting,0.6643,31.7715,

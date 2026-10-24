@@ -1,0 +1,93 @@
+VALIDACIÓN DEL MODELO 2
+Entrenamiento: 23,871 envíos hasta 2026-03-31 (corte 2026-03-31). Prueba: 7,515 envíos de 2026-04-01 a 2026-09-30.
+Modelo de tiempo elegido dentro del entrenamiento: precio = Gradient boosting, prometido = Ridge, tiempo = Ridge
+Columnas borradas antes de recomendar: proveedor, tarifa_referencia_cop, precio_cop, transito_prometido_h, transito_real_h, a_tiempo, danado, satisfaccion_1a5, precio_rel_ref
+Cupos: no se aplican (la capacidad simulada es una foto de esta semana, no del pasado).
+
+Control: el cálculo en bloque coincide con recomendar() en 60 envíos al azar (diferencia máxima de puntaje 2.8e-14; envíos con distinto #1: 0).
+
+1-2. RECOMENDADO FRENTE A ELEGIDO EN SU MOMENTO (valores esperados según los modelos, no resultados reales)
+  Envíos recomendados: 7,510; sin ningún candidato: 5; elegido que hoy el catálogo excluiría: 5
+           envios  coincidencia_pct  dif_costo_media_cop  dif_costo_media_pct  dif_costo_total_pct  dif_prob_a_tiempo_pts  dif_tiempo_esperado_h  dif_fiabilidad_pts
+Total      7510.0              31.2              -3423.9                  1.3                 -0.9                    9.1                   -5.4                 5.7
+Dry        5125.0              29.4               2057.9                  1.6                  1.2                    9.5                   -6.1                 5.8
+Flat Rack   342.0              52.9            -128009.7                 -4.0                 -4.8                    6.5                   -4.4                 4.2
+Open Top    813.0              32.5               2147.4                  1.1                  0.2                    9.1                   -4.7                 5.8
+Reefer     1230.0              31.9               4693.4                  1.7                  1.6                    8.1                   -3.2                 5.4
+  (dif = recomendado − elegido; costo % = promedio de los cocientes por envío; total % = suma frente a suma)
+
+  Reparto por proveedor:
+                  elegido_historico_pct  recomendado_pct
+4-72                                2.6              0.0
+Coordinadora                       28.5             96.0
+Envía                               7.8              0.0
+Grupo TCC                          10.7              0.0
+Inter Rapidísimo                   35.7              3.8
+Servientrega                       14.7              0.2
+
+3. RESULTADOS REALES (solo indicativo: sesgo de selección)
+             envios  a_tiempo_real_pct  a_tiempo_esperado_pct  real_menos_esperado_pts
+coincide                                                                              
+No coincide    5167               64.3                   64.1                      0.1
+Coincide       2343               76.0                   74.1                      2.0
+  Por proveedor elegido (% a tiempo real):
+                  envios_no_coincide  envios_coincide  a_tiempo_no_coincide  a_tiempo_coincide
+elegido                                                                                       
+4-72                           194.0              NaN                  50.5                NaN
+Coordinadora                     4.0           2140.0                  75.0               78.6
+Envía                          586.0              NaN                  62.3                NaN
+Grupo TCC                      800.0              NaN                  77.0                NaN
+Inter Rapidísimo              2488.0            192.0                  65.2               49.5
+Servientrega                  1095.0             11.0                  56.3               36.4
+
+4. COHERENCIA: violaciones de filtros duros en el recomendado (recalculadas desde el entrenamiento)
+  contenedor: 0 · cobertura: 0 · peso: 0 · velocidad: 0 · velocidad_zona: 0  → OK
+
+5. SENSIBILIDAD: cada peso base ± 10 puntos (luego se renormaliza a 100 %)
+contenedor     factor  cambio  peso_base  envios_contenedor  cambia_primera_opcion  pct_del_contenedor  pct_del_total
+       Dry     precio +10 pts        0.4               5125                    122                 2.4            1.6
+       Dry     precio -10 pts        0.4               5125                     14                 0.3            0.2
+       Dry     tiempo +10 pts        0.2               5125                     14                 0.3            0.2
+       Dry     tiempo -10 pts        0.2               5125                    379                 7.4            5.0
+       Dry fiabilidad +10 pts        0.4               5125                      8                 0.2            0.1
+       Dry fiabilidad -10 pts        0.4               5125                     40                 0.8            0.5
+    Reefer     precio +10 pts        0.1               1230                      0                 0.0            0.0
+    Reefer     precio -10 pts        0.1               1230                      4                 0.3            0.1
+    Reefer     tiempo +10 pts        0.4               1230                      0                 0.0            0.0
+    Reefer     tiempo -10 pts        0.4               1230                      0                 0.0            0.0
+    Reefer fiabilidad +10 pts        0.5               1230                      1                 0.1            0.0
+    Reefer fiabilidad -10 pts        0.5               1230                      0                 0.0            0.0
+  Open Top     precio +10 pts        0.4                818                      0                 0.0            0.0
+  Open Top     precio -10 pts        0.4                818                      0                 0.0            0.0
+  Open Top     tiempo +10 pts        0.1                818                      0                 0.0            0.0
+  Open Top     tiempo -10 pts        0.1                818                     11                 1.3            0.1
+  Open Top fiabilidad +10 pts        0.6                818                      0                 0.0            0.0
+  Open Top fiabilidad -10 pts        0.6                818                      0                 0.0            0.0
+ Flat Rack     precio +10 pts        0.2                342                      0                 0.0            0.0
+ Flat Rack     precio -10 pts        0.2                342                      0                 0.0            0.0
+ Flat Rack     tiempo +10 pts        0.0                342                      0                 0.0            0.0
+ Flat Rack     tiempo -10 pts        0.0                342                      0                 0.0            0.0
+ Flat Rack fiabilidad +10 pts        0.7                342                      0                 0.0            0.0
+ Flat Rack fiabilidad -10 pts        0.7                342                      0                 0.0            0.0
+
+EXTRA. ¿LOS MODELOS RECUPERAN LOS PARÁMETROS OCULTOS? (hoja Supuestos, solo para validar; relativo a Coordinadora)
+       proveedor  factor_precio_verdadero_rel  factor_precio_estimado_rel  factor_tiempo_verdadero_rel  factor_tiempo_prometido_estimado_rel  efecto_puntualidad_verdadero  puntualidad_m1_pts  error_precio_pct  error_tiempo_pct
+            4-72                         0.88                       0.915                        1.359                                 1.358                         -0.22             -16.291             3.984            -0.059
+    Coordinadora                         1.00                       1.000                        1.000                                 1.000                          0.12               9.668             0.000             0.000
+           Envía                         0.97                       0.974                        1.141                                 1.140                         -0.12             -11.948             0.399            -0.071
+       Grupo TCC                         1.12                       1.079                        1.087                                 1.073                          0.10               7.930            -3.648            -1.308
+Inter Rapidísimo                         0.92                       0.936                        1.033                                 1.032                         -0.03              -3.197             1.712            -0.066
+    Servientrega                         1.06                       1.038                        1.087                                 1.086                         -0.08              -7.533            -2.114            -0.060
+  Correlación factor de precio verdadero vs estimado: 0.999 (error máximo 4.0 %); tiempo prometido: 0.999; orden de puntualidad (Spearman) Modelo 1 vs verdad: 1.00
+
+6. CASOS DE PRUEBA (modelo de producción)
+codigo                                           top3  puntaje_1  excluidos razonable                                                                                        lectura
+ T-001    Coordinadora > Inter Rapidísimo > Grupo TCC       67.6          0        sí     Carga seca típica: compiten los 6 proveedores y gana el de mejor balance precio-fiabilidad
+ T-002    Grupo TCC > Inter Rapidísimo > Servientrega       68.6          3        sí Coordinadora sin cupos Reefer queda fuera; gana el de mayor probabilidad de llegar en el plazo
+ T-003    Coordinadora > Inter Rapidísimo > Grupo TCC       67.6          2        sí                                           Acero en Open Top: 4-72 y Envía fuera por contenedor
+ T-004        Coordinadora > Grupo TCC > Servientrega       70.2          3        sí                              Flat Rack: solo Coordinadora, Grupo TCC y Servientrega lo manejan
+ T-005                                              —        NaN          6        sí                             Exprés a Quibdó no existe: no hay candidatos y propone prioritaria
+ T-006 Coordinadora > Inter Rapidísimo > Servientrega       63.5          2        sí                                   60 kg a Pasto: 4-72 fuera por peso y Grupo TCC por cobertura
+ T-007    Coordinadora > Grupo TCC > Inter Rapidísimo       65.0          1        sí          Mismo día en Medellín: 4-72 fuera; el #1 llega en plazo al menos el 70 % de las veces
+ T-008                                              —        NaN          6        sí                                 Flat Rack mismo día: nadie lo ha hecho 5 veces; propone exprés
+ T-009                Inter Rapidísimo > Servientrega       61.7          4        sí                                   Reefer de 1.050 kg: Grupo TCC fuera por peso (máximo 900 kg)

@@ -1,0 +1,25 @@
+﻿proveedor,tipo_contenedor,servicios,maneja_contenedor,velocidades_ofrecidas,velocidades_ocasionales,velocidades_sin_historial,peso_max_atendido_kg,ciudades_cubiertas,ciudades_sin_cobertura
+4-72,Dry,801,sí,"exp (52), prio (95), std (653)",same (1),—,50.0,15,—
+4-72,Flat Rack,0,no,—,—,todas,,15,—
+4-72,Open Top,0,no,—,—,todas,,15,—
+4-72,Reefer,0,no,—,—,todas,,15,—
+Coordinadora,Dry,5586,sí,"same (24), exp (357), prio (767), std (4438)",—,—,2006.4,14,Quibdó
+Coordinadora,Flat Rack,750,sí,"exp (55), prio (97), std (598)",—,same,6000.0,14,Quibdó
+Coordinadora,Open Top,1050,sí,"same (5), exp (77), prio (131), std (837)",—,—,16622.0,14,Quibdó
+Coordinadora,Reefer,1541,sí,"same (14), exp (271), prio (545), std (711)",—,—,1050.0,14,Quibdó
+Envía,Dry,2313,sí,"same (14), exp (136), prio (314), std (1849)",—,—,1275.5,14,Quibdó
+Envía,Flat Rack,0,no,—,—,todas,,14,Quibdó
+Envía,Open Top,0,no,—,—,todas,,14,Quibdó
+Envía,Reefer,0,no,—,—,todas,,14,Quibdó
+Grupo TCC,Dry,2083,sí,"same (8), exp (110), prio (262), std (1703)",—,—,1253.6,13,"Pasto, Quibdó"
+Grupo TCC,Flat Rack,291,sí,"exp (19), prio (37), std (235)",—,same,6000.0,13,"Pasto, Quibdó"
+Grupo TCC,Open Top,402,sí,"exp (24), prio (47), std (331)",—,same,6462.7,13,"Pasto, Quibdó"
+Grupo TCC,Reefer,577,sí,"exp (113), prio (216), std (245)",same (3),—,900.0,13,"Pasto, Quibdó"
+Inter Rapidísimo,Dry,7436,sí,"same (22), exp (440), prio (1084), std (5890)",—,—,1997.7,15,—
+Inter Rapidísimo,Flat Rack,0,no,—,—,todas,,15,—
+Inter Rapidísimo,Open Top,1423,sí,"same (7), exp (82), prio (178), std (1156)",—,—,8384.8,15,—
+Inter Rapidísimo,Reefer,1974,sí,"same (16), exp (327), prio (722), std (909)",—,—,1200.0,15,—
+Servientrega,Dry,3192,sí,"same (9), exp (164), prio (417), std (2602)",—,—,1754.9,15,—
+Servientrega,Flat Rack,492,sí,"exp (34), prio (68), std (388)",same (2),—,6000.0,15,—
+Servientrega,Open Top,598,sí,"exp (40), prio (86), std (469)",same (3),—,9104.2,15,—
+Servientrega,Reefer,877,sí,"same (6), exp (154), prio (309), std (408)",—,—,1200.0,15,—
