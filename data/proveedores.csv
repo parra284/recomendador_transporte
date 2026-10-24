@@ -1,0 +1,7 @@
+id_proveedor,nombre,equipos,peso_max_t,permite_imo,permite_refrigerada,permite_extradimensionada,poliza_monto_usd,poliza_vence,habilitacion_vence
+P01,Transportes Cordillera Andina,20DV|40DV|40HC,32.0,false,false,false,500000,2027-06-30,2027-03-31
+P02,Logistica Pacifico Express,20DV|40DV|40HC|40RF,34.0,false,true,false,800000,2027-08-31,2027-05-31
+P03,Carga Valle Sur,20DV|40DV|40HC|40OT,32.0,false,false,false,300000,2027-02-28,2027-01-31
+P04,Rutas del Magdalena,20DV|40DV|40HC|40FR|40OT,45.0,true,false,true,600000,2027-04-30,2026-11-08
+P05,Frio Continental,20RF|40RF,32.0,false,true,false,400000,2027-07-31,2027-06-30
+P06,Transito Seguro del Norte,20DV|40DV|40HC,30.48,true,false,false,50000,2027-01-31,2027-09-30

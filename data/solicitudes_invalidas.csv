@@ -1,0 +1,6 @@
+id_solicitud,origen,destino,fecha_cita,tipo_contenedor,peso_bruto_t,imo,clase_imo,refrigerada,temperatura_c,extradimensionada,valor_declarado_usd,modalidad_aduanera,prioridad,observaciones
+I001,BUN-SPRBUN,BOG,2026-11-04T06:00,40DV,42.0,false,,false,,false,60000,NACIONALIZADA,normal,INVALIDA: peso excesivo para 40DV
+I002,CTG-CONTECAR,MDE,2026-11-05T08:00,20DV,18.0,true,,false,,false,40000,DTA,normal,INVALIDA: IMO sin clase
+I003,BUN-TCBUEN,CLO,2026-11-06T07:00,40RF,22.0,false,,true,,false,90000,NACIONALIZADA,urgente,INVALIDA: refrigerada sin temperatura
+I004,SMR-SPRSM,BOG,2026-11-07T09:00,40HC,20.0,false,,false,,false,50000,NACIONALIZADA,normal,INVALIDA: origen desconocido
+I005,BAQ-SPRB,BGA,04/11/2026 6am,20DV,15.0,false,,false,,false,30000,,economica,INVALIDA: fecha mal escrita

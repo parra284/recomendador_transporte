@@ -1,0 +1,28 @@
+# Pesos de puntuación por perfil de solicitud. Cada perfil debe sumar 1.
+perfiles:
+  normal:
+    precio: 0.35
+    tiempo: 0.15
+    confiabilidad: 0.35
+    etiquetas: 0.15
+  urgente:
+    precio: 0.15
+    tiempo: 0.35
+    confiabilidad: 0.35
+    etiquetas: 0.15
+  economica:
+    precio: 0.55
+    tiempo: 0.10
+    confiabilidad: 0.25
+    etiquetas: 0.10
+  alto_valor:
+    precio: 0.20
+    tiempo: 0.15
+    confiabilidad: 0.35
+    etiquetas: 0.30
+
+parametros:
+  piso_confiabilidad: 0.80   # % mínimo de entregas a tiempo para ser elegible
+  min_viajes: 20             # viajes mínimos en el corredor para confiar en el historial
+  etiqueta_base: 0.5         # puntaje de etiquetas sin coincidencias
+  ajuste_por_etiqueta: 0.25  # +/- por cada fortaleza/debilidad que coincide
