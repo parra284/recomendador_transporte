@@ -28,6 +28,6 @@ atender cada solicitud. Usuarios: equipo de operaciones de la naviera.
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
-pytest                  # correr pruebas
-streamlit run app.py    # correr el dashboard
+python -m pytest                # correr pruebas
+python -m streamlit run app.py    # correr el dashboard
 ```
