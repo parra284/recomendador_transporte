@@ -1,0 +1,51 @@
+﻿codigo,ruta,contenedor,candidatos,proveedor_historico,primera_opcion,pts_primera,asignado,opcion_asignada,pts_asignado,perdida,quedo_con_primera,motivo
+S-030106,Santa Marta → Cartagena,Dry,5,Envía,Coordinadora,62.86358281267294,Inter Rapidísimo,2,62.31394183741047,0.54964097526247,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030110,Bogotá → Cali,Reefer,4,Inter Rapidísimo,Coordinadora,70.28868470097179,Inter Rapidísimo,3,60.01893187569628,10.269752825275503,no,Coordinadora no tiene cupos de Reefer esta semana
+S-030114,Bogotá → Pasto,Dry,4,Servientrega,Coordinadora,62.07456319795824,Coordinadora,1,62.07456319795824,0.0,sí,—
+S-030162,Medellín → Cali,Dry,5,Inter Rapidísimo,Coordinadora,63.92598122661822,Coordinadora,1,63.92598122661822,0.0,sí,—
+S-030179,Santa Marta → Medellín,Dry,5,Coordinadora,Inter Rapidísimo,62.824732580436226,Inter Rapidísimo,1,62.824732580436226,0.0,sí,—
+S-030182,Bogotá → Pereira,Dry,5,Servientrega,Coordinadora,66.08217614163132,Coordinadora,1,66.08217614163132,0.0,sí,—
+S-030229,Cali → Bogotá,Dry,6,4-72,Coordinadora,67.39456400812537,Envía,4,58.130804846901626,9.263759161223746,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030231,Barranquilla → Medellín,Open Top,4,Inter Rapidísimo,Coordinadora,68.98657044622826,Grupo TCC,2,65.16832831078428,3.818242135443981,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030255,Barranquilla → Barranquilla,Dry,6,4-72,Coordinadora,68.7736396645268,Coordinadora,1,68.7736396645268,0.0,sí,—
+S-030350,Cali → Cali,Dry,6,Coordinadora,Coordinadora,67.99898962724971,Grupo TCC,3,63.91907433378746,4.079915293462257,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030413,Bogotá → Bogotá,Dry,6,Coordinadora,Coordinadora,67.14911347920398,Coordinadora,1,67.14911347920398,0.0,sí,—
+S-030463,Bogotá → Bogotá,Dry,5,Coordinadora,Coordinadora,65.07499043093469,Coordinadora,1,65.07499043093469,0.0,sí,—
+S-030511,Medellín → Medellín,Dry,5,Coordinadora,Coordinadora,65.92873548721244,Envía,4,57.81185411406981,8.116881373142625,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030512,Cali → Medellín,Reefer,4,Coordinadora,Coordinadora,71.81394274498052,Inter Rapidísimo,3,63.40948256007502,8.404460184905503,no,Coordinadora no tiene cupos de Reefer esta semana
+S-030538,Villavicencio → Cali,Open Top,4,Inter Rapidísimo,Coordinadora,70.01844731754849,Servientrega,4,61.520977662124906,8.497469655423586,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030548,Ibagué → Bogotá,Reefer,4,Inter Rapidísimo,Coordinadora,74.38878753584461,Grupo TCC,2,70.94386367695759,3.444923858887023,no,Coordinadora no tiene cupos de Reefer esta semana
+S-030569,Pereira → Cali,Dry,6,Inter Rapidísimo,Coordinadora,66.38727427834573,Coordinadora,1,66.38727427834573,0.0,sí,—
+S-030585,Bogotá → Bogotá,Dry,5,Coordinadora,Coordinadora,67.38271731697617,Coordinadora,1,67.38271731697617,0.0,sí,—
+S-030619,Quibdó → Bogotá,Dry,2,Inter Rapidísimo,Inter Rapidísimo,57.830816727427035,Servientrega,2,51.04490502966934,6.785911697757697,no,Inter Rapidísimo: sus 7 cupos de Dry se usaron en solicitudes donde perder la primera opción costaba más
+S-030635,Medellín → Cali,Reefer,4,Inter Rapidísimo,Coordinadora,69.94055652114568,Grupo TCC,2,66.33508200167917,3.6054745194665117,no,Coordinadora no tiene cupos de Reefer esta semana
+S-030702,Medellín → Barranquilla,Flat Rack,3,Grupo TCC,Coordinadora,69.85735481552119,Grupo TCC,2,63.64219237118115,6.215162444340038,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030721,Bogotá → Bogotá,Dry,5,Coordinadora,Coordinadora,67.42119711822718,Coordinadora,1,67.42119711822718,0.0,sí,—
+S-030769,Medellín → Medellín,Dry,5,Coordinadora,Coordinadora,65.04280191716515,Grupo TCC,2,63.07396412045339,1.9688377967117603,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030812,Bogotá → Medellín,Dry,5,Inter Rapidísimo,Coordinadora,64.85775495940683,Coordinadora,1,64.85775495940683,0.0,sí,—
+S-030817,Medellín → Pereira,Dry,5,Servientrega,Coordinadora,64.545318344139,Inter Rapidísimo,2,63.63596470571843,0.9093536384205763,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030853,Cali → Cartagena,Reefer,4,Servientrega,Coordinadora,72.01500636187174,Grupo TCC,2,69.28198999074777,2.7330163711239663,no,Coordinadora no tiene cupos de Reefer esta semana
+S-030882,Barranquilla → Cúcuta,Dry,6,Coordinadora,Coordinadora,64.96981990535905,Servientrega,5,55.908564195772016,9.06125570958703,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-030891,Cali → Barranquilla,Dry,5,Inter Rapidísimo,Coordinadora,64.61374303335909,Coordinadora,1,64.61374303335909,0.0,sí,—
+S-030903,Bucaramanga → Cali,Dry,5,Inter Rapidísimo,Coordinadora,62.66741616679796,Coordinadora,1,62.66741616679796,0.0,sí,—
+S-030937,Cali → Quibdó,Dry,2,Servientrega,Inter Rapidísimo,58.28390905798009,Servientrega,2,50.978518185100356,7.305390872879734,no,Inter Rapidísimo: sus 7 cupos de Dry se usaron en solicitudes donde perder la primera opción costaba más
+S-030963,Barranquilla → Medellín,Dry,5,Coordinadora,Coordinadora,64.05174708349969,Coordinadora,1,64.05174708349969,0.0,sí,—
+S-030975,Barranquilla → Bogotá,Dry,5,Envía,Coordinadora,66.0565081155611,Coordinadora,1,66.0565081155611,0.0,sí,—
+S-030987,Bogotá → Cúcuta,Reefer,4,Inter Rapidísimo,Coordinadora,71.50973118905745,Grupo TCC,2,66.65938458731779,4.850346601739659,no,Coordinadora no tiene cupos de Reefer esta semana
+S-030997,Cali → Cali,Dry,6,Inter Rapidísimo,Coordinadora,66.29280914180814,Inter Rapidísimo,2,64.81202742276955,1.480781719038589,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031036,Bogotá → Bogotá,Open Top,4,Coordinadora,Coordinadora,69.89104849423663,Inter Rapidísimo,3,64.54490199952951,5.346146494707114,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031041,Cali → Bogotá,Dry,5,Coordinadora,Coordinadora,65.55567602554117,Inter Rapidísimo,2,63.37408554630516,2.1815904792360143,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031070,Medellín → Bucaramanga,Dry,6,Envía,Coordinadora,66.61589972737357,Servientrega,4,58.171142707721,8.44475701965257,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031119,Bogotá → Bogotá,Dry,5,Inter Rapidísimo,Coordinadora,67.34157087656548,Grupo TCC,2,63.33368111994046,4.007889756625026,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031192,Bogotá → Neiva,Open Top,4,Servientrega,Coordinadora,67.28429059383356,Inter Rapidísimo,2,66.29917909543951,0.9851114983940477,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031211,Pereira → Bogotá,Dry,5,Grupo TCC,Coordinadora,66.43910798058175,Inter Rapidísimo,2,65.20979750314852,1.2293104774332306,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031235,Bogotá → Bogotá,Open Top,4,Coordinadora,Coordinadora,70.87418376406713,Coordinadora,1,70.87418376406713,0.0,sí,—
+S-031242,Cali → Barranquilla,Dry,5,Coordinadora,Coordinadora,64.4658665232447,Servientrega,4,53.89683554716613,10.569030976078572,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031255,Pasto → Pasto,Dry,4,Envía,Coordinadora,64.71686065937006,Envía,3,57.26255962356044,7.454301035809614,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031257,Bogotá → Cali,Flat Rack,3,Grupo TCC,Coordinadora,70.76824396359788,Grupo TCC,2,63.43843058803787,7.329813375560015,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031268,Bucaramanga → Bogotá,Dry,5,Coordinadora,Coordinadora,64.42248062902763,Envía,4,55.55057224338914,8.871908385638491,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031326,Bogotá → Medellín,Flat Rack,3,Coordinadora,Coordinadora,71.15574217851444,Coordinadora,1,71.15574217851444,0.0,sí,—
+S-031334,Cali → Cali,Open Top,4,Inter Rapidísimo,Coordinadora,72.38031989681271,Grupo TCC,2,71.15513456916997,1.225185327642734,no,Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031365,Bogotá → Bucaramanga,Dry,5,Coordinadora,Coordinadora,63.67891952859598,Inter Rapidísimo,2,63.18102492847785,0.497894600118137,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031385,Medellín → Medellín,Dry,6,Coordinadora,Coordinadora,67.49230795038679,Envía,4,59.42524798131859,8.067059969068197,no,Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+S-031386,Cali → Medellín,Dry,6,Grupo TCC,Coordinadora,66.91736465409487,Coordinadora,1,66.91736465409487,0.0,sí,—

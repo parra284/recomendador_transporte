@@ -1,0 +1,10 @@
+id_envio,fecha_orden,origen,destino,categoria_carga,peso_por_bulto_kg,bultos_unidades,valor_declarado_cop,fragil,seguro,nivel_velocidad,plazo_h,descripcion
+T-001,2026-10-26,Bogotá,Medellín,Retail,12,3,1800000,0,1,std,,Caso típico: carga seca sin urgencia
+T-002,2026-10-26,Bogotá,Cali,Medicinas,2,5,3000000,0,1,prio,30,Medicinas refrigeradas con plazo de 30 h (el mejor proveedor no tiene cupos)
+T-003,2026-10-26,Bogotá,Bucaramanga,Acero,350,4,24000000,0,1,std,,Acero en Open Top
+T-004,2026-10-26,Medellín,Barranquilla,Carga sobredimensionada,1500,1,60000000,1,1,std,,Maquinaria sobredimensionada en Flat Rack
+T-005,2026-10-26,Cali,Quibdó,Mariscos,15,10,8000000,0,1,exp,,Exprés a zona especial: no es posible y se proponen alternativas
+T-006,2026-10-26,Bogotá,Pasto,Retail,30,2,900000,0,1,std,,Carga de 60 kg a Pasto: excluye a 4-72 por peso y a Grupo TCC por cobertura
+T-007,2026-10-26,Medellín,Medellín,Hi-tech,5,2,4000000,1,1,same,6,Entrega el mismo día dentro de la ciudad
+T-008,2026-10-26,Medellín,Medellín,Carga sobredimensionada,1200,1,30000000,0,1,same,,Flat Rack mismo día: nadie lo ha hecho 5 veces; se propone exprés
+T-009,2026-10-26,Bogotá,Barranquilla,Carne,150,7,20000000,0,1,std,,Reefer de 1.050 kg: excluye a Grupo TCC (máximo Reefer atendido 900 kg)

@@ -1,0 +1,96 @@
+==============================================================================================================
+ASIGNACIÓN POR LOTE: 50 solicitudes · método: programación entera (PuLP + HiGHS)
+Restricciones: cupos disponibles por proveedor y contenedor (capacidad_semana.csv, SIMULADOS) · máximo 35% del lote por proveedor = 17 envíos
+
+DETALLE POR SOLICITUD (pérdida = puntaje de su primera opción − puntaje del asignado)
+  Código    Ruta                         Cont.     1.ª opción          Pts   Asignado          Opc.   Pts Pérdida  ¿1.ª?       Motivo
+  S-030106  Santa Marta → Cartagena      Dry       Coordinadora       62.9   Inter Rapidísimo   2.ª  62.3     0.5  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030110  Bogotá → Cali                Reefer    Coordinadora       70.3   Inter Rapidísimo   3.ª  60.0    10.3  no          Coordinadora no tiene cupos de Reefer esta semana
+  S-030114  Bogotá → Pasto               Dry       Coordinadora       62.1   Coordinadora       1.ª  62.1     0.0  sí          —
+  S-030162  Medellín → Cali              Dry       Coordinadora       63.9   Coordinadora       1.ª  63.9     0.0  sí          —
+  S-030179  Santa Marta → Medellín       Dry       Inter Rapidísimo   62.8   Inter Rapidísimo   1.ª  62.8     0.0  sí          —
+  S-030182  Bogotá → Pereira             Dry       Coordinadora       66.1   Coordinadora       1.ª  66.1     0.0  sí          —
+  S-030229  Cali → Bogotá                Dry       Coordinadora       67.4   Envía              4.ª  58.1     9.3  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030231  Barranquilla → Medellín      Open Top  Coordinadora       69.0   Grupo TCC          2.ª  65.2     3.8  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030255  Barranquilla → Barranquilla  Dry       Coordinadora       68.8   Coordinadora       1.ª  68.8     0.0  sí          —
+  S-030350  Cali → Cali                  Dry       Coordinadora       68.0   Grupo TCC          3.ª  63.9     4.1  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030413  Bogotá → Bogotá              Dry       Coordinadora       67.1   Coordinadora       1.ª  67.1     0.0  sí          —
+  S-030463  Bogotá → Bogotá              Dry       Coordinadora       65.1   Coordinadora       1.ª  65.1     0.0  sí          —
+  S-030511  Medellín → Medellín          Dry       Coordinadora       65.9   Envía              4.ª  57.8     8.1  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030512  Cali → Medellín              Reefer    Coordinadora       71.8   Inter Rapidísimo   3.ª  63.4     8.4  no          Coordinadora no tiene cupos de Reefer esta semana
+  S-030538  Villavicencio → Cali         Open Top  Coordinadora       70.0   Servientrega       4.ª  61.5     8.5  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030548  Ibagué → Bogotá              Reefer    Coordinadora       74.4   Grupo TCC          2.ª  70.9     3.4  no          Coordinadora no tiene cupos de Reefer esta semana
+  S-030569  Pereira → Cali               Dry       Coordinadora       66.4   Coordinadora       1.ª  66.4     0.0  sí          —
+  S-030585  Bogotá → Bogotá              Dry       Coordinadora       67.4   Coordinadora       1.ª  67.4     0.0  sí          —
+  S-030619  Quibdó → Bogotá              Dry       Inter Rapidísimo   57.8   Servientrega       2.ª  51.0     6.8  no          Inter Rapidísimo: sus 7 cupos de Dry se usaron en solicitudes donde perder la primera opción costaba más
+  S-030635  Medellín → Cali              Reefer    Coordinadora       69.9   Grupo TCC          2.ª  66.3     3.6  no          Coordinadora no tiene cupos de Reefer esta semana
+  S-030702  Medellín → Barranquilla      Flat Rack Coordinadora       69.9   Grupo TCC          2.ª  63.6     6.2  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030721  Bogotá → Bogotá              Dry       Coordinadora       67.4   Coordinadora       1.ª  67.4     0.0  sí          —
+  S-030769  Medellín → Medellín          Dry       Coordinadora       65.0   Grupo TCC          2.ª  63.1     2.0  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030812  Bogotá → Medellín            Dry       Coordinadora       64.9   Coordinadora       1.ª  64.9     0.0  sí          —
+  S-030817  Medellín → Pereira           Dry       Coordinadora       64.5   Inter Rapidísimo   2.ª  63.6     0.9  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030853  Cali → Cartagena             Reefer    Coordinadora       72.0   Grupo TCC          2.ª  69.3     2.7  no          Coordinadora no tiene cupos de Reefer esta semana
+  S-030882  Barranquilla → Cúcuta        Dry       Coordinadora       65.0   Servientrega       5.ª  55.9     9.1  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-030891  Cali → Barranquilla          Dry       Coordinadora       64.6   Coordinadora       1.ª  64.6     0.0  sí          —
+  S-030903  Bucaramanga → Cali           Dry       Coordinadora       62.7   Coordinadora       1.ª  62.7     0.0  sí          —
+  S-030937  Cali → Quibdó                Dry       Inter Rapidísimo   58.3   Servientrega       2.ª  51.0     7.3  no          Inter Rapidísimo: sus 7 cupos de Dry se usaron en solicitudes donde perder la primera opción costaba más
+  S-030963  Barranquilla → Medellín      Dry       Coordinadora       64.1   Coordinadora       1.ª  64.1     0.0  sí          —
+  S-030975  Barranquilla → Bogotá        Dry       Coordinadora       66.1   Coordinadora       1.ª  66.1     0.0  sí          —
+  S-030987  Bogotá → Cúcuta              Reefer    Coordinadora       71.5   Grupo TCC          2.ª  66.7     4.9  no          Coordinadora no tiene cupos de Reefer esta semana
+  S-030997  Cali → Cali                  Dry       Coordinadora       66.3   Inter Rapidísimo   2.ª  64.8     1.5  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031036  Bogotá → Bogotá              Open Top  Coordinadora       69.9   Inter Rapidísimo   3.ª  64.5     5.3  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031041  Cali → Bogotá                Dry       Coordinadora       65.6   Inter Rapidísimo   2.ª  63.4     2.2  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031070  Medellín → Bucaramanga       Dry       Coordinadora       66.6   Servientrega       4.ª  58.2     8.4  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031119  Bogotá → Bogotá              Dry       Coordinadora       67.3   Grupo TCC          2.ª  63.3     4.0  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031192  Bogotá → Neiva               Open Top  Coordinadora       67.3   Inter Rapidísimo   2.ª  66.3     1.0  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031211  Pereira → Bogotá             Dry       Coordinadora       66.4   Inter Rapidísimo   2.ª  65.2     1.2  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031235  Bogotá → Bogotá              Open Top  Coordinadora       70.9   Coordinadora       1.ª  70.9     0.0  sí          —
+  S-031242  Cali → Barranquilla          Dry       Coordinadora       64.5   Servientrega       4.ª  53.9    10.6  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031255  Pasto → Pasto                Dry       Coordinadora       64.7   Envía              3.ª  57.3     7.5  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031257  Bogotá → Cali                Flat Rack Coordinadora       70.8   Grupo TCC          2.ª  63.4     7.3  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031268  Bucaramanga → Bogotá         Dry       Coordinadora       64.4   Envía              4.ª  55.6     8.9  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031326  Bogotá → Medellín            Flat Rack Coordinadora       71.2   Coordinadora       1.ª  71.2     0.0  sí          —
+  S-031334  Cali → Cali                  Open Top  Coordinadora       72.4   Grupo TCC          2.ª  71.2     1.2  no          Coordinadora: llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031365  Bogotá → Bucaramanga         Dry       Coordinadora       63.7   Inter Rapidísimo   2.ª  63.2     0.5  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031385  Medellín → Medellín          Dry       Coordinadora       67.5   Envía              4.ª  59.4     8.1  no          Coordinadora: sus 15 cupos de Dry se usaron y llegó al tope del 35% (17 de 50) en solicitudes donde perder la primera opción costaba más
+  S-031386  Cali → Medellín              Dry       Coordinadora       66.9   Coordinadora       1.ª  66.9     0.0  sí          —
+
+PUNTAJE TOTAL POR ESCENARIO
+  Escenario            Asignadas Sin asignar Puntaje total  Medio  Pérdida  Método
+  Sin restricciones           50           0        3339.3   66.8      0.0  primera opción de cada solicitud
+  Solo cupos                  50           0        3204.2   64.1    135.1  programación entera (PuLP + HiGHS)
+  Solo tope 35 %              50           0        3259.4   65.2     79.9  programación entera (PuLP + HiGHS)
+  Cupos + tope 35 %           50           0        3171.7   63.4    167.6  programación entera (PuLP + HiGHS)
+
+  Con las restricciones se pierden 167.6 puntos (5.0% del total); 18 de 50 solicitudes quedan con su primera opción y 32 no.
+  La heurística voraz habría sacado 3125.5 puntos (46.2 puntos menos que el óptimo).
+
+REPARTO POR PROVEEDOR
+  Proveedor           Histórico real    Sin restricc.    Con restricc.
+  4-72                     2 (  4%)          0 (  0%)          0 (  0%)  
+  Coordinadora            19 ( 38%)         47 ( 94%)         17 ( 34%)  
+  Envía                    4 (  8%)          0 (  0%)          5 ( 10%)  
+  Grupo TCC                4 (  8%)          0 (  0%)         11 ( 22%)  
+  Inter Rapidísimo        15 ( 30%)          3 (  6%)         11 ( 22%)  
+  Servientrega             6 ( 12%)          0 (  0%)          6 ( 12%)  
+
+CUPOS (solo los pares proveedor-contenedor que intervienen)
+  Proveedor         Contenedor Disponibles Pedidos 1.ª opción Asignados Quedan
+  Coordinadora      Dry                 15                 32        15      0  ← lleno
+  Coordinadora      Flat Rack            3                  3         1      2
+  Coordinadora      Open Top             5                  6         1      4
+  Coordinadora      Reefer               0                  6         0      0  ← lleno
+  Envía             Dry                  5                  0         5      0  ← lleno
+  Grupo TCC         Dry                  3                  0         3      0  ← lleno
+  Grupo TCC         Flat Rack            2                  0         2      0  ← lleno
+  Grupo TCC         Open Top             2                  0         2      0  ← lleno
+  Grupo TCC         Reefer               4                  0         4      0  ← lleno
+  Inter Rapidísimo  Dry                  7                  3         7      0  ← lleno
+  Inter Rapidísimo  Open Top             2                  0         2      0  ← lleno
+  Inter Rapidísimo  Reefer               6                  0         2      4
+  Servientrega      Dry                  7                  0         5      2
+  Servientrega      Open Top             1                  0         1      0  ← lleno
+
+COMPROBACIONES: ningún proveedor supera sus cupos: OK · ninguno supera el tope: OK (máximo 34% del lote)
+Detalle guardado en salidas_m2/asignacion_lote.csv
+

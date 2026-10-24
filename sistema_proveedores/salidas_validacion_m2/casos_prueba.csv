@@ -1,0 +1,10 @@
+﻿codigo,top3,puntaje_1,excluidos,razonable,lectura
+T-001,Coordinadora > Inter Rapidísimo > Grupo TCC,67.6,0,sí,Carga seca típica: compiten los 6 proveedores y gana el de mejor balance precio-fiabilidad
+T-002,Grupo TCC > Inter Rapidísimo > Servientrega,68.6,3,sí,Coordinadora sin cupos Reefer queda fuera; gana el de mayor probabilidad de llegar en el plazo
+T-003,Coordinadora > Inter Rapidísimo > Grupo TCC,67.6,2,sí,Acero en Open Top: 4-72 y Envía fuera por contenedor
+T-004,Coordinadora > Grupo TCC > Servientrega,70.2,3,sí,"Flat Rack: solo Coordinadora, Grupo TCC y Servientrega lo manejan"
+T-005,—,,6,sí,Exprés a Quibdó no existe: no hay candidatos y propone prioritaria
+T-006,Coordinadora > Inter Rapidísimo > Servientrega,63.5,2,sí,60 kg a Pasto: 4-72 fuera por peso y Grupo TCC por cobertura
+T-007,Coordinadora > Grupo TCC > Inter Rapidísimo,65.0,1,sí,Mismo día en Medellín: 4-72 fuera; el #1 llega en plazo al menos el 70 % de las veces
+T-008,—,,6,sí,Flat Rack mismo día: nadie lo ha hecho 5 veces; propone exprés
+T-009,Inter Rapidísimo > Servientrega,61.7,4,sí,Reefer de 1.050 kg: Grupo TCC fuera por peso (máximo 900 kg)
